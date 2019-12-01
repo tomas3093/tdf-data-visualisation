@@ -1,13 +1,16 @@
 {
-  "name": "d3_tutorial",
+  "name": "tdf_data_visualisation",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "School project about data visualisation using D3.js",
+  "main": "app.js",
+  "private": true,
   "scripts": {
+    "dev": "node app.js",
+    "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tomas Blazy",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   }
