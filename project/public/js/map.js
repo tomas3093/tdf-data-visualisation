@@ -12,6 +12,7 @@
 
 import { loadData } from './modules/dataLoader.mjs';
 import { CountryMapPolygon } from './modules/models.mjs';
+import { mapColorScale } from './modules/colors.mjs';
 
 // Data files
 var data_gc = [];
@@ -27,13 +28,29 @@ loadData(data_gc, data_stages, function() {
 });
 
 
+// Switch between GC and stages winners
+var selectedGc = true;
+var button = document.getElementById("btn");
+button.addEventListener("click", function() {
+    if (selectedGc) {
+        amchartMapInitialize(data_stages);
+        button.innerHTML = "Stage";
+    } else {
+        amchartMapInitialize(data_gc);
+        button.innerHTML = "GC";
+    }
+
+    selectedGc = !selectedGc;
+})
+
+
 /*----------------------
 INITIALIZE VISUALIZATION
 ----------------------*/
 function init() {
     
     // Initialize amchart map
-    amchartMapInitialize();
+    amchartMapInitialize(data_gc);
 
 }
 
@@ -55,7 +72,7 @@ function visualization() {
 // TODO VYTVORIT FUNKCIU REDRAW DATA na prepinanie medzi gc a stage
 
 /* Initialize amchart map */
-function amchartMapInitialize() {
+function amchartMapInitialize(dataset) {
 
     // Themes begin
     am4core.useTheme(am4themes_animated);
@@ -99,8 +116,8 @@ function amchartMapInitialize() {
 
     // Count winners from each country and find max value
     let maxValue = 0;
-    for (let index = 0; index < data_stages.length; index++) {
-        const element = data_stages[index];
+    for (let index = 0; index < dataset.length; index++) {
+        const element = dataset[index];
         
         const mapItem = countriesCount.get(element.country_iso);
         if (mapItem != undefined) {
@@ -110,107 +127,33 @@ function amchartMapInitialize() {
             }
         }
     }
-    
-    // Linear color scale
-    let colorScale = d3.scaleQuantize()
-                        .domain([0, maxValue])
-                        .range(["#CCD7F8", "#AAAAF2", "#A088EB", "#AC66E3", "#C844DB",
-                                "#D122B2", "#C70069", "#B10042", "#9B0021", "#830006", "#6B0000"]);
 
     // Calculate opacity and bind values to polygons
     polygonSeries.data = [];
     countriesCount.forEach(function(v, k, map) {    // key, value, map
-            
-        // Create color and calculate opacity
-        let color;
-        if (v.value > 0) {
-            color = am4core.color(colorScale(v.value))
-        } else {
-            color = am4core.color("rgb(0, 0, 0)");
-            color.alpha = 0.3;
-        }               
-        
+                       
         // Bind data to polygon
         polygonSeries.data[polygonSeries.data.length] = {
             "id": v.id,
             "name": v.name,
             "value": v.value,
-            "fill": color
+            "fill": mapColorScale(v.value, 0, maxValue)   // Custom color scale function
         }
-    })
-    
+    });
 
-    /*polygonSeries.data = [{
-        "id": "FR",
-        "name": "France",
-        "value": 36,
-        "fill": am4core.color(`rgba(255, 0, 0, ${36/36})`)
-    }, {
-        "id": "BE",
-        "name": "Belgium",
-        "value": 18,
-        "fill": am4core.color(`rgba(255, 0, 0, ${18/36})`)
-    }, {
-        "id": "ES",
-        "name": "Spain",
-        "value": 12,
-        "fill": am4core.color(`rgba(255, 0, 0, ${12/36})`)
-    }, {
-        "id": "IT",
-        "name": "Italy",
-        "value": 10,
-        "fill": am4core.color(`rgba(255, 0, 0, ${10/36})`)
-    }, {
-        "id": "US",
-        "name": "United states",
-        "value": 10,
-        "fill": am4core.color(`rgba(255, 0, 0, ${10/36})`)
-    }, {
-        "id": "GB",
-        "name": "Great Britain",
-        "value": 6,
-        "fill": am4core.color(`rgba(255, 0, 0, ${6/36})`)
-    }, {
-        "id": "LU",
-        "name": "Luxembourg",
-        "value": 5,
-        "fill": am4core.color(`rgba(255, 0, 0, ${5/36})`)
-    }, {
-        "id": "CH",
-        "name": "Switzerland",
-        "value": 2,
-        "fill": am4core.color(`rgba(255, 0, 0, ${2/36})`)
-    }, {
-        "id": "NL",
-        "name": "Netherlands",
-        "value": 2,
-        "fill": am4core.color(`rgba(255, 0, 0, ${2/36})`)
-    }, {
-        "id": "AU",
-        "name": "Australia",
-        "value": 1,
-        "fill": am4core.color(`rgba(255, 0, 0, ${1/36})`)
-    }, {
-        "id": "CO",
-        "name": "Colombia",
-        "value": 1,
-        "fill": am4core.color(`rgba(255, 0, 0, ${1/36})`)
-    }, {
-        "id": "DE",
-        "name": "Germany",
-        "value": 1,
-        "fill": am4core.color(`rgba(255, 0, 0, ${1/36})`)
-    }, {
-        "id": "DK",
-        "name": "Denmark",
-        "value": 1,
-        "fill": am4core.color(`rgba(255, 0, 0, ${1/36})`)
-    }, {
-        "id": "IE",
-        "name": "Ireland",
-        "value": 1,
-        "fill": am4core.color(`rgba(255, 0, 0, ${1/36})`)
-    }];*/
+    /* HEATMAP
+    polygonSeries.heatRules.push({
+        "property": "fill",
+        "target": polygonSeries.mapPolygons.template,
+        "min": am4core.color("#CCD7F8"),
+        "max": am4core.color("#6B0000")
+    });
+    var heatLegend = chart.createChild(am4maps.HeatLegend);
+    heatLegend.series = polygonSeries;
+    heatLegend.width = am4core.percent(100);
+    heatLegend.valign = "bottom";
+    */
+
     polygonTemplate.propertyFields.fill = "fill";
 
     polygonTemplate.nonScalingStroke = true;
@@ -218,6 +161,9 @@ function amchartMapInitialize() {
     polygonTemplate.fill = chart.colors.getIndex(0);
     var lastSelected;
     polygonTemplate.events.on("hit", function(ev) {
+
+        console.log(ev.target.dataItem.dataContext.name);
+
         if (lastSelected) {
             // This line serves multiple purposes:
             // 1. Clicking a country twice actually de-activates, the line below
@@ -245,9 +191,9 @@ function amchartMapInitialize() {
 
     // Small map
     chart.smallMap = new am4maps.SmallMap();
-    // Re-position to top right (it defaults to bottom left)
-    chart.smallMap.align = "right";
-    chart.smallMap.valign = "top";
+    // Re-position to top right
+    chart.smallMap.align = "left";
+    chart.smallMap.valign = "bottom";
     chart.smallMap.series.push(polygonSeries);
 
     // Zoom control

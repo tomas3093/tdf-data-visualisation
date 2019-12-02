@@ -1,8 +1,8 @@
 
-/* Function to load data from local .csv files 
-    @param data_gc      - variable to store data about general classification
-    @param data_stages  - variable to store data about stages
-    @param callback     - callback function to call after successful data loading
+/** Function to load data from local .csv files 
+* @param data_gc      - variable to store data about general classification
+* @param data_stages  - variable to store data about stages
+* @param callback     - callback function to call after successful data loading
 */
 export function loadData(data_gc, data_stages, callback) {
 
