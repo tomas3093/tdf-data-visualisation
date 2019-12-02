@@ -12,6 +12,8 @@
   "author": "Tomas Blazy",
   "license": "MIT",
   "dependencies": {
+    "@amcharts/amcharts4": "^4.7.11",
+    "@amcharts/amcharts4-geodata": "^4.1.9",
     "express": "^4.17.1"
   }
 }

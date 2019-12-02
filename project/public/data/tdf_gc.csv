@@ -1,0 +1,107 @@
+year,total_distance,gc_winner,country,country_iso,country_name,winner_avg_speed
+1903,2428,Maurice Garin,FRA,FR,France,25.68
+1904,2428,Henri Cornet,FRA,FR,France,25.27
+1905,2994,Louis Trousselier,FRA,FR,France,27.11
+1906,4637,René Pottier,FRA,FR,France,24.46
+1907,4488,Lucien Petit-Breton,FRA,FR,France,28.47
+1908,4497,Lucien Petit-Breton,FRA,FR,France,28.74
+1909,4498,François Faber,LUX,LU,Luxembourg,28.66
+1910,4734,Octave Lapize,FRA,FR,France,29.1
+1911,5343,Gustave Garrigou,FRA,FR,France,27.322
+1912,5289,Odile Defraye,BEL,BE,Belgium,27.76
+1913,5287,Philippe Thys,BEL,BE,Belgium,26.72
+1914,5380,Philippe Thys,BEL,BE,Belgium,26.84
+1919,5560,Firmin Lambot,BEL,BE,Belgium,24.06
+1920,5503,Philippe Thys,BEL,BE,Belgium,24.07
+1921,5485,Léon Scieur,BEL,BE,Belgium,24.72
+1922,5375,Firmin Lambot,BEL,BE,Belgium,24.2
+1923,5386,Henri Pélissier,FRA,FR,France,24.23
+1924,5425,Ottavio Bottecchia,ITA,IT,Italy,24.25
+1925,5440,Ottavio Bottecchia,ITA,IT,Italy,24.82
+1926,5745,Lucien Buysse,BEL,BE,Belgium,24.28
+1927,5398,Nicolas Frantz,LUX,LU,Luxembourg,27.22
+1928,5476,Nicolas Frantz,LUX,LU,Luxembourg,28.4
+1929,5286,Maurice De Waele,BEL,BE,Belgium,28.32
+1930,4822,André Leducq,FRA,FR,France,28
+1931,5091,Antonin Magne,FRA,FR,France,28.74
+1932,4479,André Leducq,FRA,FR,France,29.05
+1933,4395,Georges Speicher,FRA,FR,France,29.82
+1934,4470,Antonin Magne,FRA,FR,France,30.36
+1935,4338,Romain Maes,BEL,BE,Belgium,30.65
+1936,4442,Sylvère Maes,BEL,BE,Belgium,31.11
+1937,4415,Roger Lapébie,FRA,FR,France,31.77
+1938,4694,Gino Bartali,ITA,IT,Italy,31.57
+1939,4224,Sylvère Maes,BEL,BE,Belgium,31.99
+1947,4642,Jean Robic,FRA,FR,France,31.41
+1948,4922,Gino Bartali,ITA,IT,Italy,33.44
+1949,4808,Fausto Coppi,ITA,IT,Italy,32.12
+1950,4773,Ferdinand Kübler,SUI,CH, Switzerland,32.78
+1951,4690,Hugo Koblet,SUI,CH, Switzerland,32.95
+1952,4898,Fausto Coppi,ITA,IT,Italy,32.23
+1953,4476,Louison Bobet,FRA,FR,France,34.59
+1954,4656,Louison Bobet,FRA,FR,France,33.23
+1955,4495,Louison Bobet,FRA,FR,France,34.45
+1956,4498,Roger Walkowiak,FRA,FR,France,36.27
+1957,4669,Jacques Anquetil,FRA,FR,France,34.52
+1958,4319,Charly Gaul,LUX,LU,Luxembourg,36.92
+1959,4358,Federico Bahamontes,ESP,ES,Spain,35.47
+1960,4173,Gastone Nencini,ITA,IT,Italy,37.21
+1961,4397,Jacques Anquetil,FRA,FR,France,36.03
+1962,4274,Jacques Anquetil,FRA,FR,France,37.32
+1963,4138,Jacques Anquetil,FRA,FR,France,37.09
+1964,4504,Jacques Anquetil,FRA,FR,France,35.42
+1965,4188,Felice Gimondi,ITA,IT,Italy,35.89
+1966,4329,Lucien Aimar,FRA,FR,France,36.76
+1967,4779,Roger Pingeon,FRA,FR,France,34.76
+1968,4492,Jan Janssen,NED,NL,Netherlands,33.56
+1969,4117,Eddy Merckx,BEL,BE,Belgium,35.41
+1970,4254,Eddy Merckx,BEL,BE,Belgium,35.59
+1971,3608,Eddy Merckx,BEL,BE,Belgium,38.08
+1972,3846,Eddy Merckx,BEL,BE,Belgium,35.51
+1973,4090,Luis Ocaña,ESP,ES,Spain,33.41
+1974,4098,Eddy Merckx,BEL,BE,Belgium,35.24
+1975,4000,Bernard Thévenet,FRA,FR,France,34.91
+1976,4017,Lucien Van Impe,BEL,BE,Belgium,34.52
+1977,4096,Bernard Thévenet,FRA,FR,France,35.42
+1978,3908,Bernard Hinault,FRA,FR,France,36.08
+1979,3765,Bernard Hinault,FRA,FR,France,36.51
+1980,3842,Joop Zoetemelk,NED,NL,Netherlands,35.14
+1981,3753,Bernard Hinault,FRA,FR,France,38.96
+1982,3507,Bernard Hinault,FRA,FR,France,38.06
+1983,3809,Laurent Fignon,FRA,FR,France,36.23
+1984,4021,Laurent Fignon,FRA,FR,France,35.88
+1985,4109,Bernard Hinault,FRA,FR,France,36.23
+1986,4094,Greg LeMond,USA,US,United States,37.02
+1987,4231,Stephen Roche,IRL,IE,Ireland,36.65
+1988,3286,Pedro Delgado,ESP,ES,Spain,38.91
+1989,3285,Greg LeMond,USA,US,United States,37.49
+1990,3504,Greg LeMond,USA,US,United States,38.26
+1991,3914,Miguel Indurain,ESP,ES,Spain,38.75
+1992,3983,Miguel Indurain,ESP,ES,Spain,39.5
+1993,3714,Miguel Indurain,ESP,ES,Spain,38.71
+1994,3978,Miguel Indurain,ESP,ES,Spain,38.38
+1995,3635,Miguel Indurain,ESP,ES,Spain,39.19
+1996,3765,Bjarne Riis,DEN,DK,Denmark,39.23
+1997,3950,Jan Ullrich,GER,DE,Germany,39.23
+1998,3875,Marco Pantani,ITA,IT,Italy,39.98
+1999,3687,Lance Armstrong,USA,US,United States,40.27
+2000,3662,Lance Armstrong,USA,US,United States,39.56
+2001,3458,Lance Armstrong,USA,US,United States,40.02
+2002,3272,Lance Armstrong,USA,US,United States,39.93
+2003,3427,Lance Armstrong,USA,US,United States,40.94
+2004,3391,Lance Armstrong,USA,US,United States,40.55
+2005,3593,Lance Armstrong,USA,US,United States,41.65
+2006,3657,Óscar Pereiro,ESP,ES,Spain,40.78
+2007,3570,Alberto Contador,ESP,ES,Spain,38.98
+2008,3559,Carlos Sastre,ESP,ES,Spain,40.5
+2009,3459,Alberto Contador,ESP,ES,Spain,40.31
+2010,3642,Andy Schleck,LUX,LU,Luxembourg,39.59
+2011,3430,Cadel Evans,AUS,AU,Australia,39.79
+2012,3496,Bradley Wiggins,GBR,GB,Great Britain,39.928
+2013,3404,Chris Froome,GBR,GB,Great Britain,40.54
+2014,3660.5,Vincenzo Nibali,ITA,IT,Italy,40.679
+2015,3360.3,Chris Froome,GBR,GB,Great Britain,39.63994
+2016,3529,Chris Froome,GBR,GB,Great Britain,39.616
+2017,3540,Chris Froome,GBR,GB,Great Britain,40.9966
+2018,3349,Geraint Thomas,GBR,GB,Great Britain,40.2344
+2019,3349,Egan Bernal,COL,CO,Colombia,40.57625
