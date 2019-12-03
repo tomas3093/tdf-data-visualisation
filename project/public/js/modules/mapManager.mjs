@@ -12,11 +12,19 @@
 
 import { CountryMapPolygon } from './models.mjs';
 import { mapColorScale } from './colors.mjs';
+import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
 
 /**
  * Creates and manage map chart
  */
  export class MapManager {
+
+    /** Data about all countries to visualize (for both datasets - GC and Stages)
+     * Format: Map of key,value pairs
+     * Key: ISO identifier of country
+     * Value: CountryMapPolygon object */
+    data_gc;
+    data_stages;
 
     /** Map instance */ 
     chart;
@@ -27,21 +35,16 @@ import { mapColorScale } from './colors.mjs';
     /** Map polygon template */
     polygonTemplate;
 
-    /** Data about all countries to visualize 
-     * Format: Map of key,value pairs
-     * Key: ISO identifier of country
-     * Value: CountryMapPolygon object */
-    countryData;
-
     /** Last selected map region */
     lastSelected;
 
     /**
      * Constructor
      * @param chartElementId 
-     * @param dataset 
+     * @param dataset1 data_gc - Dataset of general classification
+     * @param dataset2 data_stages - Dataset of stage winners
      */
-    constructor(chartElementId, dataset) {
+    constructor(chartElementId, dataset1, dataset2) {
         // Theme
         am4core.useTheme(am4themes_animated);
 
@@ -58,30 +61,17 @@ import { mapColorScale } from './colors.mjs';
         /* Make map load polygon (like country names) data from GeoJSON */
         this.polygonSeries.useGeodata = true;
 
-        // Create map structure of all countries
-        this.countryData = new Map();
-        let l = this.chart.geodata.features;
-        for (let index = 0; index < l.length; index++) {
-            const element = l[index].properties;
-            
-            let value = this.countryData.get(element.id);
-            if (value == undefined) {
-                let obj = new CountryMapPolygon(element.id, element.name, 0, null, null);
-                this.countryData.set(element.id, obj);
-            } 
-        }
-
+        // Prepare data for visualisation
+        this.loadData(dataset1, dataset2);
+        
         // Initialize map polygons
         this.configurePolygons();
 
         // Hide Antarctica
         this.polygonSeries.exclude = ["AQ"];
 
-        // Prepare and draw data into map chart
-        this.loadDataToMap(dataset);
-
-        // Create UI controls
-        this.createUI();
+        // Draw data into map chart
+        this.showData(DATA_GC_CODE);
     }
 
 
@@ -108,38 +98,63 @@ import { mapColorScale } from './colors.mjs';
         hs.properties.fill = this.chart.colors.getIndex(4);
 
         // Create onClick function for every country in the map
+        let _this = this;
         this.polygonTemplate.events.on("hit", function(ev) {
 
             console.log(ev.target.dataItem.dataContext.name);
 
-            if (this.lastSelected) {
+            if (_this.lastSelected) {
                 // This line serves multiple purposes:
                 // 1. Clicking a country twice actually de-activates, the line below
                 //    de-activates it in advance, so the toggle then re-activates, making it
                 //    appear as if it was never de-activated to begin with.
                 // 2. Previously activated countries should be de-activated.
-                this.lastSelected.isActive = false;
+                _this.lastSelected.isActive = false;
             }
 
             ev.target.series.chart.zoomToMapObject(ev.target);
-            if (this.lastSelected !== ev.target) {
-                this.lastSelected = ev.target;
+            if (_this.lastSelected !== ev.target) {
+                _this.lastSelected = ev.target;
             }
         })
     }
 
     /**
-     * 
-     * @param dataset Data we want to show in visualisation
+     * Initializes attributes which are representing numerical data for visualisation
+     * @param dataset1 gc
+     * @param dataset2 stages
      */
-    loadDataToMap(dataset) {
-
+    loadData(dataset1, dataset2) {
+        // Create map structures of all countries for GC and for Stages datasets
+        this.data_gc = new Map();
+        let l = this.chart.geodata.features;
+        for (let index = 0; index < l.length; index++) {
+            const element = l[index].properties;
+            
+            let value = this.data_gc.get(element.id);
+            if (value == undefined) {
+                let obj = new CountryMapPolygon(element.id, element.name, 0, null, null);
+                this.data_gc.set(element.id, obj);
+            } 
+        }
+        this.data_stages = new Map();
+        l = this.chart.geodata.features;
+        for (let index = 0; index < l.length; index++) {
+            const element = l[index].properties;
+            
+            let value = this.data_stages.get(element.id);
+            if (value == undefined) {
+                let obj = new CountryMapPolygon(element.id, element.name, 0, null, null);
+                this.data_stages.set(element.id, obj);
+            } 
+        }
+        
         // Count winners from each country and find max value
         let maxValue = 0;
-        for (let index = 0; index < dataset.length; index++) {
-            const element = dataset[index];
+        for (let index = 0; index < dataset1.length; index++) {
+            const element = dataset1[index];
             
-            const mapItem = this.countryData.get(element.country_iso);
+            const mapItem = this.data_gc.get(element.country_iso);
             if (mapItem != undefined) {
                 mapItem.value += 1;
                 if (mapItem.value > maxValue) {
@@ -147,20 +162,64 @@ import { mapColorScale } from './colors.mjs';
                 }
             }
         }
+        this.data_gc.set(MAX_VAL_STR, maxValue);
+
+        maxValue = 0;
+        for (let index = 0; index < dataset2.length; index++) {
+            const element = dataset2[index];
+            
+            const mapItem = this.data_stages.get(element.country_iso);
+            if (mapItem != undefined) {
+                mapItem.value += 1;
+                if (mapItem.value > maxValue) {
+                    maxValue = mapItem.value;
+                }
+            }
+        }
+        this.data_stages.set(MAX_VAL_STR, maxValue);
+    }
+
+    /**
+     * Binds values to  map polygons and shows the visualisation
+     * @param whichData constant which determines which dataset could be visualised
+     */
+    showData(whichData) {
+
+        // Determine which data will be used
+        let dataset;
+        switch (whichData) {
+            case DATA_GC_CODE:
+                dataset = this.data_gc;
+                break;
+
+            case DATA_STAGES_CODE:
+                dataset = this.data_stages;
+                break;
+        
+            default:
+                dataset = this.data_gc;
+                break;
+        }
 
         // Calculate opacity and bind values to polygons
         this.polygonSeries.data = [];
         let _this = this;
-        this.countryData.forEach(function(v, k, map) {    // key, value, map
+        let d = [];
+        let maxValue = dataset.get(MAX_VAL_STR);
+        dataset.forEach(function(v, k, map) {    // key, value, map
                         
-            // Bind data to polygon
-            _this.polygonSeries.data[_this.polygonSeries.data.length] = {
-                "id": v.id,
-                "name": v.name,
-                "value": v.value,
-                "fill": mapColorScale(v.value, 0, maxValue)   // Custom color scale function
+            // Skip maxValue item
+            if (k != MAX_VAL_STR) {
+                // Bind data to polygon
+                d[d.length] = {
+                    "id": v.id,
+                    "name": v.name,
+                    "value": v.value,
+                    "fill": mapColorScale(v.value, 0, maxValue)   // Custom color scale function
+                }
             }
         });
+        this.polygonSeries.data = d;
 
         /* HEATMAP
         this.polygonSeries.heatRules.push({
@@ -174,6 +233,9 @@ import { mapColorScale } from './colors.mjs';
         heatLegend.width = am4core.percent(100);
         heatLegend.valign = "bottom";
         */
+
+        // Create UI controls
+        this.createUI();
     }
 
     /**
@@ -193,8 +255,9 @@ import { mapColorScale } from './colors.mjs';
 
         // Home button
         var homeButton = new am4core.Button();
+        let _this = this;
         homeButton.events.on("hit", function(){
-            this.chart.goHome();
+            _this.chart.goHome();
         });
 
         homeButton.icon = new am4core.Sprite();

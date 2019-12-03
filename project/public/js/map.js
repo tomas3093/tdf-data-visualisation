@@ -1,5 +1,6 @@
 import { loadData } from './modules/dataLoader.mjs';
 import { MapManager } from './modules/mapManager.mjs';
+import { DATA_GC_CODE, DATA_STAGES_CODE } from './modules/constants.mjs';
 
 // Map manager
 var mapManager;
@@ -23,10 +24,12 @@ var selectedGc = true;
 var button = document.getElementById("btn");
 button.addEventListener("click", function() {
     if (selectedGc) {
-        mapManager.loadDataToMap(data_stages);
+        //mapManager = new MapManager("chartdiv", data_stages);
+        mapManager.showData(DATA_STAGES_CODE);
         button.innerHTML = "Stage";
     } else {
-        mapManager.loadDataToMap(data_gc);
+        //mapManager = new MapManager("chartdiv", data_gc);
+        mapManager.showData(DATA_GC_CODE);
         button.innerHTML = "GC";
     }
 
@@ -40,7 +43,7 @@ INITIALIZE VISUALIZATION
 function init() {
     
     // Initialize amchart map
-    mapManager = new MapManager("chartdiv", data_gc);
+    mapManager = new MapManager("chartdiv", data_gc, data_stages);
 
 }
 
