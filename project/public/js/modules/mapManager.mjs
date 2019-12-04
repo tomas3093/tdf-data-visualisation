@@ -12,19 +12,29 @@
 
 import { CountryMapPolygon } from './models.mjs';
 import { mapColorScale } from './colors.mjs';
-import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
+import { 
+    MAX_VAL_STR,
+    DATA_GC_CODE, 
+    DATA_STAGES_CODE, 
+    DATA_MOUNTAIN_CODE, 
+    DATA_HILLY_CODE, 
+    DATA_FLAT_CODE, 
+    DATA_ITT_CODE, 
+    DATA_MTT_CODE,
+    DATA_DEFAULT_CODE
+} from './constants.mjs';
+import { ALL_CODES } from './constants.mjs';
 
 /**
  * Creates and manage map chart
  */
  export class MapManager {
 
-    /** Data about all countries to visualize (for both datasets - GC and Stages)
+    /** Data about all countries to visualize (for all datasets - GC, Stages, Mountain, ITT...)
      * Format: Map of key,value pairs
-     * Key: ISO identifier of country
-     * Value: CountryMapPolygon object */
-    data_gc;
-    data_stages;
+     * Key: const DATA_CODE
+     * Value: Map<ISO identifier of country, CountryMapPolygon object> */
+    data;
 
     /** Map instance */ 
     chart;
@@ -45,6 +55,7 @@ import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
      * @param dataset2 data_stages - Dataset of stage winners
      */
     constructor(chartElementId, dataset1, dataset2) {
+
         // Theme
         am4core.useTheme(am4themes_animated);
 
@@ -62,7 +73,7 @@ import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
         this.polygonSeries.useGeodata = true;
 
         // Prepare data for visualisation
-        this.loadData(dataset1, dataset2);
+        this.initializeData(dataset1, dataset2);
         
         // Initialize map polygons
         this.configurePolygons();
@@ -124,37 +135,60 @@ import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
      * @param dataset1 gc
      * @param dataset2 stages
      */
-    loadData(dataset1, dataset2) {
+    initializeData(dataset1, dataset2) {
+
         // Create map structures of all countries for GC and for Stages datasets
-        this.data_gc = new Map();
+        this.data = new Map([
+            [DATA_GC_CODE, new Map()], 
+            [DATA_STAGES_CODE, new Map()], 
+            [DATA_MOUNTAIN_CODE, new Map()], 
+            [DATA_HILLY_CODE, new Map()], 
+            [DATA_FLAT_CODE, new Map()],
+            [DATA_ITT_CODE, new Map()],
+            [DATA_MTT_CODE, new Map()]
+        ]);
+
+        // TODO Vsetko co je pod tymto, Vytvorit jednotlive polozky v Mape this.data
+
         let l = this.chart.geodata.features;
         for (let index = 0; index < l.length; index++) {
             const element = l[index].properties;
             
-            let value = this.data_gc.get(element.id);
+            for (let j = 0; j < ALL_CODES.length; j++) {
+                const code = ALL_CODES[j];
+                
+                if ((this.data.get(code)).get(element.id) == undefined) {
+                    (this.data.get(code)).set(element.id, new CountryMapPolygon(element.id, element.name, 0, null, null));
+                }
+            }
+
+            /*
+            let value = this.data[DATA_GC_CODE].get(element.id);
             if (value == undefined) {
                 let obj = new CountryMapPolygon(element.id, element.name, 0, null, null);
-                this.data_gc.set(element.id, obj);
-            } 
+                this.data[DATA_GC_CODE].set(element.id, obj);
+            } */
         }
-        this.data_stages = new Map();
+
+        /*
+        this.data[DATA_STAGES_CODE] = new Map();
         l = this.chart.geodata.features;
         for (let index = 0; index < l.length; index++) {
             const element = l[index].properties;
             
-            let value = this.data_stages.get(element.id);
+            let value = this.data[DATA_STAGES_CODE].get(element.id);
             if (value == undefined) {
                 let obj = new CountryMapPolygon(element.id, element.name, 0, null, null);
-                this.data_stages.set(element.id, obj);
+                this.data[DATA_STAGES_CODE].set(element.id, obj);
             } 
-        }
+        }*/
         
-        // Count winners from each country and find max value
+        // Count winners from each country and find max value for each dataset
         let maxValue = 0;
         for (let index = 0; index < dataset1.length; index++) {
             const element = dataset1[index];
             
-            const mapItem = this.data_gc.get(element.country_iso);
+            const mapItem = (this.data.get(DATA_GC_CODE)).get(element.country_iso);
             if (mapItem != undefined) {
                 mapItem.value += 1;
                 if (mapItem.value > maxValue) {
@@ -162,13 +196,13 @@ import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
                 }
             }
         }
-        this.data_gc.set(MAX_VAL_STR, maxValue);
+        (this.data.get(DATA_GC_CODE)).set(MAX_VAL_STR, maxValue);
 
         maxValue = 0;
         for (let index = 0; index < dataset2.length; index++) {
             const element = dataset2[index];
             
-            const mapItem = this.data_stages.get(element.country_iso);
+            const mapItem = (this.data.get(DATA_STAGES_CODE)).get(element.country_iso);
             if (mapItem != undefined) {
                 mapItem.value += 1;
                 if (mapItem.value > maxValue) {
@@ -176,7 +210,7 @@ import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
                 }
             }
         }
-        this.data_stages.set(MAX_VAL_STR, maxValue);
+        (this.data.get(DATA_STAGES_CODE)).set(MAX_VAL_STR, maxValue);
     }
 
     /**
@@ -189,15 +223,15 @@ import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
         let dataset;
         switch (whichData) {
             case DATA_GC_CODE:
-                dataset = this.data_gc;
+                dataset = this.data.get(DATA_GC_CODE);
                 break;
 
             case DATA_STAGES_CODE:
-                dataset = this.data_stages;
+                dataset = this.data.get(DATA_STAGES_CODE);
                 break;
         
             default:
-                dataset = this.data_gc;
+                dataset = this.data.get(DATA_DEFAULT_CODE);
                 break;
         }
 
@@ -207,7 +241,7 @@ import { MAX_VAL_STR, DATA_GC_CODE, DATA_STAGES_CODE } from './constants.mjs';
         let d = [];
         let maxValue = dataset.get(MAX_VAL_STR);
         dataset.forEach(function(v, k, map) {    // key, value, map
-                        
+            
             // Skip maxValue item
             if (k != MAX_VAL_STR) {
                 // Bind data to polygon

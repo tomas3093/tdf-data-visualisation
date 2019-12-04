@@ -1,16 +1,29 @@
 import { loadData } from './modules/dataLoader.mjs';
 import { MapManager } from './modules/mapManager.mjs';
-import { DATA_GC_CODE, DATA_STAGES_CODE } from './modules/constants.mjs';
+import { 
+    DATA_GC_CODE, 
+    DATA_STAGES_CODE, 
+    DATA_MOUNTAIN_CODE, 
+    DATA_HILLY_CODE, 
+    DATA_FLAT_CODE, 
+    DATA_ITT_CODE, 
+    DATA_MTT_CODE,
+    DATA_DEFAULT_CODE,
+    ALL_CODES
+} from './modules/constants.mjs';
 
 // Map manager
 var mapManager;
 
-// Data files
-var data_gc = [];
-var data_stages = [];
+// Complete loaded datasets
+var gc_dataset = [];
+var stages_dataset = [];
+
+// Bool value which determine currently selected dataset on map
+var selectedOption = DATA_DEFAULT_CODE;
 
 /* Load data from csv files and launch visualisation */
-loadData(data_gc, data_stages, function() {
+loadData(gc_dataset, stages_dataset, function() {
     //load map and initialise the views
     init();
 
@@ -19,32 +32,26 @@ loadData(data_gc, data_stages, function() {
 });
 
 
-// Switch between GC and stages winners
-var selectedGc = true;
-var button = document.getElementById("btn");
-button.addEventListener("click", function() {
-    if (selectedGc) {
-        //mapManager = new MapManager("chartdiv", data_stages);
-        mapManager.showData(DATA_STAGES_CODE);
-        button.innerHTML = "Stage";
-    } else {
-        //mapManager = new MapManager("chartdiv", data_gc);
-        mapManager.showData(DATA_GC_CODE);
-        button.innerHTML = "GC";
-    }
-
-    selectedGc = !selectedGc;
-})
-
-
 /*----------------------
 INITIALIZE VISUALIZATION
 ----------------------*/
 function init() {
     
     // Initialize amchart map
-    mapManager = new MapManager("chartdiv", data_gc, data_stages);
+    mapManager = new MapManager("chartdiv", gc_dataset, stages_dataset);
 
+    // Add onClick functions for toogle buttons
+    for (let index = 0; index < ALL_CODES.length; index++) {
+        const code = ALL_CODES[index];
+        
+        document.getElementById("option_" + code)
+        .addEventListener("click", function() {
+            if (selectedOption != code) {
+                mapManager.showData(code);
+            }
+            selectedOption = code;
+        });
+    }
 }
 
 
@@ -55,13 +62,25 @@ function visualization() {
 
     console.log("Visualisation started");
 
-    //drawTextInfo();
+    drawTextInfo();
   
-    //drawBarChart();
+    drawSidePanel();
   
-    //drawHeatMap();
-  
-  }
+}
+
+/**
+ * 
+ */
+function drawTextInfo() {
+    
+}
+
+/**
+ * 
+ */
+function drawSidePanel() {
+    
+}
 
 
 
