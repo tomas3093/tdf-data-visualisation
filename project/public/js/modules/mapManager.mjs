@@ -200,3 +200,5 @@ import {
     }
  }
  
+
+ // TODO Pridat metodu na vracanie dat do side panelu !!!!!

@@ -1,4 +1,46 @@
 Stage,Year,Distance,Type,Mark,Winner,Winner_Country,country_iso
+1,2019,194.5,Flat stage,F,Mike Teunissen,NED,NL
+2,2019,27.6,Team time trial,TTT,Team Jumbo–Visma,,
+3,2019,215,Hilly stage,H,Julian Alaphilippe,FRA,FR
+4,2019,213.5,Flat stage,F,Elia Viviani,ITA,IT
+5,2019,175.5,Hilly stage,H,Peter Sagan,SVK,SK
+6,2019,160.5,Mountain stage,M,Dylan Teuns,BEL,BE
+7,2019,230,Flat stage,F,Dylan Groenewegen,NED,NL
+8,2019,200,Hilly stage,H,Thomas De Gendt,BEL,BE
+9,2019,170.5,Hilly stage,H,Daryl Impey,RSA,ZA
+10,2019,217.5,Flat stage,F,Wout van Aert,BEL,BE
+11,2019,167,Flat stage,F,Caleb Ewan,AUS,AU
+12,2019,209.5,Mountain stage,M,Simon Yates,GBR,GB
+13,2019,27.2,Individual time trial,ITT,Julian Alaphilippe,FRA,FR
+14,2019,111,Mountain stage,M,Thibaut Pinot,FRA,FR
+15,2019,185,Mountain stage,M,Simon Yates,GBR,GB
+16,2019,177,Flat stage,F,Caleb Ewan,AUS,AU
+17,2019,200,Hilly stage,H,Matteo Trentin,ITA,IT
+18,2019,208,Mountain stage,M,Nairo Quintana,COL,CO
+19,2019,89,Mountain stage,M,Egan Bernal,COL,CO
+20,2019,59.5,Mountain stage,M,Vincenzo Nibali,ITA,IT
+21,2019,128,Flat stage,F,Caleb Ewan,AUS,AU
+1,2018,201,Flat stage,F,Fernando Gaviria,COL,CO
+2,2018,182.5,Flat stage,F,Peter Sagan,SVK,SK
+3,2018,35.5,Team time trial,TTT,BMC Racing Team,,
+4,2018,195,Flat stage,F,Fernando Gaviria,COL,CO
+5,2018,204.5,Hilly stage,H,Peter Sagan,SVK,SK
+6,2018,181,Hilly stage,H,Dan Martin,IRL,IE
+7,2018,231,Flat stage,F,Dylan Groenewegen,NED,NL
+8,2018,181,Flat stage,F,Dylan Groenewegen,NED,NL
+9,2018,156.5,Hilly stage,H,John Degenkolb,GER,DE
+10,2018,158.5,Mountain stage,M,Julian Alaphilippe,FRA,FR
+11,2018,108.5,Mountain stage,M,Geraint Thomas,GBR,GB
+12,2018,175.5,Mountain stage,M,Geraint Thomas,GBR,GB
+13,2018,169.5,Flat stage,F,Peter Sagan,SVK,SK
+14,2018,188,Hilly stage,H,Omar Fraile,ESP,ES
+15,2018,181.5,Hilly stage,H,Magnus Cort Nielsen,DEN,DK
+16,2018,218,Mountain stage,M,Julian Alaphilippe,FRA,FR
+17,2018,65,Mountain stage,M,Nairo Quintana,COL,CO
+18,2018,171,Flat stage,F,Arnaud Démare,FRA,FR
+19,2018,200.5,Mountain stage,M,Primož Rogli?,SLO,SI
+20,2018,31,Individual time trial,ITT,Tom Dumoulin,NED,NL
+21,2018,116,Flat stage,F,Alexander Kristoff,NOR,NO
 1,2017,14,Individual time trial,ITT,Geraint Thomas,GBR,GB
 2,2017,203.5,Flat stage,F,Marcel Kittel,GER,DE
 3,2017,212.5,Medium mountain stage,H,Peter Sagan,SVK,SK
@@ -1885,347 +1927,347 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 19,1930,159,Plain stage,F,Charles Pélissier,FRA,FR
 20,1930,271,Plain stage,F,Charles Pélissier,FRA,FR
 21,1930,300,Plain stage,F,Charles Pélissier,FRA,FR
-1,2029,206,Plain stage,F,Aimé Dossche,BEL,BE
-2,2029,140,Plain stage,F,André Leducq,FRA,FR
-3,2029,199,Plain stage,F,Omer Taverne,BEL,BE
-4,2029,206,Plain stage,F,Louis Delannoy,BEL,BE
-5,2029,208,Plain stage,F,Gustaaf van Slembrouck,BEL,BE
-6,2029,206,Plain stage,F,Paul Le Drogo,FRA,FR
-7,2029,285,Plain stage,F,Nicolas Frantz,LUX,LU
-8,2029,182,Plain stage,F,Julien Moineau,FRA,FR
-9,2029,363,Stage with mountain(s),M,Salvador Cardona,ESP,ES
-10,2029,323,Stage with mountain(s),M,Jef Demuysere,BEL,BE
-11,2029,366,Plain stage,F,André Leducq,FRA,FR
-12,2029,191,Team time trial,TTT,Marcel Bidot,FRA,FR
-13,2029,133,Stage with mountain(s),M,Benoît Fauré,FRA,FR
-14,2029,333,Stage with mountain(s),M,Gaston Rebry,BEL,BE
-15,2029,329,Stage with mountain(s),M,Julien Vervaecke,BEL,BE
-16,2029,283,Stage with mountain(s),M,Charles Pélissier,FRA,FR
-17,2029,145,Plain stage,F,André Leducq,FRA,FR
-18,2029,165,Plain stage,F,André Leducq,FRA,FR
-19,2029,159,Team time trial,TTT,Bernard van Rysselberghe,BEL,BE
-20,2029,270,Team time trial,TTT,Maurice Dewaele,BEL,BE
-21,2029,234,Plain stage,F,André Leducq,FRA,FR
-22,2029,332,Plain stage,F,Nicolas Frantz,LUX,LU
-1,2028,207,Team time trial,TTT,Nicolas Frantz,LUX,LU
-2,2028,140,Team time trial,TTT,André Leducq,FRA,FR
-3,2028,199,Team time trial,TTT,Gaston Rebry,BEL,BE
-4,2028,206,Team time trial,TTT,Pé Verhaegen,BEL,BE
-5,2028,208,Team time trial,TTT,Marcel Bidot,FRA,FR
-6,2028,204,Team time trial,TTT,Nicolas Frantz,LUX,LU
-7,2028,285,Team time trial,TTT,Victor Fontan,FRA,FR
-8,2028,225,Team time trial,TTT,Maurice Dewaele,BEL,BE
-9,2028,387,Stage with mountain(s),M,Victor Fontan,FRA,FR
-10,2028,323,Stage with mountain(s),M,André Leducq,FRA,FR
-11,2028,363,Plain stage,F,André Leducq,FRA,FR
-12,2028,330,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
-13,2028,333,Stage with mountain(s),M,Antonin Magne,FRA,FR
-14,2028,329,Stage with mountain(s),M,Julien Moineau,FRA,FR
-15,2028,213,Team time trial,TTT,Pierre Magne,FRA,FR
-16,2028,119,Team time trial,TTT,André Leducq,FRA,FR
-17,2028,145,Team time trial,TTT,Joseph Mauclair,FRA,FR
-18,2028,165,Team time trial,TTT,Nicolas Frantz,LUX,LU
-19,2028,159,Team time trial,TTT,Marcel Huot,FRA,FR
-20,2028,271,Team time trial,TTT,Maurice Dewaele,BEL,BE
-21,2028,234,Team time trial,TTT,Antonin Magne,FRA,FR
-22,2028,331,Plain stage,F,Nicolas Frantz,LUX,LU
-1,2027,180,Team time trial,TTT,Francis Pélissier,FRA,FR
-2,2027,103,Team time trial,TTT,Maurice Dewaele,BEL,BE
-3,2027,225,Team time trial,TTT,Hector Martin,BEL,BE
-4,2027,140,Team time trial,TTT,Camille van de Casteele,BEL,BE
-5,2027,199,Team time trial,TTT,Ferdinand Le Drogo,FRA,FR
-6,2027,206,Team time trial,TTT,André Leducq,FRA,FR
-7,2027,207,Team time trial,TTT,Gustaaf van Slembrouck,BEL,BE
-8,2027,204,Team time trial,TTT,Raymond Decorte,BEL,BE
-9,2027,285,Team time trial,TTT,Adelin Benoit,BEL,BE
-10,2027,189,Plain stage,F,Pé Verhaegen,BEL,BE
-11,2027,326,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
-12,2027,323,Stage with mountain(s),M,Gustaaf van Slembrouck,BEL,BE
-13,2027,360,Plain stage,F,Maurice Dewaele,BEL,BE
-14,2027,120,Team time trial,TTT,Antonin Magne,FRA,FR
-15,2027,220,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
-16,2027,275,Stage with mountain(s),M,Julien Vervaecke,BEL,BE
-17,2027,283,Stage with mountain(s),M,Pé Verhaegen,BEL,BE
-18,2027,213,Team time trial,TTT,Adelin Benoit,BEL,BE
-19,2027,119,Team time trial,TTT,Maurice Geldhof,BEL,BE
-20,2027,145,Team time trial,TTT,Raymond Decorte,BEL,BE
-21,2027,165,Team time trial,TTT,Nicolas Frantz,LUX,LU
-22,2027,159,Team time trial,TTT,Hector Martin,BEL,BE
-23,2027,270,Team time trial,TTT,André Leducq,FRA,FR
-24,2027,344,Plain stage,F,André Leducq,FRA,FR
+1,1929,206,Plain stage,F,Aimé Dossche,BEL,BE
+2,1929,140,Plain stage,F,André Leducq,FRA,FR
+3,1929,199,Plain stage,F,Omer Taverne,BEL,BE
+4,1929,206,Plain stage,F,Louis Delannoy,BEL,BE
+5,1929,208,Plain stage,F,Gustaaf van Slembrouck,BEL,BE
+6,1929,206,Plain stage,F,Paul Le Drogo,FRA,FR
+7,1929,285,Plain stage,F,Nicolas Frantz,LUX,LU
+8,1929,182,Plain stage,F,Julien Moineau,FRA,FR
+9,1929,363,Stage with mountain(s),M,Salvador Cardona,ESP,ES
+10,1929,323,Stage with mountain(s),M,Jef Demuysere,BEL,BE
+11,1929,366,Plain stage,F,André Leducq,FRA,FR
+12,1929,191,Team time trial,TTT,Marcel Bidot,FRA,FR
+13,1929,133,Stage with mountain(s),M,Benoît Fauré,FRA,FR
+14,1929,333,Stage with mountain(s),M,Gaston Rebry,BEL,BE
+15,1929,329,Stage with mountain(s),M,Julien Vervaecke,BEL,BE
+16,1929,283,Stage with mountain(s),M,Charles Pélissier,FRA,FR
+17,1929,145,Plain stage,F,André Leducq,FRA,FR
+18,1929,165,Plain stage,F,André Leducq,FRA,FR
+19,1929,159,Team time trial,TTT,Bernard van Rysselberghe,BEL,BE
+20,1929,270,Team time trial,TTT,Maurice Dewaele,BEL,BE
+21,1929,234,Plain stage,F,André Leducq,FRA,FR
+22,1929,332,Plain stage,F,Nicolas Frantz,LUX,LU
+1,1928,207,Team time trial,TTT,Nicolas Frantz,LUX,LU
+2,1928,140,Team time trial,TTT,André Leducq,FRA,FR
+3,1928,199,Team time trial,TTT,Gaston Rebry,BEL,BE
+4,1928,206,Team time trial,TTT,Pé Verhaegen,BEL,BE
+5,1928,208,Team time trial,TTT,Marcel Bidot,FRA,FR
+6,1928,204,Team time trial,TTT,Nicolas Frantz,LUX,LU
+7,1928,285,Team time trial,TTT,Victor Fontan,FRA,FR
+8,1928,225,Team time trial,TTT,Maurice Dewaele,BEL,BE
+9,1928,387,Stage with mountain(s),M,Victor Fontan,FRA,FR
+10,1928,323,Stage with mountain(s),M,André Leducq,FRA,FR
+11,1928,363,Plain stage,F,André Leducq,FRA,FR
+12,1928,330,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
+13,1928,333,Stage with mountain(s),M,Antonin Magne,FRA,FR
+14,1928,329,Stage with mountain(s),M,Julien Moineau,FRA,FR
+15,1928,213,Team time trial,TTT,Pierre Magne,FRA,FR
+16,1928,119,Team time trial,TTT,André Leducq,FRA,FR
+17,1928,145,Team time trial,TTT,Joseph Mauclair,FRA,FR
+18,1928,165,Team time trial,TTT,Nicolas Frantz,LUX,LU
+19,1928,159,Team time trial,TTT,Marcel Huot,FRA,FR
+20,1928,271,Team time trial,TTT,Maurice Dewaele,BEL,BE
+21,1928,234,Team time trial,TTT,Antonin Magne,FRA,FR
+22,1928,331,Plain stage,F,Nicolas Frantz,LUX,LU
+1,1927,180,Team time trial,TTT,Francis Pélissier,FRA,FR
+2,1927,103,Team time trial,TTT,Maurice Dewaele,BEL,BE
+3,1927,225,Team time trial,TTT,Hector Martin,BEL,BE
+4,1927,140,Team time trial,TTT,Camille van de Casteele,BEL,BE
+5,1927,199,Team time trial,TTT,Ferdinand Le Drogo,FRA,FR
+6,1927,206,Team time trial,TTT,André Leducq,FRA,FR
+7,1927,207,Team time trial,TTT,Gustaaf van Slembrouck,BEL,BE
+8,1927,204,Team time trial,TTT,Raymond Decorte,BEL,BE
+9,1927,285,Team time trial,TTT,Adelin Benoit,BEL,BE
+10,1927,189,Plain stage,F,Pé Verhaegen,BEL,BE
+11,1927,326,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
+12,1927,323,Stage with mountain(s),M,Gustaaf van Slembrouck,BEL,BE
+13,1927,360,Plain stage,F,Maurice Dewaele,BEL,BE
+14,1927,120,Team time trial,TTT,Antonin Magne,FRA,FR
+15,1927,220,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
+16,1927,275,Stage with mountain(s),M,Julien Vervaecke,BEL,BE
+17,1927,283,Stage with mountain(s),M,Pé Verhaegen,BEL,BE
+18,1927,213,Team time trial,TTT,Adelin Benoit,BEL,BE
+19,1927,119,Team time trial,TTT,Maurice Geldhof,BEL,BE
+20,1927,145,Team time trial,TTT,Raymond Decorte,BEL,BE
+21,1927,165,Team time trial,TTT,Nicolas Frantz,LUX,LU
+22,1927,159,Team time trial,TTT,Hector Martin,BEL,BE
+23,1927,270,Team time trial,TTT,André Leducq,FRA,FR
+24,1927,344,Plain stage,F,André Leducq,FRA,FR
 1,2026,373,Plain stage,F,Jules Buysse,BEL,BE
-2,2026,334,Plain stage,F,Aimé Dossche,BEL,BE
-3,2026,433,Plain stage,F,Gustaaf van Slembrouck,BEL,BE
-4,2026,361,Plain stage,F,Félix Sellier,BEL,BE
-5,2026,357,Plain stage,F,Adelin Benoit,BEL,BE
-6,2026,405,Plain stage,F,Joseph van Dam,BEL,BE
-7,2026,412,Plain stage,F,Nicolas Frantz,LUX,LU
-8,2026,285,Plain stage,F,Joseph van Dam,BEL,BE
-9,2026,189,Plain stage,F,Nicolas Frantz,LUX,LU
-10,2026,326,Stage with mountain(s),M,Lucien Buysse,BEL,BE
-11,2026,323,Stage with mountain(s),M,Lucien Buysse,BEL,BE
-12,2026,427,Plain stage,F,Nicolas Frantz,LUX,LU
-13,2026,280,Plain stage,F,Nicolas Frantz,LUX,LU
-14,2026,275,Stage with mountain(s),M,Bartolomeo Aimo,ITA,IT
-15,2026,303,Stage with mountain(s),M,Joseph van Dam,BEL,BE
-16,2026,321,Plain stage,F,Camille van de Casteele,BEL,BE
-17,2026,341,Plain stage,F,Aimé Dossche,BEL,BE
-1,2025,340,Plain stage,F,Ottavio Bottecchia,ITA,IT
-2,2025,371,Plain stage,F,Romain Bellenger,FRA,FR
-3,2025,405,Plain stage,F,Louis Mottiat,BEL,BE
-4,2025,208,Plain stage,F,Nicolas Frantz,LUX,LU
-5,2025,204,Plain stage,F,Nicolas Frantz,LUX,LU
-6,2025,293,Plain stage,F,Ottavio Bottecchia,ITA,IT
-7,2025,189,Plain stage,F,Ottavio Bottecchia,ITA,IT
-8,2025,326,Stage with mountain(s),M,Adelin Benoît,BEL,BE
-9,2025,323,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
-10,2025,215,Plain stage,F,Theophile Beeckman,BEL,BE
-11,2025,215,Plain stage,F,Lucien Buysse,BEL,BE
-12,2025,280,Stage with mountain(s),M,Lucien Buysse,BEL,BE
-13,2025,275,Stage with mountain(s),M,Bartolomeo Aimo,ITA,IT
-14,2025,303,Stage with mountain(s),M,Hector Martin,BEL,BE
-15,2025,373,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
-16,2025,334,Plain stage,F,Hector Martin,BEL,BE
-17,2025,433,Plain stage,F,Hector Martin,BEL,BE
-18,2025,343,Plain stage,F,Ottavio Bottecchia,ITA,IT
-1,2024,381,Plain stage,F,Ottavio Bottecchia,ITA,IT
-2,2024,371,Plain stage,F,Romain Bellenger,FRA,FR
-3,2024,405,Plain stage,F,Théophile Beeckman,FRA,FR
-5,2024,482,Plain stage,F,Omer Huyse,BEL,BE
-6,2024,326,Stage with mountain(s),M,Ottavio Bottecchia,ITA,IT
-7,2024,323,Stage with mountain(s),M,Ottavio Bottecchia,ITA,IT
-8,2024,427,Plain stage,F,Louis Mottiat,BEL,BE
-9,2024,280,Stage with mountain(s),M,Philippe Thys,BEL,BE
-10,2024,275,Stage with mountain(s),M,Giovanni Brunero,ITA,IT
-11,2024,307,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
-12,2024,360,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
-13,2024,300,Plain stage,F,Arsène Alancourt,FRA,FR
-14,2024,433,Plain stage,F,Romain Bellenger,FRA,FR
-15,2024,343,Plain stage,F,Ottavio Bottecchia,ITA,IT
-1,2023,381,Plain stage,F,Robert Jacquinot,FRA,FR
-2,2023,371,Plain stage,F,Ottavio Bottecchia,ITA,IT
-3,2023,405,Plain stage,F,Henri Pélissier,FRA,FR
-4,2023,412,Plain stage,F,Albert Dejonghe,BEL,BE
-5,2023,482,Plain stage,F,Robert Jacquinot,FRA,FR
-6,2023,326,Stage with mountain(s),M,Jean Alavoine,FRA,FR
-7,2023,323,Stage with mountain(s),M,Jean Alavoine,FRA,FR
-8,2023,427,Plain stage,F,Lucien Buysse,BEL,BE
-9,2023,281,Stage with mountain(s),M,Jean Alavoine,FRA,FR
-10,2023,275,Stage with mountain(s),M,Henri Pélissier,FRA,FR
-11,2023,260,Stage with mountain(s),M,Henri Pélissier,FRA,FR
-12,2023,377,Plain stage,F,Joseph Muller,FRA,FR
-13,2023,300,Plain stage,F,Romain Bellenger,FRA,FR
-14,2023,433,Plain stage,F,Félix Goethals,FRA,FR
-15,2023,343,Plain stage,F,Félix Goethals,FRA,FR
-1,2022,388,Plain stage,F,Robert Jacquinot,FRA,FR
-2,2022,364,Plain stage,F,Romain Bellenger,FRA,FR
-3,2022,405,Plain stage,F,Robert Jacquinot,FRA,FR
-4,2022,412,Plain stage,F,Philippe Thys,BEL,BE
-5,2022,482,Plain stage,F,Jean Alavoine,FRA,FR
-6,2022,326,Stage with mountain(s),M,Jean Alavoine,FRA,FR
-7,2022,323,Stage with mountain(s),M,Jean Alavoine,FRA,FR
-8,2022,411,Plain stage,F,Philippe Thys,BEL,BE
-9,2022,284,Stage with mountain(s),M,Philippe Thys,BEL,BE
-10,2022,274,Stage with mountain(s),M,Philippe Thys,BEL,BE
-11,2022,260,Stage with mountain(s),M,Emile Masson},BEL,BE
-12,2022,371,Plain stage,F,Emile Masson,BEL,BE
-13,2022,300,Plain stage,F,Federico Gay,ITA,IT
-14,2022,433,Plain stage,F,Félix Sellier,BEL,BE
-15,2022,340,Plain stage,F,Philippe Thys,BEL,BE
-1,2021,388,Plain stage,F,Louis Mottiat,BEL,BE
-2,2021,364,Plain stage,F,Romain Bellenger,FRA,FR
-3,2021,405,Plain stage,F,Leon Scieur,BEL,BE
-4,2021,412,Plain stage,F,Louis Mottiat,BEL,BE
-5,2021,482,Plain stage,F,Louis Mottiat,BEL,BE
-6,2021,326,Stage with mountain(s),M,Hector Heusghem,BEL,BE
-7,2021,323,Stage with mountain(s),M,Louis Mottiat,BEL,BE
-8,2021,411,Plain stage,F,Luigi Lucotti,ITA,IT
-9,2021,272,Stage with mountain(s),M,Firmin Lambot,BEL,BE
-10,2021,333,Stage with mountain(s),M,Leon Scieur,BEL,BE
-11,2021,325,Stage with mountain(s),M,Félix Goethals,FRA,FR
-12,2021,371,Plain stage,F,Honoré Barthélemy,FRA,FR
-13,2021,300,Plain stage,F,Félix Sellier,BEL,BE
-14,2021,433,Plain stage,F,Félix Goethals,FRA,FR
-15,2021,340,Plain stage,F,Félix Goethals,FRA,FR
-1,2020,388,Plain stage,F,Louis Mottiat,BEL,BE
-2,2020,364,Plain stage,F,Philippe Thys,BEL,BE
-3,2020,405,Plain stage,F,Henri Pélissier,FRA,FR
-4,2020,412,Plain stage,F,Henri Pélissier,FRA,FR
-5,2020,482,Plain stage,F,Firmin Lambot,BEL,BE
-6,2020,326,Stage with mountain,M,Firmin Lambot,BEL,BE
-7,2020,323,Stage with mountain,M,Jean Rossius,BEL,BE
-8,2020,325,Plain stage,F,Louis Heusghem,BEL,BE
-9,2020,356,Stage with mountain,M,Philippe Thys,BEL,BE
-10,2020,333,Stage with mountain,M,Hector Heusghem,BEL,BE
-11,2020,362,Stage with mountain,M,Léon Scieur,BEL,BE
-12,2020,354,Plain stage,F,Philippe Thys,BEL,BE
-13,2020,300,Plain stage,F,Philippe Thys,BEL,BE
-14,2020,433,Plain stage,F,Félix Goethals,FRA,FR
-15,2020,340,Plain stage,F,Jean Rossius,BEL,BE
-1,2019,388,Plain stage,F,Jean Rossius,BEL,BE
-2,2019,364,Plain stage,F,Henri Pélissier,FRA,FR
-3,2019,405,Plain stage,F,Francis Pélissier,FRA,FR
-4,2019,412,Plain stage,F,Jean Alavoine,FRA,FR
-5,2019,482,Plain stage,F,Jean Alavoine,FRA,FR
-6,2019,326,Stage with mountain,M,Honore Barthelemy,FRA,FR
-7,2019,323,Stage with mountain,M,Jean Alavoine,FRA,FR
-8,2019,370,Plain stage,F,Jean Alavoine,FRA,FR
-9,2019,338,Stage with mountain,M,Honoré Barthélemy,FRA,FR
-10,2019,333,Stage with mountain,M,Honoré Barthélemy,FRA,FR
-11,2019,325,Stage with mountain,M,Honoré Barthélemy,FRA,FR
-12,2019,371,Stage with mountain,M,Luigi Lucotti,ITA,IT
-13,2019,315,Plain stage,F,Luigi Lucotti,ITA,IT
-14,2019,468,Plain stage,F,Firmin Lambot,BEL,BE
-15,2019,340,Plain stage,F,Jean Alavoine,FRA,FR
-1,2014,388,Plain stage,F,Philippe Thys,BEL,BE
-2,2014,364,Plain stage,F,Jean Rossius,BEL,BE
-3,2014,405,Plain stage,F,Emile Engel,FRA,FR
-4,2014,470,Plain stage,F,Oscar Egg,SUI,CH
-5,2014,376,Plain stage,F,Oscar Egg,SUI,CH
-6,2014,326,Stage with mountain(s),M,Firmin Lambot,BEL,BE
-7,2014,323,Stage with mountain(s),M,Jean Alavoine,FRA,FR
-8,2014,370,Plain stage,F,Octave Lapize,FRA,FR
-9,2014,338,Stage with mountain(s),M,Jean Rossius,BEL,BE
-10,2014,323,Stage with mountain(s),M,Henri Pélissier,FRA,FR
-11,2014,325,Stage with mountain(s),M,Gustave Garrigou,FRA,FR
-12,2014,325,Stage with mountain(s),M,Henri Pélissier,FRA,FR
-13,2014,325,Stage with mountain(s),M,François Faber,LUX,LU
-14,2014,390,Plain stage,F,François Faber,LUX,LU
-15,2014,340,Plain stage,F,Henri Pélissier,FRA,FR
-1,2013,388,Plain stage,F,Giovanni Micheletto,ITA,IT
-2,2013,364,Plain stage,F,Jules Masselis,BEL,BE
-3,2013,405,Plain stage,F,Henri Pelissier,FRA,FR
-4,2013,470,Plain stage,F,Marcel Buysse,BEL,BE
-5,2013,379,Plain stage,F,Henri Van Lerberghe,BEL,BE
-6,2013,326,Stage with mountain(s),M,Philippe Thys,BEL,BE
-7,2013,324,Stage with mountain(s),M,Marcel Buysse,BEL,BE
-8,2013,325,Plain stage,F,Gustave Garrigou,FRA,FR
-9,2013,356,Stage with mountain(s),M,Firmin Lambot,BEL,BE
-10,2013,333,Stage with mountain(s),M,Francois Faber,LUX,LU
-11,2013,325,Stage with mountain(s),M,Marcel Buysse,BEL,BE
-12,2013,335,Stage with mountain(s),M,Marcel Buysse,BEL,BE
-13,2013,325,Stage with mountain(s),M,François Faber,LUX,LU
-14,2013,393,Plain stage,F,Marcel Buysse,BEL,BE
-15,2013,340,Plain stage,F,Marcel Buysse,BEL,BE
-1,2012,351,Plain stage,F,Charles Crupelandt,FRA,FR
-2,2012,388,Plain stage,F,Odile Defraye,BEL,BE
-3,2012,331,Stage with mountain(s),M,Eugène Christophe,FRA,FR
-4,2012,344,Stage with mountain(s),M,Eugène Christophe,FRA,FR
-5,2012,366,Stage with mountain(s),M,Eugène Christophe,FRA,FR
-6,2012,323,Stage with mountain(s),M,Octave Lapize,FRA,FR
-7,2012,334,Stage with mountain(s),M,Odile Defraye,BEL,BE
-8,2012,335,Plain stage,F,Vicenzo Borgarello,ITA,IT
-9,2012,289,Stage with mountain(s),M,Odile Defraye,BEL,BE
-10,2012,326,Stage with mountain(s),M,Louis Mottiat,BEL,BE
-11,2012,379,Plain stage,F,Jean Alavoine,FRA,FR
-12,2012,470,Plain stage,F,Louis Heusghem,BEL,BE
-13,2012,405,Plain stage,F,Jean Alavoine,FRA,FR
-14,2012,361,Plain stage,F,Vicenzo Borgarello,ITA,IT
-15,2012,317,Plain stage,F,Jean Alavoine,FRA,FR
-1,2011,351,Plain stage,F,Gustave Garrigou,FRA,FR
-2,2011,388,Plain stage,F,Jules Masselis,BEL,BE
-3,2011,331,Stage with mountain(s),M,François Faber,LUX,LU
-4,2011,344,Stage with mountain(s),M,Charles Crupelandt,FRA,FR
-5,2011,366,Stage with mountain(s),M,Émile Georget,FRA,FR
-6,2011,348,Stage with mountain(s),M,François Faber,LUX,LU
-7,2011,334,Stage with mountain(s),M,Charles Crupelandt,FRA,FR
-8,2011,335,Plain stage,F,Paul Duboc,FRA,FR
-9,2011,289,Stage with mountain(s),M,Paul Duboc,FRA,FR
-10,2011,326,Stage with mountain(s),M,Maurice Brocco,FRA,FR
-11,2011,379,Plain stage,F,Paul Duboc,FRA,FR
-12,2011,470,Plain stage,F,Marcel Godivier,FRA,FR
-13,2011,405,Plain stage,F,Gustave Garrigou,FRA,FR
-14,2011,361,Plain stage,F,Paul Duboc,FRA,FR
-15,2011,317,Plain stage,F,Marcel Godivier,FRA,FR
-1,2010,269,Plain stage,F,Charles Crupelandt,FRA,FR
-2,2010,398,Plain stage,F,François Faber,LUX,LU
-3,2010,259,Stage with mountain(s),M,Emile Georget,FRA,FR
-4,2010,309,Stage with mountain(s),M,François Faber,LUX,LU
-5,2010,311,Stage with mountain(s),M,Octave Lapize,FRA,FR
-6,2010,345,Stage with mountain(s),M,Julien Maitron,FRA,FR
-7,2010,345,Plain stage,F,François Faber,LUX,LU
-8,2010,216,Plain stage,F,Georges Paulmier,FRA,FR
-9,2010,289,Stage with mountain(s),M,Octave Lapize,FRA,FR
-10,2010,326,Stage with mountain(s),M,Octave Lapize,FRA,FR
-11,2010,269,Plain stage,F,Ernest Paul,FRA,FR
-12,2010,391,Plain stage,F,Louis Trousselier,FRA,FR
-13,2010,321,Plain stage,F,Gustave Garrigou,FRA,FR
-14,2010,424,Plain stage,F,Octave Lapize,FRA,FR
-15,2010,262,Plain stage,F,Ernesto Azzini,ITA,IT
-1,2009,272,Plain stage,F,Cyrille van Hauwaert,BEL,BE
-2,2009,398,Plain stage,F,François Faber,LUX,LU
-3,2009,259,Stage with mountain(s),M,François Faber,LUX,LU
-4,2009,309,Stage with mountain(s),M,François Faber,LUX,LU
-5,2009,311,Stage with mountain(s),M,François Faber,LUX,LU
-6,2009,346,Stage with mountain(s),M,François Faber,LUX,LU
-7,2009,345,Plain stage,F,Ernest Paul,FRA,FR
-8,2009,303,Plain stage,F,Jean Alavoine,FRA,FR
-9,2009,299,Plain stage,F,Constant Ménager,FRA,FR
-10,2009,269,Plain stage,F,François Faber,LUX,LU
-11,2009,391,Plain stage,F,Louis Trousselier,FRA,FR
-12,2009,321,Plain stage,F,Gustave Garrigou,FRA,FR
-13,2009,424,Plain stage,F,Paul Duboc,FRA,FR
-14,2009,250,Plain stage,F,Jean Alavoine,FRA,FR
-1,2008,272,Plain stage,F,Georges Passerieu,FRA,FR
-2,2008,398,Plain stage,F,Lucien Petit-Breton,FRA,FR
-3,2008,259,Stage with mountain(s),M,François Faber,LUX,LU
-4,2008,309,Stage with mountain(s),M,François Faber,LUX,LU
-5,2008,311,Stage with mountain(s),M,Georges Passerieu,FRA,FR
-6,2008,345,Stage with mountain(s),M,Jean-Baptiste Dortignacq,FRA,FR
-7,2008,354,Plain stage,F,Lucien Petit-Breton,FRA,FR
-8,2008,303,Plain stage,F,François Faber,LUX,LU
-9,2008,299,Plain stage,F,Lucien Petit-Breton,FRA,FR
-10,2008,269,Plain stage,F,Georges Paulmier,FRA,FR
-11,2008,391,Plain stage,F,Lucien Petit-Breton,FRA,FR
-12,2008,321,Plain stage,F,François Faber,LUX,LU
-13,2008,415,Plain stage,F,Georges Passerieu,FRA,FR
-14,2008,251,Plain stage,F,Lucien Petit-Breton,FRA,FR
-1,2007,272,Plain stage,F,Louis Trousselier,FRA,FR
-2,2007,398,Plain stage,F,Louis Trousselier,FRA,FR
-4,2007,309,Stage with mountain(s),M,Marcel Cadolle,FRA,FR
-5,2007,311,Stage with mountain(s),M,Emile Georget,FRA,FR
-6,2007,345,Stage with mountain(s),M,Georges Passerieu,FRA,FR
-7,2007,345,Plain stage,F,Emile Georget,FRA,FR
-8,2007,303,Plain stage,F,Emile Georget,FRA,FR
-9,2007,299,Plain stage,F,Lucien Petit-Breton,FRA,FR
-10,2007,269,Plain stage,F,Gustave Garrigou,FRA,FR
-11,2007,391,Plain stage,F,Lucien Petit-Breton,FRA,FR
-12,2007,321,Plain stage,F,Gustave Garrigou,FRA,FR
-13,2007,415,Plain stage,F,Emile Georget,FRA,FR
-14,2007,251,Plain stage,F,Georges Passerieu,FRA,FR
-1,2006,275,Plain stage,F,Emile Georget,FRA,FR
-2,2006,400,Plain stage,F,René Pottier,FRA,FR
-3,2006,416,Stage with mountain(s),M,René Pottier,FRA,FR
-4,2006,311,Plain stage,F,René Pottier,FRA,FR
-5,2006,345,Stage with mountain(s),M,René Pottier,FRA,FR
-6,2006,292,Plain stage,F,Georges Passerieu,FRA,FR
-7,2006,480,Plain stage,F,Louis Trousselier,FRA,FR
-8,2006,300,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
-9,2006,338,Plain stage,F,Louis Trousselier,FRA,FR
-10,2006,391,Plain stage,F,Louis Trousselier,FRA,FR
-11,2006,321,Plain stage,F,Louis Trousselier,FRA,FR
-12,2006,415,Plain stage,F,Georges Passerieu,FRA,FR
-13,2006,259,Plain stage,F,René Pottier,FRA,FR
-1,2005,340,Plain stage,F,Louis Trousselier,FRA,FR
-2,2005,299,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
-3,2005,327,Plain stage,F,Louis Trousselier,FRA,FR
-4,2005,348,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
-5,2005,192,Plain stage,F,Louis Trousselier,FRA,FR
-6,2005,307,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
-7,2005,268,Plain stage,F,Louis Trousselier,FRA,FR
-8,2005,257,Plain stage,F,Hippolyte Aucouturier,FRA,FR
-9,2005,263,Plain stage,F,Louis Trousselier,FRA,FR
-10,2005,167,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
-11,2005,253,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
-1,2004,467,Plain stage,F,Maurice Garin,FRA,FR
-2,2004,374,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
-3,2004,424,Plain stage,F,Hippolyte Aucouturier,FRA,FR
-4,2004,268,Plain stage,F,Lucien Pothier,FRA,FR
-5,2004,425,Plain stage,F,Hippolyte Aucouturier,FRA,FR
-6,2004,471,Plain stage,F,Hippolyte Aucouturier,FRA,FR
-1,2003,467,Plain stage,F,Maurice Garin,FRA,FR
-2,2003,374,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
-3,2003,423,Plain stage,F,Hippolyte Aucouturier,FRA,FR
-4,2003,268,Plain stage,F,Charles Laeser,SUI,CH
-5,2003,425,Plain stage,F,Maurice Garin,FRA,FR
-6,2003,471,Plain stage,F,Maurice Garin,FRA,FR
+2,1926,334,Plain stage,F,Aimé Dossche,BEL,BE
+3,1926,433,Plain stage,F,Gustaaf van Slembrouck,BEL,BE
+4,1926,361,Plain stage,F,Félix Sellier,BEL,BE
+5,1926,357,Plain stage,F,Adelin Benoit,BEL,BE
+6,1926,405,Plain stage,F,Joseph van Dam,BEL,BE
+7,1926,412,Plain stage,F,Nicolas Frantz,LUX,LU
+8,1926,285,Plain stage,F,Joseph van Dam,BEL,BE
+9,1926,189,Plain stage,F,Nicolas Frantz,LUX,LU
+10,1926,326,Stage with mountain(s),M,Lucien Buysse,BEL,BE
+11,1926,323,Stage with mountain(s),M,Lucien Buysse,BEL,BE
+12,1926,427,Plain stage,F,Nicolas Frantz,LUX,LU
+13,1926,280,Plain stage,F,Nicolas Frantz,LUX,LU
+14,1926,275,Stage with mountain(s),M,Bartolomeo Aimo,ITA,IT
+15,1926,303,Stage with mountain(s),M,Joseph van Dam,BEL,BE
+16,1926,321,Plain stage,F,Camille van de Casteele,BEL,BE
+17,1926,341,Plain stage,F,Aimé Dossche,BEL,BE
+1,1925,340,Plain stage,F,Ottavio Bottecchia,ITA,IT
+2,1925,371,Plain stage,F,Romain Bellenger,FRA,FR
+3,1925,405,Plain stage,F,Louis Mottiat,BEL,BE
+4,1925,208,Plain stage,F,Nicolas Frantz,LUX,LU
+5,1925,204,Plain stage,F,Nicolas Frantz,LUX,LU
+6,1925,293,Plain stage,F,Ottavio Bottecchia,ITA,IT
+7,1925,189,Plain stage,F,Ottavio Bottecchia,ITA,IT
+8,1925,326,Stage with mountain(s),M,Adelin Benoît,BEL,BE
+9,1925,323,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
+10,1925,215,Plain stage,F,Theophile Beeckman,BEL,BE
+11,1925,215,Plain stage,F,Lucien Buysse,BEL,BE
+12,1925,280,Stage with mountain(s),M,Lucien Buysse,BEL,BE
+13,1925,275,Stage with mountain(s),M,Bartolomeo Aimo,ITA,IT
+14,1925,303,Stage with mountain(s),M,Hector Martin,BEL,BE
+15,1925,373,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
+16,1925,334,Plain stage,F,Hector Martin,BEL,BE
+17,1925,433,Plain stage,F,Hector Martin,BEL,BE
+18,1925,343,Plain stage,F,Ottavio Bottecchia,ITA,IT
+1,1924,381,Plain stage,F,Ottavio Bottecchia,ITA,IT
+2,1924,371,Plain stage,F,Romain Bellenger,FRA,FR
+3,1924,405,Plain stage,F,Théophile Beeckman,FRA,FR
+5,1924,482,Plain stage,F,Omer Huyse,BEL,BE
+6,1924,326,Stage with mountain(s),M,Ottavio Bottecchia,ITA,IT
+7,1924,323,Stage with mountain(s),M,Ottavio Bottecchia,ITA,IT
+8,1924,427,Plain stage,F,Louis Mottiat,BEL,BE
+9,1924,280,Stage with mountain(s),M,Philippe Thys,BEL,BE
+10,1924,275,Stage with mountain(s),M,Giovanni Brunero,ITA,IT
+11,1924,307,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
+12,1924,360,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
+13,1924,300,Plain stage,F,Arsène Alancourt,FRA,FR
+14,1924,433,Plain stage,F,Romain Bellenger,FRA,FR
+15,1924,343,Plain stage,F,Ottavio Bottecchia,ITA,IT
+1,1923,381,Plain stage,F,Robert Jacquinot,FRA,FR
+2,1923,371,Plain stage,F,Ottavio Bottecchia,ITA,IT
+3,1923,405,Plain stage,F,Henri Pélissier,FRA,FR
+4,1923,412,Plain stage,F,Albert Dejonghe,BEL,BE
+5,1923,482,Plain stage,F,Robert Jacquinot,FRA,FR
+6,1923,326,Stage with mountain(s),M,Jean Alavoine,FRA,FR
+7,1923,323,Stage with mountain(s),M,Jean Alavoine,FRA,FR
+8,1923,427,Plain stage,F,Lucien Buysse,BEL,BE
+9,1923,281,Stage with mountain(s),M,Jean Alavoine,FRA,FR
+10,1923,275,Stage with mountain(s),M,Henri Pélissier,FRA,FR
+11,1923,260,Stage with mountain(s),M,Henri Pélissier,FRA,FR
+12,1923,377,Plain stage,F,Joseph Muller,FRA,FR
+13,1923,300,Plain stage,F,Romain Bellenger,FRA,FR
+14,1923,433,Plain stage,F,Félix Goethals,FRA,FR
+15,1923,343,Plain stage,F,Félix Goethals,FRA,FR
+1,1922,388,Plain stage,F,Robert Jacquinot,FRA,FR
+2,1922,364,Plain stage,F,Romain Bellenger,FRA,FR
+3,1922,405,Plain stage,F,Robert Jacquinot,FRA,FR
+4,1922,412,Plain stage,F,Philippe Thys,BEL,BE
+5,1922,482,Plain stage,F,Jean Alavoine,FRA,FR
+6,1922,326,Stage with mountain(s),M,Jean Alavoine,FRA,FR
+7,1922,323,Stage with mountain(s),M,Jean Alavoine,FRA,FR
+8,1922,411,Plain stage,F,Philippe Thys,BEL,BE
+9,1922,284,Stage with mountain(s),M,Philippe Thys,BEL,BE
+10,1922,274,Stage with mountain(s),M,Philippe Thys,BEL,BE
+11,1922,260,Stage with mountain(s),M,Emile Masson},BEL,BE
+12,1922,371,Plain stage,F,Emile Masson,BEL,BE
+13,1922,300,Plain stage,F,Federico Gay,ITA,IT
+14,1922,433,Plain stage,F,Félix Sellier,BEL,BE
+15,1922,340,Plain stage,F,Philippe Thys,BEL,BE
+1,1921,388,Plain stage,F,Louis Mottiat,BEL,BE
+2,1921,364,Plain stage,F,Romain Bellenger,FRA,FR
+3,1921,405,Plain stage,F,Leon Scieur,BEL,BE
+4,1921,412,Plain stage,F,Louis Mottiat,BEL,BE
+5,1921,482,Plain stage,F,Louis Mottiat,BEL,BE
+6,1921,326,Stage with mountain(s),M,Hector Heusghem,BEL,BE
+7,1921,323,Stage with mountain(s),M,Louis Mottiat,BEL,BE
+8,1921,411,Plain stage,F,Luigi Lucotti,ITA,IT
+9,1921,272,Stage with mountain(s),M,Firmin Lambot,BEL,BE
+10,1921,333,Stage with mountain(s),M,Leon Scieur,BEL,BE
+11,1921,325,Stage with mountain(s),M,Félix Goethals,FRA,FR
+12,1921,371,Plain stage,F,Honoré Barthélemy,FRA,FR
+13,1921,300,Plain stage,F,Félix Sellier,BEL,BE
+14,1921,433,Plain stage,F,Félix Goethals,FRA,FR
+15,1921,340,Plain stage,F,Félix Goethals,FRA,FR
+1,1920,388,Plain stage,F,Louis Mottiat,BEL,BE
+2,1920,364,Plain stage,F,Philippe Thys,BEL,BE
+3,1920,405,Plain stage,F,Henri Pélissier,FRA,FR
+4,1920,412,Plain stage,F,Henri Pélissier,FRA,FR
+5,1920,482,Plain stage,F,Firmin Lambot,BEL,BE
+6,1920,326,Stage with mountain,M,Firmin Lambot,BEL,BE
+7,1920,323,Stage with mountain,M,Jean Rossius,BEL,BE
+8,1920,325,Plain stage,F,Louis Heusghem,BEL,BE
+9,1920,356,Stage with mountain,M,Philippe Thys,BEL,BE
+10,1920,333,Stage with mountain,M,Hector Heusghem,BEL,BE
+11,1920,362,Stage with mountain,M,Léon Scieur,BEL,BE
+12,1920,354,Plain stage,F,Philippe Thys,BEL,BE
+13,1920,300,Plain stage,F,Philippe Thys,BEL,BE
+14,1920,433,Plain stage,F,Félix Goethals,FRA,FR
+15,1920,340,Plain stage,F,Jean Rossius,BEL,BE
+1,1919,388,Plain stage,F,Jean Rossius,BEL,BE
+2,1919,364,Plain stage,F,Henri Pélissier,FRA,FR
+3,1919,405,Plain stage,F,Francis Pélissier,FRA,FR
+4,1919,412,Plain stage,F,Jean Alavoine,FRA,FR
+5,1919,482,Plain stage,F,Jean Alavoine,FRA,FR
+6,1919,326,Stage with mountain,M,Honore Barthelemy,FRA,FR
+7,1919,323,Stage with mountain,M,Jean Alavoine,FRA,FR
+8,1919,370,Plain stage,F,Jean Alavoine,FRA,FR
+9,1919,338,Stage with mountain,M,Honoré Barthélemy,FRA,FR
+10,1919,333,Stage with mountain,M,Honoré Barthélemy,FRA,FR
+11,1919,325,Stage with mountain,M,Honoré Barthélemy,FRA,FR
+12,1919,371,Stage with mountain,M,Luigi Lucotti,ITA,IT
+13,1919,315,Plain stage,F,Luigi Lucotti,ITA,IT
+14,1919,468,Plain stage,F,Firmin Lambot,BEL,BE
+15,1919,340,Plain stage,F,Jean Alavoine,FRA,FR
+1,1914,388,Plain stage,F,Philippe Thys,BEL,BE
+2,1914,364,Plain stage,F,Jean Rossius,BEL,BE
+3,1914,405,Plain stage,F,Emile Engel,FRA,FR
+4,1914,470,Plain stage,F,Oscar Egg,SUI,CH
+5,1914,376,Plain stage,F,Oscar Egg,SUI,CH
+6,1914,326,Stage with mountain(s),M,Firmin Lambot,BEL,BE
+7,1914,323,Stage with mountain(s),M,Jean Alavoine,FRA,FR
+8,1914,370,Plain stage,F,Octave Lapize,FRA,FR
+9,1914,338,Stage with mountain(s),M,Jean Rossius,BEL,BE
+10,1914,323,Stage with mountain(s),M,Henri Pélissier,FRA,FR
+11,1914,325,Stage with mountain(s),M,Gustave Garrigou,FRA,FR
+12,1914,325,Stage with mountain(s),M,Henri Pélissier,FRA,FR
+13,1914,325,Stage with mountain(s),M,François Faber,LUX,LU
+14,1914,390,Plain stage,F,François Faber,LUX,LU
+15,1914,340,Plain stage,F,Henri Pélissier,FRA,FR
+1,1913,388,Plain stage,F,Giovanni Micheletto,ITA,IT
+2,1913,364,Plain stage,F,Jules Masselis,BEL,BE
+3,1913,405,Plain stage,F,Henri Pelissier,FRA,FR
+4,1913,470,Plain stage,F,Marcel Buysse,BEL,BE
+5,1913,379,Plain stage,F,Henri Van Lerberghe,BEL,BE
+6,1913,326,Stage with mountain(s),M,Philippe Thys,BEL,BE
+7,1913,324,Stage with mountain(s),M,Marcel Buysse,BEL,BE
+8,1913,325,Plain stage,F,Gustave Garrigou,FRA,FR
+9,1913,356,Stage with mountain(s),M,Firmin Lambot,BEL,BE
+10,1913,333,Stage with mountain(s),M,Francois Faber,LUX,LU
+11,1913,325,Stage with mountain(s),M,Marcel Buysse,BEL,BE
+12,1913,335,Stage with mountain(s),M,Marcel Buysse,BEL,BE
+13,1913,325,Stage with mountain(s),M,François Faber,LUX,LU
+14,1913,393,Plain stage,F,Marcel Buysse,BEL,BE
+15,1913,340,Plain stage,F,Marcel Buysse,BEL,BE
+1,1912,351,Plain stage,F,Charles Crupelandt,FRA,FR
+2,1912,388,Plain stage,F,Odile Defraye,BEL,BE
+3,1912,331,Stage with mountain(s),M,Eugène Christophe,FRA,FR
+4,1912,344,Stage with mountain(s),M,Eugène Christophe,FRA,FR
+5,1912,366,Stage with mountain(s),M,Eugène Christophe,FRA,FR
+6,1912,323,Stage with mountain(s),M,Octave Lapize,FRA,FR
+7,1912,334,Stage with mountain(s),M,Odile Defraye,BEL,BE
+8,1912,335,Plain stage,F,Vicenzo Borgarello,ITA,IT
+9,1912,289,Stage with mountain(s),M,Odile Defraye,BEL,BE
+10,1912,326,Stage with mountain(s),M,Louis Mottiat,BEL,BE
+11,1912,379,Plain stage,F,Jean Alavoine,FRA,FR
+12,1912,470,Plain stage,F,Louis Heusghem,BEL,BE
+13,1912,405,Plain stage,F,Jean Alavoine,FRA,FR
+14,1912,361,Plain stage,F,Vicenzo Borgarello,ITA,IT
+15,1912,317,Plain stage,F,Jean Alavoine,FRA,FR
+1,1911,351,Plain stage,F,Gustave Garrigou,FRA,FR
+2,1911,388,Plain stage,F,Jules Masselis,BEL,BE
+3,1911,331,Stage with mountain(s),M,François Faber,LUX,LU
+4,1911,344,Stage with mountain(s),M,Charles Crupelandt,FRA,FR
+5,1911,366,Stage with mountain(s),M,Émile Georget,FRA,FR
+6,1911,348,Stage with mountain(s),M,François Faber,LUX,LU
+7,1911,334,Stage with mountain(s),M,Charles Crupelandt,FRA,FR
+8,1911,335,Plain stage,F,Paul Duboc,FRA,FR
+9,1911,289,Stage with mountain(s),M,Paul Duboc,FRA,FR
+10,1911,326,Stage with mountain(s),M,Maurice Brocco,FRA,FR
+11,1911,379,Plain stage,F,Paul Duboc,FRA,FR
+12,1911,470,Plain stage,F,Marcel Godivier,FRA,FR
+13,1911,405,Plain stage,F,Gustave Garrigou,FRA,FR
+14,1911,361,Plain stage,F,Paul Duboc,FRA,FR
+15,1911,317,Plain stage,F,Marcel Godivier,FRA,FR
+1,1910,269,Plain stage,F,Charles Crupelandt,FRA,FR
+2,1910,398,Plain stage,F,François Faber,LUX,LU
+3,1910,259,Stage with mountain(s),M,Emile Georget,FRA,FR
+4,1910,309,Stage with mountain(s),M,François Faber,LUX,LU
+5,1910,311,Stage with mountain(s),M,Octave Lapize,FRA,FR
+6,1910,345,Stage with mountain(s),M,Julien Maitron,FRA,FR
+7,1910,345,Plain stage,F,François Faber,LUX,LU
+8,1910,216,Plain stage,F,Georges Paulmier,FRA,FR
+9,1910,289,Stage with mountain(s),M,Octave Lapize,FRA,FR
+10,1910,326,Stage with mountain(s),M,Octave Lapize,FRA,FR
+11,1910,269,Plain stage,F,Ernest Paul,FRA,FR
+12,1910,391,Plain stage,F,Louis Trousselier,FRA,FR
+13,1910,321,Plain stage,F,Gustave Garrigou,FRA,FR
+14,1910,424,Plain stage,F,Octave Lapize,FRA,FR
+15,1910,262,Plain stage,F,Ernesto Azzini,ITA,IT
+1,1909,272,Plain stage,F,Cyrille van Hauwaert,BEL,BE
+2,1909,398,Plain stage,F,François Faber,LUX,LU
+3,1909,259,Stage with mountain(s),M,François Faber,LUX,LU
+4,1909,309,Stage with mountain(s),M,François Faber,LUX,LU
+5,1909,311,Stage with mountain(s),M,François Faber,LUX,LU
+6,1909,346,Stage with mountain(s),M,François Faber,LUX,LU
+7,1909,345,Plain stage,F,Ernest Paul,FRA,FR
+8,1909,303,Plain stage,F,Jean Alavoine,FRA,FR
+9,1909,299,Plain stage,F,Constant Ménager,FRA,FR
+10,1909,269,Plain stage,F,François Faber,LUX,LU
+11,1909,391,Plain stage,F,Louis Trousselier,FRA,FR
+12,1909,321,Plain stage,F,Gustave Garrigou,FRA,FR
+13,1909,424,Plain stage,F,Paul Duboc,FRA,FR
+14,1909,250,Plain stage,F,Jean Alavoine,FRA,FR
+1,1908,272,Plain stage,F,Georges Passerieu,FRA,FR
+2,1908,398,Plain stage,F,Lucien Petit-Breton,FRA,FR
+3,1908,259,Stage with mountain(s),M,François Faber,LUX,LU
+4,1908,309,Stage with mountain(s),M,François Faber,LUX,LU
+5,1908,311,Stage with mountain(s),M,Georges Passerieu,FRA,FR
+6,1908,345,Stage with mountain(s),M,Jean-Baptiste Dortignacq,FRA,FR
+7,1908,354,Plain stage,F,Lucien Petit-Breton,FRA,FR
+8,1908,303,Plain stage,F,François Faber,LUX,LU
+9,1908,299,Plain stage,F,Lucien Petit-Breton,FRA,FR
+10,1908,269,Plain stage,F,Georges Paulmier,FRA,FR
+11,1908,391,Plain stage,F,Lucien Petit-Breton,FRA,FR
+12,1908,321,Plain stage,F,François Faber,LUX,LU
+13,1908,415,Plain stage,F,Georges Passerieu,FRA,FR
+14,1908,251,Plain stage,F,Lucien Petit-Breton,FRA,FR
+1,1907,272,Plain stage,F,Louis Trousselier,FRA,FR
+2,1907,398,Plain stage,F,Louis Trousselier,FRA,FR
+4,1907,309,Stage with mountain(s),M,Marcel Cadolle,FRA,FR
+5,1907,311,Stage with mountain(s),M,Emile Georget,FRA,FR
+6,1907,345,Stage with mountain(s),M,Georges Passerieu,FRA,FR
+7,1907,345,Plain stage,F,Emile Georget,FRA,FR
+8,1907,303,Plain stage,F,Emile Georget,FRA,FR
+9,1907,299,Plain stage,F,Lucien Petit-Breton,FRA,FR
+10,1907,269,Plain stage,F,Gustave Garrigou,FRA,FR
+11,1907,391,Plain stage,F,Lucien Petit-Breton,FRA,FR
+12,1907,321,Plain stage,F,Gustave Garrigou,FRA,FR
+13,1907,415,Plain stage,F,Emile Georget,FRA,FR
+14,1907,251,Plain stage,F,Georges Passerieu,FRA,FR
+1,1906,275,Plain stage,F,Emile Georget,FRA,FR
+2,1906,400,Plain stage,F,René Pottier,FRA,FR
+3,1906,416,Stage with mountain(s),M,René Pottier,FRA,FR
+4,1906,311,Plain stage,F,René Pottier,FRA,FR
+5,1906,345,Stage with mountain(s),M,René Pottier,FRA,FR
+6,1906,292,Plain stage,F,Georges Passerieu,FRA,FR
+7,1906,480,Plain stage,F,Louis Trousselier,FRA,FR
+8,1906,300,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
+9,1906,338,Plain stage,F,Louis Trousselier,FRA,FR
+10,1906,391,Plain stage,F,Louis Trousselier,FRA,FR
+11,1906,321,Plain stage,F,Louis Trousselier,FRA,FR
+12,1906,415,Plain stage,F,Georges Passerieu,FRA,FR
+13,1906,259,Plain stage,F,René Pottier,FRA,FR
+1,1905,340,Plain stage,F,Louis Trousselier,FRA,FR
+2,1905,299,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
+3,1905,327,Plain stage,F,Louis Trousselier,FRA,FR
+4,1905,348,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
+5,1905,192,Plain stage,F,Louis Trousselier,FRA,FR
+6,1905,307,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
+7,1905,268,Plain stage,F,Louis Trousselier,FRA,FR
+8,1905,257,Plain stage,F,Hippolyte Aucouturier,FRA,FR
+9,1905,263,Plain stage,F,Louis Trousselier,FRA,FR
+10,1905,167,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
+11,1905,253,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
+1,1904,467,Plain stage,F,Maurice Garin,FRA,FR
+2,1904,374,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
+3,1904,424,Plain stage,F,Hippolyte Aucouturier,FRA,FR
+4,1904,268,Plain stage,F,Lucien Pothier,FRA,FR
+5,1904,425,Plain stage,F,Hippolyte Aucouturier,FRA,FR
+6,1904,471,Plain stage,F,Hippolyte Aucouturier,FRA,FR
+1,1903,467,Plain stage,F,Maurice Garin,FRA,FR
+2,1903,374,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
+3,1903,423,Plain stage,F,Hippolyte Aucouturier,FRA,FR
+4,1903,268,Plain stage,F,Charles Laeser,SUI,CH
+5,1903,425,Plain stage,F,Maurice Garin,FRA,FR
+6,1903,471,Plain stage,F,Maurice Garin,FRA,FR

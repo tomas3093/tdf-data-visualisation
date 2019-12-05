@@ -1,8 +1,4 @@
-import { 
-    DATA_DEFAULT_CODE,
-    ALL_CODES
-} from './modules/constants.mjs';
-
+import { DATA_DEFAULT_CODE, ALL_CODES } from './modules/constants.mjs';
 import { DataManager } from './modules/dataManager.mjs';
 import { MapManager } from './modules/mapManager.mjs';
 
@@ -38,7 +34,8 @@ function visualization(data) {
     // ... Data is loaded here in variable 'data'
     
     // Initialize amchart map
-    mapManager = new MapManager("chartdiv", data);
+    mapManager = new MapManager("chartPanel", data);
+    $("#chartPanel").removeClass("col").addClass("col-9");
 
     createTopPanel();
   
@@ -50,26 +47,29 @@ function visualization(data) {
  * Initialize and render top panel of visualisation and control functionalities
  */
 function createTopPanel() {
-    
+
     // Add onClick functions for toogle buttons
     for (let index = 0; index < ALL_CODES.length; index++) {
         const code = ALL_CODES[index];
         
-        document.getElementById("option_" + code)
-        .addEventListener("click", function() {
-            if (selectedOption != code) {
-                mapManager.showData(code);
-            }
-            selectedOption = code;
-        });
+        $("#option_" + code)
+            .on("click", function() {
+                if (selectedOption != code) {
+                    mapManager.showData(code);
+                }
+                selectedOption = code;
+            });
     }
 }
 
 /**
  * 
+ * @param elementId
  */
 function createSidePanel() {
-    
+
+    // TODO
+    mapManager.getSummaryData();
 }
 
 

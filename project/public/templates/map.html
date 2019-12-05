@@ -25,40 +25,63 @@
   </head>
   <body>
 
-    <p>This is map.html</p>
+    <main id="mainGrid">
+      <!-- Top panel -->
+      <div class="row justify-content-between">
+        <div class="col-9">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input type="radio" name="options" id="option_1" autocomplete="off" checked> GC
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_2" autocomplete="off"> Stages
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_3" autocomplete="off"> Mountain
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_4" autocomplete="off"> Hilly
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_5" autocomplete="off"> Flat
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_6" autocomplete="off"> ITT
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_7" autocomplete="off"> Mountain TT
+            </label>
+          </div>
+        </div>
 
-    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-      <label class="btn btn-secondary active">
-        <input type="radio" name="options" id="option_1" checked> GC
-      </label>
-      <label class="btn btn-secondary">
-        <input type="radio" name="options" id="option_2"> Stages
-      </label>
-      <label class="btn btn-secondary">
-        <input type="radio" name="options" id="option_3"> Mountain
-      </label>
-      <label class="btn btn-secondary">
-        <input type="radio" name="options" id="option_4"> Hilly
-      </label>
-      <label class="btn btn-secondary">
-        <input type="radio" name="options" id="option_5"> Flat
-      </label>
-      <label class="btn btn-secondary">
-        <input type="radio" name="options" id="option_6"> ITT
-      </label>
-      <label class="btn btn-secondary">
-        <input type="radio" name="options" id="option_7"> Mountain TT
-      </label>
-    </div>
+        <div class="col">
+          <a class="btn btn-primary" href="/graph" role="button">Graphs</a>
+        </div>
+      </div>
 
-    <div id="chartdiv"></div>
+      <!-- Map chart and side panel-->
+      <div class="row">
+        <div class="col" id="chartPanel"></div>
+
+        <div class="col">
+          <!-- Side panel -->
+          <ol>
+            <li>Rider 1</li>
+            <li>Rider 2</li>
+            <li>Rider 3</li>
+          </ol>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">This is footer &copy;2019</span>
+      </div>
+    </footer>
+      
 
     <script type="module" src="public/js/map.js"></script>
-
-
-    <div id="map_div"></div>
-    <div id="text_div"></div>
-    <div id="barchart_div"></div>
-    <div id="heatmap_div"></div>
 
   </body>
