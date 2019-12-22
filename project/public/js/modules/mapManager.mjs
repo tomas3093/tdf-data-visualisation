@@ -117,7 +117,11 @@ import {
 
             ev.target.series.chart.zoomToMapObject(ev.target);
             if (_this.lastSelected !== ev.target) {
+
+                // User selected new area
+
                 _this.lastSelected = ev.target;
+
             }
         })
     }
@@ -150,19 +154,6 @@ import {
             }
         });
         this.polygonSeries.data = d;
-
-        /* HEATMAP
-        this.polygonSeries.heatRules.push({
-            "property": "fill",
-            "target": this.polygonSeries.mapPolygons.template,
-            "min": am4core.color("#CCD7F8"),
-            "max": am4core.color("#6B0000")
-        });
-        var heatLegend = chart.createChild(am4maps.HeatLegend);
-        heatLegend.series = this.polygonSeries;
-        heatLegend.width = am4core.percent(100);
-        heatLegend.valign = "bottom";
-        */
 
         // Create UI controls
         this.createUI();

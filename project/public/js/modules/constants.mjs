@@ -21,3 +21,7 @@ export const ALL_CODES = [
     DATA_ITT_CODE, 
     DATA_MTT_CODE
 ];
+
+// ----------------------------------------------
+
+export const SIDE_PANEL_SIZE = 10;

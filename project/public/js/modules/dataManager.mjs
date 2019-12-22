@@ -11,6 +11,9 @@ import {
 } from './constants.mjs';
 
 import { CountryMapPolygon } from './models.mjs';
+import { DataItemGcWinner } from './models.mjs';
+import { DataItemStageWinner } from './models.mjs';
+import { DataItemCyclist } from './models.mjs';
 
 
 /**
@@ -35,28 +38,28 @@ export class DataManager {
         let _this = this;
 
         d3.csv("./public/data/tdf_gc.csv")
-        .row(function(d) { return {
-        year : +d.year,
-        total_distance : +d.total_distance,
-        winner_name : d.gc_winner,
-        country_iso: d.country_iso,
-        country_name: d.country_name,
-        avg_speed: d.winner_avg_speed
-        }; 
+        .row(function(d) { return new DataItemGcWinner(
+            +d.year,
+            +d.total_distance,
+            d.gc_winner,
+            d.country_iso,
+            d.country_name,
+            d.winner_avg_speed
+        );
     }).get(function(error, rows) { 
         //saving reference to data (by extending empty array)
         _this.data_gc.push(...rows);
 
         // Second csv file
         d3.csv("./public/data/tdf_stages.csv")
-            .row(function(d) { return {
-                stage : +d.Stage,
-                year : +d.Year,
-                distance : +d.Distance,
-                type: d.Mark,
-                winner_name: d.Winner,
-                country_iso: d.country_iso
-            }; 
+            .row(function(d) { return new DataItemStageWinner(
+                +d.Stage,
+                +d.Year,
+                +d.Distance,
+                d.Mark,
+                d.Winner,
+                d.country_iso
+            ); 
         }).get(function(error, rows2) { 
             //saving reference to data
             _this.data_stages.push(...rows2);
@@ -88,8 +91,7 @@ export class DataManager {
             [DATA_MTT_CODE, new Map()]
         ]);
 
-        // Initializes all items (Maps) in data
-        //let l = this.chart.geodata.features;
+        // Initializes all items (Maps)
         let l = am4geodata_worldLow.features;
         for (let index = 0; index < l.length; index++) {
             const element = l[index].properties;
@@ -221,7 +223,68 @@ export class DataManager {
 
         return data;
     }
+
+
+    /**
+     * 
+     * @param dataCode 
+     * @param countryISO - optional parameter 
+     */
+    getSummaryData(dataCode, countryISO) {
+
+        // Create map with keys of every rider
+        let data = new Map();
+        let l = this.data_stages;
+        for (let index = 0; index < l.length; index++) {
+            const row = l[index];
+            
+            if (data.get(row.winner_name) == undefined) {
+                data.set(row.winner_name, new DataItemCyclist(
+                    row.winner_name, 
+                    row.country_iso, 
+                    row.country_name, 
+                    0
+                ));
+            }
+        }
+
+        // Count top N winners
+        if (countryISO) {
+            switch (dataCode) {
+                case DATA_GC_CODE:
+                    for (let index = 0; index < this.data_gc.length; index++) {
+                        const element = this.data_gc[index];
+                        
+                        // Ak element splna podmienky tak ho zapocita 
+                        //TODO
+                    }           
+                    break;
+            
+                default:
+                    break;
+            }            
+        } else {
+            switch (dataCode) {
+                case DATA_GC_CODE:
+                    for (let index = 0; index < this.data_gc.length; index++) {
+                        const row = this.data_gc[index];
+                        data.set(row.winner_name, data.get(row.winner_name) + 1);
+                    } 
+                    break;
+            
+                default:
+                    break;
+            }
+        }
+
+        // Sort map 
+        data[Symbol.iterator] = function* () {
+            yield* [...this.entries()].sort((a, b) => (a[1]).value - (b[1]).value);
+        }
+
+        let r = [];
+        for (let [key, value] of data) {     
+            console.log(key + ' ' + value);
+        }
+    }
 }
-
-
-

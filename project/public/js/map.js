@@ -1,6 +1,7 @@
 import { DATA_DEFAULT_CODE, ALL_CODES } from './modules/constants.mjs';
 import { DataManager } from './modules/dataManager.mjs';
 import { MapManager } from './modules/mapManager.mjs';
+import { DATA_GC_CODE } from './modules/constants.mjs';
 
 // Map manager
 var mapManager;
@@ -69,7 +70,7 @@ function createTopPanel() {
 function createSidePanel() {
 
     // TODO
-    mapManager.getSummaryData();
+    console.log(dataManager.getSummaryData(DATA_GC_CODE));
 }
 
 
