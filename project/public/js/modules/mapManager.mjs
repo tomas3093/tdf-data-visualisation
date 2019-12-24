@@ -106,6 +106,9 @@ import {
 
             console.log(ev.target.dataItem.dataContext.name);
 
+            // TODO preniest datamanager z map.js do tohto suboru
+
+
             if (_this.lastSelected) {
                 // This line serves multiple purposes:
                 // 1. Clicking a country twice actually de-activates, the line below

@@ -1,7 +1,7 @@
 import { DATA_DEFAULT_CODE, ALL_CODES } from './modules/constants.mjs';
 import { DataManager } from './modules/dataManager.mjs';
 import { MapManager } from './modules/mapManager.mjs';
-import { DATA_GC_CODE, DATA_STAGES_CODE } from './modules/constants.mjs';
+import { DATA_GC_CODE, DATA_STAGES_CODE, DATA_MOUNTAIN_CODE } from './modules/constants.mjs';
 import { DataFilterCriterion } from './modules/models.mjs';
 
 // Map manager
@@ -71,13 +71,24 @@ function createTopPanel() {
 function createSidePanel() {
 
     // TODO
+    // Dorobit funkcionalitu tak, aby sa summary data zobrazovali v side paneli !!!
+
     let crit = new DataFilterCriterion(
-        DATA_STAGES_CODE, 
-        "US", 
+        DATA_MOUNTAIN_CODE, 
+        "CO", 
         undefined, 
         undefined
     );
-    console.log(dataManager.getSummaryData(crit));
+    let data = dataManager.getSummaryData(crit);
+    
+    console.log(data);
+
+    let table = $("#sidePanelContent");
+    
+    data.forEach(function(value, key, map) {
+        console.log(`map.get('${key}') = ${value}`);
+        table.append(`<tr><td>${key}</td><td>${value}</td></tr>`);
+    });
 }
 
 
