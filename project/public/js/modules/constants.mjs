@@ -22,6 +22,31 @@ export const ALL_CODES = [
     DATA_MTT_CODE
 ];
 
+// Converts numeric code of the stage type to character mark
+export function dataCodeToMark(dataCode) {
+    switch (dataCode) {
+        case DATA_MOUNTAIN_CODE:
+            return 'M';
+
+        case DATA_HILLY_CODE:
+            return 'H';
+    
+        case DATA_FLAT_CODE:
+            return 'F';
+        
+        case DATA_ITT_CODE:
+            return 'ITT';
+
+        case DATA_MTT_CODE:
+            return 'MTT';
+
+        default:
+            return '';
+    }
+}
+
 // ----------------------------------------------
 
 export const SIDE_PANEL_SIZE = 10;
+
+export const SIDE_PANEL_MAX_ITEMS = 10;

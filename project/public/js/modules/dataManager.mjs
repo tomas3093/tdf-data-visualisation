@@ -7,7 +7,8 @@ import {
   DATA_ITT_CODE, 
   DATA_MTT_CODE,
   ALL_CODES,
-  MAX_VAL_STR
+  MAX_VAL_STR,
+  SIDE_PANEL_MAX_ITEMS
 } from './constants.mjs';
 
 import { CountryMapPolygon } from './models.mjs';
@@ -226,65 +227,63 @@ export class DataManager {
 
 
     /**
-     * 
-     * @param dataCode 
-     * @param countryISO - optional parameter 
+     * Returns sorted summary data about countries or riders of specified country
+     * @param criterion - filtering criterion of type: DataFilterCriterion
+     * @returns - result map (k: country, v: winners count || k: rider_name, v: victories count)
      */
-    getSummaryData(dataCode, countryISO) {
+    getSummaryData(criterion) {
 
-        // Create map with keys of every rider
-        let data = new Map();
-        let l = this.data_stages;
-        for (let index = 0; index < l.length; index++) {
-            const row = l[index];
-            
-            if (data.get(row.winner_name) == undefined) {
-                data.set(row.winner_name, new DataItemCyclist(
-                    row.winner_name, 
-                    row.country_iso, 
-                    row.country_name, 
-                    0
-                ));
+        // Which data will be used for creating the summary
+        let dataset = criterion.dataCode == DATA_GC_CODE ? this.data_gc : this.data_stages;
+
+        let res = new Map();
+
+        // Decision, whether we will count each country victories or victories of specific country
+        if (criterion.country_iso == undefined) {
+            // Victories of all countries
+
+            // Create map of all countries with counts
+            for (let index = 0; index < dataset.length; index++) {
+                const row = dataset[index];
+
+                if (criterion.validate(row)) {
+                    if (res.get(row.country_iso) == undefined) {
+                        res.set(row.country_iso, 1);
+                    } else {
+                        res.set(row.country_iso, res.get(row.country_iso) + 1);
+                    }
+                }
             }
-        }
 
-        // Count top N winners
-        if (countryISO) {
-            switch (dataCode) {
-                case DATA_GC_CODE:
-                    for (let index = 0; index < this.data_gc.length; index++) {
-                        const element = this.data_gc[index];
-                        
-                        // Ak element splna podmienky tak ho zapocita 
-                        //TODO
-                    }           
-                    break;
-            
-                default:
-                    break;
-            }            
         } else {
-            switch (dataCode) {
-                case DATA_GC_CODE:
-                    for (let index = 0; index < this.data_gc.length; index++) {
-                        const row = this.data_gc[index];
-                        data.set(row.winner_name, data.get(row.winner_name) + 1);
-                    } 
-                    break;
-            
-                default:
-                    break;
+            // Winners of specific country
+
+            // Create map of all riders from specified country
+            for (let index = 0; index < dataset.length; index++) {
+                const row = dataset[index];
+                
+                if (criterion.validate(row)) {
+                    if (res.get(row.winner_name) == undefined) {
+                        res.set(row.winner_name, 1);
+                    } else {
+                        res.set(row.winner_name, res.get(row.winner_name) + 1);
+                    }   
+                }
             }
-        }
+        } 
 
-        // Sort map 
-        data[Symbol.iterator] = function* () {
-            yield* [...this.entries()].sort((a, b) => (a[1]).value - (b[1]).value);
-        }
+        // Sort items 
+        let a = [];
+        for(var x of res) 
+            a.push(x);
 
-        let r = [];
-        for (let [key, value] of data) {     
-            console.log(key + ' ' + value);
-        }
+        a.sort(function(x, y) {
+            return y[1] - x[1];
+        });  
+        
+        // Keep only top 10
+        res = new Map(a.slice(0, SIDE_PANEL_MAX_ITEMS));
+
+        return res;
     }
 }

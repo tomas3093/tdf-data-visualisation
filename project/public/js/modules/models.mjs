@@ -1,3 +1,5 @@
+import { DATA_GC_CODE, DATA_STAGES_CODE, dataCodeToMark } from "./constants.mjs";
+
 /**
  * Represents polygon which is rendered on the map chart
  */
@@ -62,48 +64,31 @@ export class DataItemCyclist {
 
 
 /**
- * Decides whether DataItemGcWinner fullfills selected criteria
+ * Filter criterions for subsetting the summary data. In case you don't want to specify some criterion, set it as 'undefined'
  */
-export class GcWinnerFilter {
+export class DataFilterCriterion {
     
-    /**
-     * 
-     * @param item DataItemGcWinner object
-     */
-    static compareYear(item, year) {
-        return item1.year == year;
-    }
-}
-
-
-/**
- * Decides whether DataItemStageWinner fullfills selected criteria
- */
-export class StageWinnerFilter {
-    
-    static compareYear(item, year1, year2) {
-        return item.year >= year1 && item.year <= year2;
+    constructor(dataCode, country_iso, yearBegin, yearEnd) {
+        this.dataCode = dataCode;
+        this.country_iso = country_iso;
+        this.yearBegin = yearBegin;
+        this.yearEnd = yearEnd;
     }
 
-    static compareType(item, types) {
-        for (let index = 0; index < types.length; index++) {
-            const type = types[index];
-            
-            if (item.type == type) {
-                return true;
-            }
+    validate(obj) {
+        if (this.dataCode != DATA_GC_CODE && this.dataCode != DATA_STAGES_CODE && obj.type != undefined && obj.type != dataCodeToMark(this.dataCode)) {
+            return false;
         }
-        return false;
-    }
-
-    static compareCountry(item, countryIsoCodes) {
-        for (let index = 0; index < countryIsoCodes.length; index++) {
-            const iso = countryIsoCodes[index];
-            
-            if (item.country_iso == iso) {
-                return true;
-            }
+        if (obj.country_iso != undefined && obj.country_iso != this.country_iso) {
+            return false;
         }
-        return false;
+        if (obj.year != undefined && obj.year < this.yearBegin) {
+            return false;
+        }
+        if (obj.year != undefined && obj.year > this.yearEnd) {
+            return false;
+        }
+
+        return true;
     }
 }

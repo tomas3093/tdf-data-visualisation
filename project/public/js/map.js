@@ -1,7 +1,8 @@
 import { DATA_DEFAULT_CODE, ALL_CODES } from './modules/constants.mjs';
 import { DataManager } from './modules/dataManager.mjs';
 import { MapManager } from './modules/mapManager.mjs';
-import { DATA_GC_CODE } from './modules/constants.mjs';
+import { DATA_GC_CODE, DATA_STAGES_CODE } from './modules/constants.mjs';
+import { DataFilterCriterion } from './modules/models.mjs';
 
 // Map manager
 var mapManager;
@@ -70,7 +71,13 @@ function createTopPanel() {
 function createSidePanel() {
 
     // TODO
-    console.log(dataManager.getSummaryData(DATA_GC_CODE));
+    let crit = new DataFilterCriterion(
+        DATA_STAGES_CODE, 
+        "US", 
+        undefined, 
+        undefined
+    );
+    console.log(dataManager.getSummaryData(crit));
 }
 
 
