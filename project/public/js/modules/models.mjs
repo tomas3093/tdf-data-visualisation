@@ -1,4 +1,9 @@
-import { DATA_GC_CODE, DATA_STAGES_CODE, dataCodeToMark } from "./constants.mjs";
+import { 
+    DATA_GC_CODE, 
+    DATA_STAGES_CODE, 
+    DATA_DEFAULT_CODE, 
+    dataCodeToMark 
+} from "./constants.mjs";
 
 /**
  * Represents polygon which is rendered on the map chart
@@ -68,8 +73,13 @@ export class DataItemCyclist {
  */
 export class DataFilterCriterion {
     
+    dataCode;
+    country_iso;
+    yearBegin;
+    yearEnd;
+
     constructor(dataCode, country_iso, yearBegin, yearEnd) {
-        this.dataCode = dataCode;
+        this.dataCode = dataCode == undefined ? DATA_DEFAULT_CODE : dataCode;
         this.country_iso = country_iso;
         this.yearBegin = yearBegin;
         this.yearEnd = yearEnd;
@@ -79,13 +89,13 @@ export class DataFilterCriterion {
         if (this.dataCode != DATA_GC_CODE && this.dataCode != DATA_STAGES_CODE && obj.type != undefined && obj.type != dataCodeToMark(this.dataCode)) {
             return false;
         }
-        if (obj.country_iso != undefined && obj.country_iso != this.country_iso) {
+        if (this.country_iso != undefined && obj.country_iso != this.country_iso) {
             return false;
         }
-        if (obj.year != undefined && obj.year < this.yearBegin) {
+        if (obj.year != undefined && this.yearBegin != undefined && obj.year < this.yearBegin) {
             return false;
         }
-        if (obj.year != undefined && obj.year > this.yearEnd) {
+        if (obj.year != undefined && this.yearEnd != undefined && obj.year > this.yearEnd) {
             return false;
         }
 

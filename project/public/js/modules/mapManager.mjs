@@ -29,6 +29,15 @@ import {
      * Value: Map<ISO identifier of country, CountryMapPolygon object> */
     data;
 
+    /** Data manager */
+    dataManager;
+
+    // Numeric value which determine currently selected dataset on map
+    selectedOption;
+
+    /** Criterion which describes currently selected data */ 
+    criterion;
+
     /** Map instance */ 
     chart;
 
@@ -45,11 +54,17 @@ import {
      * Constructor
      * @param chartElementId 
      * @param data
+     * @param dataManager
+     * @param defaultCrit
      */
-    constructor(chartElementId, data) {
+    constructor(chartElementId, data, dataManager, defaultCrit) {
 
         // Prepared data
         this.data = data;
+
+        this.dataManager = dataManager;
+        this.selectedOption = DATA_DEFAULT_CODE
+        this.criterion = defaultCrit;
 
         // Theme
         am4core.useTheme(am4themes_animated);
@@ -104,17 +119,16 @@ import {
         let _this = this;
         this.polygonTemplate.events.on("hit", function(ev) {
 
-            console.log(ev.target.dataItem.dataContext.name);
-
-            // TODO preniest datamanager z map.js do tohto suboru
-
+            // Clicked object
+            //console.log(ev.target.dataItem.dataContext);
 
             if (_this.lastSelected) {
-                // This line serves multiple purposes:
-                // 1. Clicking a country twice actually de-activates, the line below
-                //    de-activates it in advance, so the toggle then re-activates, making it
-                //    appear as if it was never de-activated to begin with.
-                // 2. Previously activated countries should be de-activated.
+                /** This line serves multiple purposes:
+                *  1. Clicking a country twice actually de-activates, the line below
+                *     de-activates it in advance, so the toggle then re-activates, making it
+                *     appear as if it was never de-activated to begin with.
+                *  2. Previously activated countries should be de-activated.
+                */
                 _this.lastSelected.isActive = false;
             }
 
@@ -122,12 +136,15 @@ import {
             if (_this.lastSelected !== ev.target) {
 
                 // User selected new area
-
                 _this.lastSelected = ev.target;
 
+                // Updates side panel
+                _this.criterion.country_iso = ev.target.dataItem.dataContext.id;
+                _this.updateSidePanel();
             }
         })
     }
+
 
     /**
      * Binds values to  map polygons and shows the visualisation
@@ -158,9 +175,10 @@ import {
         });
         this.polygonSeries.data = d;
 
-        // Create UI controls
+        // Create map UI controls
         this.createUI();
     }
+
 
     /**
      * Creates UI controls in map chart visualisation
@@ -192,7 +210,45 @@ import {
         homeButton.parent = this.chart.zoomControl;
         homeButton.insertBefore(this.chart.zoomControl.plusButton);
     }
- }
- 
 
- // TODO Pridat metodu na vracanie dat do side panelu !!!!!
+
+    /**
+     * Sets top panel buttons functionality
+     */
+    createTopPanel() {
+        // Add onClick functions for toogle buttons
+        for (let index = 0; index < ALL_CODES.length; index++) {
+            const code = ALL_CODES[index];
+            
+            let _this = this;
+            $("#option_" + code)
+                .on("click", function() {
+                    if (_this.selectedOption != code) {
+                        _this.showData(code);
+
+                        // Updates side panel
+                        _this.criterion.dataCode = code;
+                        _this.updateSidePanel();
+                    }
+                    _this.selectedOption = code;
+                });
+        }
+    }
+
+
+    /** 
+     * Gets correct data according to current criterion and redraws side panel content 
+    */
+    updateSidePanel() {
+        let summary_data = this.dataManager.getSummaryData(this.criterion);
+        
+        let table = $("#sidePanelContent");
+        table.empty();  // remove previous content
+
+        let i = 1;
+        summary_data.forEach(function(value, key, map) {
+            table.append(`<tr><td>${i}.</td><td>${key}</td><td>${value}</td></tr>`);
+            i++;
+        });
+    }
+ }

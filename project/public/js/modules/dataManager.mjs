@@ -8,13 +8,14 @@ import {
   DATA_MTT_CODE,
   ALL_CODES,
   MAX_VAL_STR,
-  SIDE_PANEL_MAX_ITEMS
+  SIDE_PANEL_MAX_ITEMS,
+  isoCodeToName,
+  UNKNOWN_NATION_MARK
 } from './constants.mjs';
 
 import { CountryMapPolygon } from './models.mjs';
 import { DataItemGcWinner } from './models.mjs';
 import { DataItemStageWinner } from './models.mjs';
-import { DataItemCyclist } from './models.mjs';
 
 
 /**
@@ -32,7 +33,6 @@ export class DataManager {
     }
 
     /** Function to load data from local .csv files 
-    * @param data         - variable to store loaded and preprocessed data 
     * @param callback     - callback function to call after successful data loading
     */
     loadData(callback) {
@@ -78,6 +78,7 @@ export class DataManager {
      * Initializes attributes which are representing numerical data for visualisation
      * @param dataset1 gc
      * @param dataset2 stages
+     * @returns data
      */
     initializeData(dataset1, dataset2) {
 
@@ -247,10 +248,17 @@ export class DataManager {
                 const row = dataset[index];
 
                 if (criterion.validate(row)) {
-                    if (res.get(row.country_iso) == undefined) {
-                        res.set(row.country_iso, 1);
+                    let country_name = isoCodeToName(row.country_iso);
+                    
+                    // Skip records with unknown country
+                    if (country_name == UNKNOWN_NATION_MARK) {
+                        continue;
+                    }
+
+                    if (res.get(country_name) == undefined) {
+                        res.set(country_name, 1);
                     } else {
-                        res.set(row.country_iso, res.get(row.country_iso) + 1);
+                        res.set(country_name, res.get(country_name) + 1);
                     }
                 }
             }
@@ -263,6 +271,13 @@ export class DataManager {
                 const row = dataset[index];
                 
                 if (criterion.validate(row)) {
+                    let country_name = isoCodeToName(row.country_iso);
+                    
+                    // Skip records with unknown country
+                    if (country_name == UNKNOWN_NATION_MARK) {
+                        continue;
+                    }
+                    
                     if (res.get(row.winner_name) == undefined) {
                         res.set(row.winner_name, 1);
                     } else {
