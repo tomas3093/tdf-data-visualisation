@@ -1,6 +1,6 @@
-Stage,Year,Distance,Type,Mark,Winner,Winner_Country,country_iso
+ÔªøStage,Year,Distance,Type,Mark,Winner,Winner_Country,country_iso
 1,2019,194.5,Flat stage,F,Mike Teunissen,NED,NL
-2,2019,27.6,Team time trial,TTT,Team JumboñVisma,,
+2,2019,27.6,Team time trial,TTT,Team Jumbo‚ÄìVisma,,
 3,2019,215,Hilly stage,H,Julian Alaphilippe,FRA,FR
 4,2019,213.5,Flat stage,F,Elia Viviani,ITA,IT
 5,2019,175.5,Hilly stage,H,Peter Sagan,SVK,SK
@@ -37,19 +37,19 @@ Stage,Year,Distance,Type,Mark,Winner,Winner_Country,country_iso
 15,2018,181.5,Hilly stage,H,Magnus Cort Nielsen,DEN,DK
 16,2018,218,Mountain stage,M,Julian Alaphilippe,FRA,FR
 17,2018,65,Mountain stage,M,Nairo Quintana,COL,CO
-18,2018,171,Flat stage,F,Arnaud DÈmare,FRA,FR
-19,2018,200.5,Mountain stage,M,Primoû Rogli?,SLO,SI
+18,2018,171,Flat stage,F,Arnaud D√©mare,FRA,FR
+19,2018,200.5,Mountain stage,M,Primo≈æ Rogliƒç,SLO,SI
 20,2018,31,Individual time trial,ITT,Tom Dumoulin,NED,NL
 21,2018,116,Flat stage,F,Alexander Kristoff,NOR,NO
 1,2017,14,Individual time trial,ITT,Geraint Thomas,GBR,GB
 2,2017,203.5,Flat stage,F,Marcel Kittel,GER,DE
 3,2017,212.5,Medium mountain stage,H,Peter Sagan,SVK,SK
-4,2017,207.5,Flat stage,F,Arnaud DÈmare,FRA,FR
+4,2017,207.5,Flat stage,F,Arnaud D√©mare,FRA,FR
 5,2017,160.5,Medium mountain stage,H,Fabio Aru,ITA,IT
 6,2017,216,Flat stage,F,Marcel Kittel,GER,DE
 7,2017,213.5,Flat stage,F,Marcel Kittel,GER,DE
 8,2017,187.5,Medium mountain stage,H,Lilian Calmejane,FRA,FR
-9,2017,181.5,High mountain stage,M,Rigoberto Ur·n,COL,CO
+9,2017,181.5,High mountain stage,M,Rigoberto Ur√°n,COL,CO
 10,2017,178,Flat stage,F,Marcel Kittel,GER,DE
 11,2017,203.5,Flat stage,F,Marcel Kittel,GER,DE
 12,2017,214.5,High mountain stage,M,Romain Bardet,FRA,FR
@@ -57,7 +57,7 @@ Stage,Year,Distance,Type,Mark,Winner,Winner_Country,country_iso
 14,2017,181.5,Medium mountain stage,H,Michael Matthews,AUS,AU
 15,2017,189.5,Medium mountain stage,H,Bauke Mollema,NED,NL
 16,2017,165,Medium mountain stage,H,Michael Matthews,AUS,AU
-17,2017,183,High mountain stage,M,Primoû Rogli?,SLO,SI
+17,2017,183,High mountain stage,M,Primo≈æ Rogli?,SLO,SI
 18,2017,179.5,High mountain stage,M,Warren Barguil,FRA,FR
 19,2017,222.5,Flat stage,F,Edvald Boasson Hagen,NOR,NO
 20,2017,22.5,Individual time trial,ITT,Maciej Bodnar,POL,PL
@@ -82,34 +82,34 @@ Stage,Year,Distance,Type,Mark,Winner,Winner_Country,country_iso
 18,2016,17,Mountain time trial,MTT,Chris Froome,GBR,GB
 19,2016,146,High mountain stage,M,Romain Bardet,FRA,FR
 20,2016,146.5,High mountain stage,M,Ion Izagirre,ESP,ES
-21,2016,113,Flat stage,F,AndrÈ Greipel,GER,DE
+21,2016,113,Flat stage,F,Andr√© Greipel,GER,DE
 1,2015,13.8,Individual time trial,ITT,Rohan Dennis,AUS,AU
-2,2015,166,Flat stage,F,AndrÈ Greipel,GER,DE
-3,2015,159.5,Flat stage,F,Joaquim RodrÌguez,ESP,ES
+2,2015,166,Flat stage,F,Andr√© Greipel,GER,DE
+3,2015,159.5,Flat stage,F,Joaquim Rodr√≠guez,ESP,ES
 4,2015,223.5,Medium mountain stage,H,Tony Martin,GER,DE
-5,2015,189.5,Flat stage,F,AndrÈ Greipel,GER,DE
-6,2015,191.5,Flat stage,F,Zden?k ätybar,CZE,CZ
+5,2015,189.5,Flat stage,F,Andr√© Greipel,GER,DE
+6,2015,191.5,Flat stage,F,Zdenƒõk ≈†tybar,CZE,CZ
 7,2015,190.5,Flat stage,F,Mark Cavendish,GBR,GB
 8,2015,181.5,Flat stage,F,Alexis Vuillermoz,FRA,FR
 9,2015,28,Team time trial,TTT,BMC Racing Team,,
 10,2015,167,High mountain stage,M,Chris Froome,GBR,GB
-11,2015,188,High mountain stage,M,Rafa? Majka,POL,PL
-12,2015,195,High mountain stage,M,Joaquim RodrÌguez,ESP,ES
+11,2015,188,High mountain stage,M,Rafa≈Ç Majka,POL,PL
+12,2015,195,High mountain stage,M,Joaquim Rodr√≠guez,ESP,ES
 13,2015,198.5,Medium mountain stage,H,Greg Van Avermaet,BEL,BE
 14,2015,178.5,Medium mountain stage,H,Steve Cummings,GBR,GB
-15,2015,183,Medium mountain stage,H,AndrÈ Greipel,GER,DE
-16,2015,201,Medium mountain stage,H,RubÈn Plaza Molina,ESP,ES
+15,2015,183,Medium mountain stage,H,Andr√© Greipel,GER,DE
+16,2015,201,Medium mountain stage,H,Rub√©n Plaza Molina,ESP,ES
 17,2015,161,High mountain stage,M,Simon Geschke,GER,DE
 18,2015,186.5,High mountain stage,M,Romain Bardet,FRA,FR
 19,2015,138,High mountain stage,M,Vincenzo Nibali,ITA,IT
 20,2015,110.5,High mountain stage,M,Thibaut Pinot,FRA,FR
-21,2015,109.5,Flat stage,F,AndrÈ Greipel,GER,DE
+21,2015,109.5,Flat stage,F,Andr√© Greipel,GER,DE
 1,2014,190.5,Flat stage,F,Marcel Kittel,GER,DE
 2,2014,201,Medium mountain stage,H,Vincenzo Nibali,ITA,IT
 3,2014,155,Flat stage,F,Marcel Kittel,GER,DE
 4,2014,163.5,Flat stage,F,Marcel Kittel,GER,DE
 5,2014,152.5,Medium mountain stage,H,Lars Boom,NED,NL
-6,2014,194,Flat stage,F,AndrÈ Greipel,GER,DE
+6,2014,194,Flat stage,F,Andr√© Greipel,GER,DE
 7,2014,234.5,Flat stage,F,Matteo Trentin,ITA,IT
 8,2014,161,Medium mountain stage,H,Blel Kadri,FRA,FR
 9,2014,170,Medium mountain stage,H,Tony Martin,GER,DE
@@ -117,20 +117,20 @@ Stage,Year,Distance,Type,Mark,Winner,Winner_Country,country_iso
 11,2014,187.5,Medium mountain stage,H,Tony Gallopin,FRA,FR
 12,2014,185.5,Flat stage,F,Alexander Kristoff,NOR,NO
 13,2014,197.5,High mountain stage,M,Vincenzo Nibali,ITA,IT
-14,2014,177,High mountain stage,M,Rafa? Majka,POL,PL
+14,2014,177,High mountain stage,M,Rafa≈Ç Majka,POL,PL
 15,2014,222,Flat stage,F,Alexander Kristoff,NOR,NO
 16,2014,237.5,High mountain stage,M,Michael Rogers,AUS,AU
-17,2014,124.5,High mountain stage,M,Rafa? Majka,POL,PL
+17,2014,124.5,High mountain stage,M,Rafa≈Ç Majka,POL,PL
 18,2014,145.5,High mountain stage,M,Vincenzo Nibali,ITA,IT
-19,2014,208.5,Flat stage,F,Ram?nas Navardauskas,LTU,LT
+19,2014,208.5,Flat stage,F,Ram≈´nas Navardauskas,LTU,LT
 20,2014,54,Individual time trial,ITT,Tony Martin,GER,DE
 21,2014,137.5,Flat stage,F,Marcel Kittel,GER,DE
 1,2013,213,Flat stage,F,Marcel Kittel,GER,DE
 2,2013,156,Medium mountain stage,H,Jan Bakelants,BEL,BE
 3,2013,145.5,Medium mountain stage,H,Simon Gerrans,AUS,AU
-4,2013,25,Team time trial,TTT,OricañGreenEDGE,,
+4,2013,25,Team time trial,TTT,Orica‚ÄìGreenEDGE,,
 5,2013,228.5,Flat stage,F,Mark Cavendish,GBR,GB
-6,2013,176.5,Flat stage,F,AndrÈ Greipel,GER,DE
+6,2013,176.5,Flat stage,F,Andr√© Greipel,GER,DE
 7,2013,205.5,Flat stage,F,Peter Sagan,SVK,SK
 8,2013,195,High mountain stage,M,Chris Froome,GBR,GB
 9,2013,168.5,High mountain stage,M,Dan Martin,IRL,IE
@@ -150,8 +150,8 @@ P,2012,6.4,Individual time trial,ITT,Fabian Cancellara,SUI,CH
 1,2012,198,Flat stage,F,Peter Sagan,SVK,SK
 2,2012,207.5,Flat stage,F,Mark Cavendish,GBR,GB
 3,2012,197,Medium mountain stage,H,Peter Sagan,SVK,SK
-4,2012,214.5,Flat stage,F,AndrÈ Greipel,GER,DE
-5,2012,196.5,Flat stage,F,AndrÈ Greipel,GER,DE
+4,2012,214.5,Flat stage,F,Andr√© Greipel,GER,DE
+5,2012,196.5,Flat stage,F,Andr√© Greipel,GER,DE
 6,2012,207.5,Flat stage,F,Peter Sagan,SVK,SK
 7,2012,199,Medium mountain stage,H,Chris Froome,GBR,GB
 8,2012,157.5,Medium mountain stage,H,Thibaut Pinot,FRA,FR
@@ -159,26 +159,26 @@ P,2012,6.4,Individual time trial,ITT,Fabian Cancellara,SUI,CH
 10,2012,194.5,High mountain stage,M,Thomas Voeckler,FRA,FR
 11,2012,148,High mountain stage,M,Pierre Rolland,FRA,FR
 12,2012,226,Medium mountain stage,H,David Millar,GBR,GB
-13,2012,217,Flat stage,F,AndrÈ Greipel,GER,DE
-14,2012,191,High mountain stage,M,Luis LeÛn S·nchez,ESP,ES
-15,2012,158.5,Flat stage,F,Pierrick FÈdrigo,FRA,FR
+13,2012,217,Flat stage,F,Andr√© Greipel,GER,DE
+14,2012,191,High mountain stage,M,Luis Le√≥n S√°nchez,ESP,ES
+15,2012,158.5,Flat stage,F,Pierrick F√©drigo,FRA,FR
 16,2012,197,High mountain stage,M,Thomas Voeckler,FRA,FR
 17,2012,143.5,High mountain stage,M,Alejandro Valverde,ESP,ES
 18,2012,222.5,Flat stage,F,Mark Cavendish,GBR,GB
 19,2012,53.5,Individual time trial,ITT,Bradley Wiggins,GBR,GB
 20,2012,120,Flat stage,F,Mark Cavendish,GBR,GB
 1,2011,191.5,Flat stage,F,Philippe Gilbert,BEL,BE
-2,2011,23,Team time trial,TTT,GarminñCervÈlo,,
+2,2011,23,Team time trial,TTT,Garmin‚ÄìCerv√©lo,,
 3,2011,198,Flat stage,F,Tyler Farrar,USA,US
 4,2011,172.5,Flat stage,F,Cadel Evans,AUS,AU
 5,2011,164.5,Flat stage,F,Mark Cavendish,GBR,GB
 6,2011,226.5,Flat stage,F,Edvald Boasson Hagen,NOR,NO
 7,2011,218,Flat stage,F,Mark Cavendish,GBR,GB
 8,2011,189,Medium mountain stage,H,Rui Costa,POR,PT
-9,2011,208,Medium mountain stage,H,Luis LeÛn S·nchez,ESP,ES
-10,2011,158,Flat stage,F,AndrÈ Greipel,GER,DE
+9,2011,208,Medium mountain stage,H,Luis Le√≥n S√°nchez,ESP,ES
+10,2011,158,Flat stage,F,Andr√© Greipel,GER,DE
 11,2011,167.5,Flat stage,F,Mark Cavendish,GBR,GB
-12,2011,211,High mountain stage,M,Samuel S·nchez,ESP,ES
+12,2011,211,High mountain stage,M,Samuel S√°nchez,ESP,ES
 13,2011,152.5,High mountain stage,M,Thor Hushovd,NOR,NO
 14,2011,168.5,High mountain stage,M,Jelle Vanendert,BEL,BE
 15,2011,192.5,Flat stage,F,Mark Cavendish,GBR,GB
@@ -198,13 +198,13 @@ P,2010,8.9,Individual time trial,ITT,Fabian Cancellara,SUI,CH
 7,2010,165.5,Medium mountain stage,H,Sylvain Chavanel,FRA,FR
 8,2010,189,Mountain stage,M,Andy Schleck,LUX,LU
 9,2010,204.5,Mountain stage,M,Sandy Casar,FRA,FR
-10,2010,179,Medium mountain stage,H,SÈrgio Paulinho,POR,PT
+10,2010,179,Medium mountain stage,H,S√©rgio Paulinho,POR,PT
 11,2010,184.5,Flat stage,F,Mark Cavendish,GBR,GB
-12,2010,210.5,Medium mountain stage,H,Joaquim RodrÌguez,ESP,ES
+12,2010,210.5,Medium mountain stage,H,Joaquim Rodr√≠guez,ESP,ES
 13,2010,196,Flat stage,F,Alexander Vinokourov,KAZ,KZ
 14,2010,184.5,Mountain stage,M,Christophe Riblon,FRA,FR
 15,2010,187.5,Mountain stage,M,Thomas Voeckler,FRA,FR
-16,2010,199.5,Mountain stage,M,Pierrick FÈdrigo,FRA,FR
+16,2010,199.5,Mountain stage,M,Pierrick F√©drigo,FRA,FR
 17,2010,174,Mountain stage,M,Andy Schleck,LUX,LU
 18,2010,198,Flat stage,F,Mark Cavendish,GBR,GB
 19,2010,52,Individual time trial,ITT,Fabian Cancellara,SUI,CH
@@ -216,19 +216,19 @@ P,2010,8.9,Individual time trial,ITT,Fabian Cancellara,SUI,CH
 5,2009,196.5,Flat stage,F,Thomas Voeckler,FRA,FR
 6,2009,181.5,Flat stage,F,Thor Hushovd,NOR,NO
 7,2009,224,Mountain stage,M,Brice Feillu,FRA,FR
-8,2009,176.5,Mountain stage,M,Luis LeÛn S·nchez,ESP,ES
-9,2009,160.5,Mountain stage,M,Pierrick FÈdrigo,FRA,FR
+8,2009,176.5,Mountain stage,M,Luis Le√≥n S√°nchez,ESP,ES
+9,2009,160.5,Mountain stage,M,Pierrick F√©drigo,FRA,FR
 10,2009,194.5,Flat stage,F,Mark Cavendish,GBR,GB
 11,2009,192,Flat stage,F,Mark Cavendish,GBR,GB
-12,2009,211.5,Flat stage,F,Nicki S¯rensen,DEN,DK
+12,2009,211.5,Flat stage,F,Nicki S√∏rensen,DEN,DK
 13,2009,200,Medium mountain stage,H,Heinrich Haussler,GER,DE
 14,2009,199,Flat stage,F,Sergei Ivanov,RUS,RU
 15,2009,207.5,Mountain Stage,M,Alberto Contador,ESP,ES
 16,2009,159,Mountain Stage,M,Sandy Casar,FRA,FR
-17,2009,169.5,Mountain Stage,M,Fr‰nk Schleck,LUX,LU
+17,2009,169.5,Mountain Stage,M,Fr√§nk Schleck,LUX,LU
 18,2009,40.5,Individual time trial,ITT,Alberto Contador,ESP,ES
 19,2009,178,Flat stage,F,Mark Cavendish,GBR,GB
-20,2009,167,Mountain stage,M,Juan Manuel G·rate,ESP,ES
+20,2009,167,Mountain stage,M,Juan Manuel G√°rate,ESP,ES
 21,2009,164,Flat stage,F,Mark Cavendish,GBR,GB
 1,2008,197.5,Flat stage,F,Alejandro Valverde,ESP,ES
 2,2008,164.5,Flat stage,F,Thor Hushovd,NOR,NO
@@ -236,14 +236,14 @@ P,2010,8.9,Individual time trial,ITT,Fabian Cancellara,SUI,CH
 4,2008,29.5,Individual time trial,ITT,Kim Kirchen,LUX,LU
 5,2008,232,Flat stage,F,Mark Cavendish,GBR,GB
 6,2008,195.5,Transition stage,Transition stage,Alejandro Valverde,ESP,ES
-7,2008,159,Transition stage,Transition stage,Luis LeÛn S·nchez,ESP,ES
+7,2008,159,Transition stage,Transition stage,Luis Le√≥n S√°nchez,ESP,ES
 8,2008,172.5,Flat stage,F,Mark Cavendish,GBR,GB
 9,2008,224,Mountain stage,M,Vladimir Efimkin,RUS,RU
-10,2008,156,Mountain stage,M,Juan JosÈ Cobo,ESP,ES
+10,2008,156,Mountain stage,M,Juan Jos√© Cobo,ESP,ES
 11,2008,167.5,Transition stage,Transition stage,Kurt Asle Arvesen,NOR,NO
 12,2008,168.5,Flat stage,F,Mark Cavendish,GBR,GB
 13,2008,182,Flat stage,F,Mark Cavendish,GBR,GB
-14,2008,194.5,Flat stage,F,”scar Freire,ESP,ES
+14,2008,194.5,Flat stage,F,√ìscar Freire,ESP,ES
 15,2008,183,Mountain stage,M,Simon Gerrans,AUS,AU
 16,2008,157,Mountain stage,M,Cyril Dessel,FRA,FR
 17,2008,210.5,Mountain stage,M,Carlos Sastre,ESP,ES
@@ -261,7 +261,7 @@ P,2007,7.9,Individual time trial,ITT,Fabian Cancellara,SUI,CH
 7,2007,197.5,Mountain stage,M,Linus Gerdemann,GER,DE
 8,2007,165,Mountain stage,M,Michael Rasmussen,DEN,DK
 9,2007,159.5,Mountain stage,M,Mauricio Soler,COL,CO
-10,2007,229.5,Plain stage,F,CÈdric Vasseur,FRA,FR
+10,2007,229.5,Plain stage,F,C√©dric Vasseur,FRA,FR
 11,2007,182.5,Plain stage,F,Robert Hunter,RSA,ZA
 12,2007,178.5,Intermediate stage,H,Tom Boonen,BEL,BE
 13,2007,54,Individual time trial,ITT,Cadel Evans,AUS,AU
@@ -277,17 +277,17 @@ P,2006,7.1,Individual time trial,ITT,Thor Hushovd,NOR,NO
 2,2006,228.5,Flat stage,F,Robbie McEwen,AUS,AU
 3,2006,216.5,Hilly stage,H,Matthias Kessler,GER,DE
 4,2006,207,Flat stage,F,Robbie McEwen,AUS,AU
-5,2006,225,Flat stage,F,”scar Freire,ESP,ES
+5,2006,225,Flat stage,F,√ìscar Freire,ESP,ES
 6,2006,189,Flat stage,F,Robbie McEwen,AUS,AU
 7,2006,52,Individual time trial,ITT,Serhiy Honchar,UKR,UA
 8,2006,181,Flat stage,F,Sylvain Calzati,FRA,FR
-9,2006,169.5,Flat stage,F,”scar Freire,ESP,ES
+9,2006,169.5,Flat stage,F,√ìscar Freire,ESP,ES
 10,2006,190.5,Mountain stage,M,Juan Miguel Mercado,ESP,ES
 11,2006,206.5,Mountain stage,M,Denis Menchov,RUS,RU
 12,2006,211.5,Hilly stage,H,Yaroslav Popovych,UKR,UA
 13,2006,230,Flat stage,F,Jens Voigt,GER,DE
-14,2006,180.5,Hilly stage,H,Pierrick FÈdrigo,FRA,FR
-15,2006,187,Mountain stage,M,Fr‰nk Schleck,LUX,LU
+14,2006,180.5,Hilly stage,H,Pierrick F√©drigo,FRA,FR
+15,2006,187,Mountain stage,M,Fr√§nk Schleck,LUX,LU
 16,2006,182,Mountain stage,M,Michael Rasmussen,DEN,DK
 17,2006,200.5,Mountain stage,M,Carlos Sastre,ESP,ES
 18,2006,197,Flat stage,F,Matteo Tosatto,ITA,IT
@@ -304,11 +304,11 @@ P,2006,7.1,Individual time trial,ITT,Thor Hushovd,NOR,NO
 9,2005,171,Hilly stage,H,Michael Rasmussen,DEN,DK
 10,2005,177,Mountain stage,M,Alejandro Valverde,ESP,ES
 11,2005,173,Mountain stage,M,Alexander Vinokourov,KAZ,KZ
-12,2005,187,Hilly stage,H,David MoncoutiÈ,FRA,FR
+12,2005,187,Hilly stage,H,David Moncouti√©,FRA,FR
 13,2005,173.5,Plain stage,F,Robbie McEwen,AUS,AU
 14,2005,220.5,Mountain stage,M,Georg Totschnig,AUT,AT
 15,2005,205.5,Mountain stage,M,George Hincapie,USA,US
-16,2005,180.5,Mountain stage,M,”scar Pereiro,ESP,ES
+16,2005,180.5,Mountain stage,M,√ìscar Pereiro,ESP,ES
 17,2005,239.5,Plain stage,F,Paolo Savoldelli,ITA,IT
 18,2005,189,Hilly stage,H,Marcos Antonio Serrano,ESP,ES
 19,2005,153.5,Hilly stage,H,Giuseppe Guerini,ITA,IT
@@ -325,10 +325,10 @@ P,2004,6.1,Individual time trial,ITT,Fabian Cancellara,SUI,CH
 8,2004,168,Plain stage,F,Thor Hushovd,NOR,NO
 9,2004,160.5,Plain stage,F,Robbie McEwen,AUS,AU
 10,2004,237,Hilly stage,H,Richard Virenque,FRA,FR
-11,2004,164,Hilly stage,H,David MoncoutiÈ,FRA,FR
+11,2004,164,Hilly stage,H,David Moncouti√©,FRA,FR
 12,2004,197.5,Mountain stage,M,Ivan Basso,ITA,IT
 13,2004,205.5,Mountain stage,M,Lance Armstrong,USA,US
-14,2004,192.5,Plain stage,F,Aitor Gonz·lez,ESP,ES
+14,2004,192.5,Plain stage,F,Aitor Gonz√°lez,ESP,ES
 15,2004,180.5,Mountain stage,M,Lance Armstrong,USA,US
 16,2004,15.5,Individual time trial,ITT,Lance Armstrong,USA,US
 17,2004,204.5,Mountain stage,M,Lance Armstrong,USA,US
@@ -358,9 +358,9 @@ P,2003,6.5,Individual time trial,ITT,Bradley McGee,AUS,AU
 20,2003,152,Plain stage,F,Jean-Patrick Nazon,FRA,FR
 P,2002,7,Individual time trial,ITT,Lance Armstrong,USA,US
 1,2002,192.5,Plain stage,F,Rubens Bertogliati,SUI,CH
-2,2002,181,Plain stage,F,”scar Freire,ESP,ES
+2,2002,181,Plain stage,F,√ìscar Freire,ESP,ES
 3,2002,174.5,Plain stage,F,Robbie McEwen,AUS,AU
-4,2002,67.5,Team time trial,TTT,ONCEñEroski,,
+4,2002,67.5,Team time trial,TTT,ONCE‚ÄìEroski,,
 5,2002,195,Plain stage,F,Jaan Kirsipuu,EST,EE
 6,2002,199.5,Plain stage,F,Erik Zabel,GER,DE
 7,2002,176,Plain stage,F,Bradley McGee,AUS,AU
@@ -382,14 +382,14 @@ P,2001,8.2,Individual time trial,ITT,Christophe Moreau,FRA,FR
 2,2001,220.5,Plain stage,F,Marc Wauters,BEL,BE
 3,2001,198.5,Plain stage,F,Erik Zabel,GER,DE
 4,2001,215,Plain stage,F,Laurent Jalabert,FRA,FR
-5,2001,67,Team time trial,TTT,CrÈdit Agricole,,
+5,2001,67,Team time trial,TTT,Cr√©dit Agricole,,
 6,2001,211.5,Plain stage,F,Jaan Kirsipuu,EST,EE
 7,2001,162.5,Hilly stage,H,Laurent Jalabert,FRA,FR
 8,2001,222.5,Plain stage,F,Erik Dekker,NED,NL
 9,2001,185,Plain stage,F,Serguei Ivanov,RUS,RU
 10,2001,209,Stage with mountain(s),M,Lance Armstrong,USA,US
 11,2001,32,Individual time trial,ITT,Lance Armstrong,USA,US
-12,2001,166.5,Stage with mountain(s),M,FÈlix C·rdenas,COL,CO
+12,2001,166.5,Stage with mountain(s),M,F√©lix C√°rdenas,COL,CO
 13,2001,194,Stage with mountain(s),M,Lance Armstrong,USA,US
 14,2001,141.5,Stage with mountain(s),M,Roberto Laiseka,ESP,ES
 15,2001,232.5,Plain stage,F,Rik Verbrugghe,BEL,BE
@@ -397,12 +397,12 @@ P,2001,8.2,Individual time trial,ITT,Christophe Moreau,FRA,FR
 17,2001,194,Plain stage,F,Serge Baguet,BEL,BE
 18,2001,61,Individual time trial,ITT,Lance Armstrong,USA,US
 19,2001,149.5,Plain stage,F,Erik Zabel,GER,DE
-20,2001,160.5,Plain stage,F,J·n Svorada,CZE,CZ
+20,2001,160.5,Plain stage,F,J√°n Svorada,CZE,CZ
 1,2000,16.5,Individual time trial,ITT,David Millar,GBR,GB
 2,2000,194,Plain stage,F,Tom Steels,BEL,BE
 3,2000,161.5,Plain stage,F,Tom Steels,BEL,BE
-4,2000,70,Team time trial,TTT,ONCEñDeutsche Bank,,
-5,2000,202,Plain stage,F,Marcel W¸st,GER,DE
+4,2000,70,Team time trial,TTT,ONCE‚ÄìDeutsche Bank,,
+5,2000,202,Plain stage,F,Marcel W√ºst,GER,DE
 6,2000,198.5,Plain stage,F,Leon van Bon,NED,NL
 7,2000,205.5,Plain stage,F,Christophe Agnolutto,FRA,FR
 8,2000,203.5,Plain stage,F,Erik Dekker,NED,NL
@@ -410,7 +410,7 @@ P,2001,8.2,Individual time trial,ITT,Christophe Moreau,FRA,FR
 10,2000,205,Stage with mountain(s),M,Javier Otxoa,ESP,ES
 11,2000,218.5,Hilly stage,H,Erik Dekker,NED,NL
 12,2000,149,Stage with mountain(s),M,Marco Pantani,ITA,IT
-13,2000,185.5,Plain stage,F,JosÈ Vicente Garcia,ESP,ES
+13,2000,185.5,Plain stage,F,Jos√© Vicente Garcia,ESP,ES
 14,2000,249.5,Stage with mountain(s),M,Santiago Botero,COL,CO
 15,2000,173.5,Stage with mountain(s),M,Marco Pantani,ITA,IT
 16,2000,196.5,Stage with mountain(s),M,Richard Virenque,FRA,FR
@@ -434,7 +434,7 @@ P,1999,6.8,Individual time trial,ITT,Lance Armstrong,USA,US
 12,1999,201.5,Hilly stage,H,David Etxebarria,ESP,ES
 13,1999,236.5,Hilly stage,H,Salvatore Commesso,ITA,IT
 14,1999,199,Plain stage,F,Dmitri Konychev,RUS,RU
-15,1999,173,Stage with mountain(s),M,Fernando EscartÌn,ESP,ES
+15,1999,173,Stage with mountain(s),M,Fernando Escart√≠n,ESP,ES
 16,1999,192,Stage with mountain(s),M,David Etxebarria,ESP,ES
 17,1999,200,Plain stage,F,Tom Steels,BEL,BE
 18,1999,187.5,Plain stage,F,Giampaolo Mondini,ITA,IT
@@ -442,7 +442,7 @@ P,1999,6.8,Individual time trial,ITT,Lance Armstrong,USA,US
 20,1999,143.5,Plain stage,F,Robbie McEwen,AUS,AU
 P,1998,5.6,Individual time trial,ITT,Chris Boardman,GBR,GB
 1,1998,180.5,Plain stage,F,Tom Steels,BEL,BE
-2,1998,205.5,Plain stage,F,J·n Svorada,CZE,CZ
+2,1998,205.5,Plain stage,F,J√°n Svorada,CZE,CZ
 3,1998,169,Plain stage,F,Jens Heppner,GER,DE
 4,1998,252,Plain stage,F,Jeroen Blijlevens,NED,NL
 5,1998,228.5,Plain stage,F,Mario Cipollini,ITA,IT
@@ -457,9 +457,9 @@ P,1998,5.6,Individual time trial,ITT,Chris Boardman,GBR,GB
 14,1998,186.5,Hilly stage,H,Stuart O'Grady,AUS,AU
 15,1998,189,Stage with mountain(s),M,Marco Pantani,ITA,IT
 16,1998,204,Stage with mountain(s),M,Jan Ullrich,GER,DE
-17,1998,149,Stage with mountain(s),M,ó,,
+17,1998,149,Stage with mountain(s),M,‚Äî,,
 18,1998,218.5,Hilly stage,H,Tom Steels,BEL,BE
-19,1998,242,Plain stage,F,Magnus B‰ckstedt,SWE,SE
+19,1998,242,Plain stage,F,Magnus B√§ckstedt,SWE,SE
 20,1998,52,Individual time trial,ITT,Jan Ullrich,GER,DE
 21,1998,147.5,Plain stage,F,Tom Steels,BEL,BE
 P,1997,7.3,Individual time trial,ITT,Chris Boardman,GBR,GB
@@ -467,7 +467,7 @@ P,1997,7.3,Individual time trial,ITT,Chris Boardman,GBR,GB
 2,1997,262,Flat stage,F,Mario Cipollini,ITA,IT
 3,1997,224,Flat stage,F,Erik Zabel,GER,DE
 4,1997,223,Flat stage,F,Nicola Minali,ITA,IT
-5,1997,261.5,Flat stage,F,CÈdric Vasseur,FRA,FR
+5,1997,261.5,Flat stage,F,C√©dric Vasseur,FRA,FR
 6,1997,217.5,Flat stage,F,Jeroen Blijlevens,NED,NL
 7,1997,194,Flat stage,F,Erik Zabel,GER,DE
 8,1997,161.5,Flat stage,F,Erik Zabel,GER,DE
@@ -484,8 +484,8 @@ P,1997,7.3,Individual time trial,ITT,Chris Boardman,GBR,GB
 19,1997,172,Flat stage,F,Mario Traversoni,ITA,IT
 20,1997,63,Individual time trial,ITT,Abraham Olano,ESP,ES
 21,1997,149.5,Flat stage,F,Nicola Minali,ITA,IT
-P,1996,9.4,Individual time trial,ITT,Alex Z¸lle,SUI,CH
-1,1996,209,Plain stage,F,FrÈdÈric Moncassin,FRA,FR
+P,1996,9.4,Individual time trial,ITT,Alex Z√ºlle,SUI,CH
+1,1996,209,Plain stage,F,Fr√©d√©ric Moncassin,FRA,FR
 2,1996,247.5,Plain stage,F,Mario Cipollini,ITA,IT
 3,1996,195,Plain stage,F,Erik Zabel,GER,DE
 4,1996,232,Plain stage,F,Cyril Saugrain,FRA,FR
@@ -495,27 +495,27 @@ P,1996,9.4,Individual time trial,ITT,Alex Z¸lle,SUI,CH
 8,1996,30.5,Individual time trial,ITT,Evgueni Berzin,RUS,RU
 9,1996,46,Stage with mountain(s),M,Bjarne Riis,DEN,DK
 10,1996,208.5,Hilly stage,H,Erik Zabel,GER,DE
-11,1996,202,Hilly stage,H,JosÈ Jaime Gonzalez,COL,CO
+11,1996,202,Hilly stage,H,Jos√© Jaime Gonzalez,COL,CO
 12,1996,143.5,Hilly stage,H,Pascal Richard,SUI,CH
-13,1996,177,Hilly stage,H,Rolf S¯rensen,DEN,DK
+13,1996,177,Hilly stage,H,Rolf S√∏rensen,DEN,DK
 14,1996,186.5,Hilly stage,H,Djamolidine Abduzhaparov,UZB,UZ
 15,1996,176,Plain stage,F,Massimo Podenzana,ITA,IT
 16,1996,199,Stage with mountain(s),M,Bjarne Riis,DEN,DK
 17,1996,262,Stage with mountain(s),M,Laurent Dufaux,SUI,CH
 18,1996,154.5,Hilly stage,H,Bart Voskamp,NED,NL
-19,1996,226.5,Plain stage,F,FrÈdÈric Moncassin,FRA,FR
+19,1996,226.5,Plain stage,F,Fr√©d√©ric Moncassin,FRA,FR
 20,1996,63.5,Individual time trial,ITT,Jan Ullrich,GER,DE
 21,1996,147.5,Plain stage,F,Fabio Baldato,ITA,IT
 P,1995,7.3,Individual time trial,ITT,Jacky Durand,FRA,FR
 1,1995,233.5,Plain stage,F,Fabio Baldato,ITA,IT
 2,1995,235.5,Plain stage,F,Mario Cipollini,ITA,IT
-3,1995,67,Team time trial,TTT,GewissñBallan,,
+3,1995,67,Team time trial,TTT,Gewiss‚ÄìBallan,,
 4,1995,162,Plain stage,F,Mario Cipollini,ITA,IT
 5,1995,261,Plain stage,F,Jeroen Blijlevens,NED,NL
 6,1995,202,Plain stage,F,Erik Zabel,GER,DE
 7,1995,203,Hilly stage,H,Johan Bruyneel,BEL,BE
 8,1995,54,Individual time trial,ITT,Miguel Indurain,ESP,ES
-9,1995,160,Stage with mountain(s),M,Alex Z¸lle,SUI,CH
+9,1995,160,Stage with mountain(s),M,Alex Z√ºlle,SUI,CH
 10,1995,162.5,Stage with mountain(s),M,Marco Pantani,ITA,IT
 11,1995,199,Hilly stage,H,Maximilian Sciandri,GBR,GB
 12,1995,222.5,Hilly stage,H,Laurent Jalabert,FRA,FR
@@ -530,18 +530,18 @@ P,1995,7.3,Individual time trial,ITT,Jacky Durand,FRA,FR
 P,1994,7.2,Individual time trial,ITT,Chris Boardman,GBR,GB
 1,1994,234,Plain stage,F,Djamolidine Abdoujaparov,UZB,UZ
 2,1994,203.5,Plain stage,F,Jean-Paul van Poppel,NED,NL
-3,1994,66.5,Team time trial,TTT,GBñMG Maglificio,,
+3,1994,66.5,Team time trial,TTT,GB‚ÄìMG Maglificio,,
 4,1994,204.5,Plain stage,F,Francisco Cabello,ESP,ES
 5,1994,187,Plain stage,F,Nicola Minali,ITA,IT
 6,1994,270.5,Plain stage,F,Gianluca Bortolami,ITA,IT
-7,1994,259.5,Plain stage,F,J·n Svorada,SVK,SK
+7,1994,259.5,Plain stage,F,J√°n Svorada,SVK,SK
 8,1994,218.5,Plain stage,F,Bo Hamburger,DEN,DK
 9,1994,64,Individual time trial,ITT,Miguel Indurain,ESP,ES
 10,1994,160.5,Plain stage,F,Jacky Durand,FRA,FR
 11,1994,263.5,Stage with mountain(s),M,Luc Leblanc,FRA,FR
 12,1994,204.5,Stage with mountain(s),M,Richard Virenque,FRA,FR
 13,1994,223,Plain stage,F,Bjarne Riis,DEN,DK
-14,1994,202,Plain stage,F,Rolf S¯rensen,DEN,DK
+14,1994,202,Plain stage,F,Rolf S√∏rensen,DEN,DK
 15,1994,231,Stage with mountain(s),M,Eros Poli,ITA,IT
 16,1994,224.5,Stage with mountain(s),M,Roberto Conti,ITA,IT
 17,1994,149,Stage with mountain(s),M,Nelson Rodriguez,COL,CO
@@ -553,7 +553,7 @@ P,1993,6.8,Individual time trial,ITT,Miguel Indurain,ESP,ES
 1,1993,215,Plain stage,F,Mario Cipollini,ITA,IT
 2,1993,227.5,Plain stage,F,Wilfried Nelissen,BEL,BE
 3,1993,189.5,Plain stage,F,Djamolidine Abdoujaparov,UZB,UZ
-4,1993,81,Team time trial,TTT,GBñMG Maglificio,,
+4,1993,81,Team time trial,TTT,GB‚ÄìMG Maglificio,,
 5,1993,225.5,Plain stage,F,Jesper Skibby,DEN,DK
 6,1993,158,Plain stage,F,Johan Bruyneel,BEL,BE
 7,1993,199,Plain stage,F,Bjarne Riis,DEN,DK
@@ -564,8 +564,8 @@ P,1993,6.8,Individual time trial,ITT,Miguel Indurain,ESP,ES
 12,1993,286.5,Plain stage,F,Fabio Roscioli,ITA,IT
 13,1993,181.5,Plain stage,F,Olaf Ludwig,GER,DE
 14,1993,223,Plain stage,F,Pascal Lino,FRA,FR
-15,1993,231.5,Stage with mountain(s),M,Oliverio RincÛn,COL,CO
-16,1993,230,Stage with mountain(s),M,Zenon Jasku?a,POL,PL
+15,1993,231.5,Stage with mountain(s),M,Oliverio Rinc√≥n,COL,CO
+16,1993,230,Stage with mountain(s),M,Zenon Jasku≈Ça,POL,PL
 17,1993,190,Stage with mountain(s),M,Claudio Chiappucci,ITA,IT
 18,1993,199.5,Plain stage,F,Djamolidine Abdoujaparov,UZB,UZ
 19,1993,48,Individual time trial,ITT,Toni Rominger,SUI,CH
@@ -574,7 +574,7 @@ P,1992,8,Individual time trial,ITT,Miguel Indurain,ESP,ES
 1,1992,194.5,Hilly stage,H,Dominique Arnould,FRA,FR
 2,1992,255,Hilly stage,H,Javier Murguialday,ESP,ES
 3,1992,210,Plain stage,F,Rob Harmeling,NED,NL
-4,1992,63.5,Team time trial,TTT,PanasonicñSportlife,,
+4,1992,63.5,Team time trial,TTT,Panasonic‚ÄìSportlife,,
 5,1992,196,Plain stage,F,Guido Bontempi,ITA,IT
 6,1992,167,Plain stage,F,Laurent Jalabert,FRA,FR
 7,1992,196.5,Plain stage,F,Gilles Delion,FRA,FR
@@ -582,7 +582,7 @@ P,1992,8,Individual time trial,ITT,Miguel Indurain,ESP,ES
 9,1992,65,Individual time trial,ITT,Miguel Indurain,ESP,ES
 10,1992,217,Plain stage,F,Jean-Paul van Poppel,NED,NL
 11,1992,249.5,Hilly stage,H,Laurent Fignon,FRA,FR
-12,1992,267.5,Hilly stage,H,Rolf J‰rmann,SUI,CH
+12,1992,267.5,Hilly stage,H,Rolf J√§rmann,SUI,CH
 13,1992,254.5,Stage with mountain(s),M,Claudio Chiappucci,ITA,IT
 14,1992,186.5,Stage with mountain(s),M,Andrew Hampsten,USA,US
 15,1992,198,Hilly stage,H,Franco Chioccioli,ITA,IT
@@ -617,12 +617,12 @@ P,1991,5.4,Individual time trial,ITT,Thierry Marie,FRA,FR
 22,1991,178,Plain stage,F,Dmitri Konychev,URS,UZ
 P,1990,6.3,Individual time trial,ITT,Thierry Marie,FRA,FR
 1,1990,138.5,Plain stage,F,Frans Maassen,NED,NL
-2,1990,44.5,Team time trial,TTT,PanasonicñSportlife,,
+2,1990,44.5,Team time trial,TTT,Panasonic‚ÄìSportlife,,
 3,1990,233,Plain stage,F,Moreno Argentin,ITA,IT
 4,1990,203,Plain stage,F,Johan Museeuw,BEL,BE
 5,1990,301,Plain stage,F,Gerrit Solleveld,NED,NL
 6,1990,202.5,Plain stage,F,Jelle Nijdam,NED,NL
-7,1990,61.5,Individual time trial,ITT,Ra˙l Alcal·,MEX,MX
+7,1990,61.5,Individual time trial,ITT,Ra√∫l Alcal√°,MEX,MX
 8,1990,181.5,Plain stage,F,Olaf Ludwig,GDR,DE
 9,1990,196,Hilly stage,H,Massimo Ghirotto,ITA,IT
 10,1990,118.5,Stage with mountain(s),M,Thierry Claveyrolat,FRA,FR
@@ -638,15 +638,15 @@ P,1990,6.3,Individual time trial,ITT,Thierry Marie,FRA,FR
 20,1990,45.5,Individual time trial,ITT,Erik Breukink,NED,NL
 21,1990,182.5,Plain stage,F,Johan Museeuw,BEL,BE
 P,1989,7.8,Individual time trial,ITT,Erik Breukink,NED,NL
-1,1989,135.5,Plain stage,F,Ac·cio da Silva,POR,PT
-2,1989,46,Team time trial,TTT,Super UñRaleighñFiat,,
-3,1989,241,Plain stage,F,Ra˙l Alcal·,MEX,MX
+1,1989,135.5,Plain stage,F,Ac√°cio da Silva,POR,PT
+2,1989,46,Team time trial,TTT,Super U‚ÄìRaleigh‚ÄìFiat,,
+3,1989,241,Plain stage,F,Ra√∫l Alcal√°,MEX,MX
 4,1989,255,Flat cobblestone stage,FC,Jelle Nijdam,NED,NL
 5,1989,73,Individual time trial,ITT,Greg LeMond,USA,US
-6,1989,259,Plain stage,F,JoÎl Pelier,FRA,FR
+6,1989,259,Plain stage,F,Jo√´l Pelier,FRA,FR
 7,1989,258.5,Plain stage,F,Etienne De Wilde,BEL,BE
 8,1989,157,Plain stage,F,Martin Earley,IRE,IE
-9,1989,147,Stage with mountain(s),M,Miguel Indur·in,ESP,ES
+9,1989,147,Stage with mountain(s),M,Miguel Indur√°in,ESP,ES
 10,1989,136,Stage with mountain(s),M,Robert Millar,GBR,GB
 11,1989,158.5,Plain stage,F,Mathieu Hermans,NED,NL
 12,1989,242,Plain stage,F,Valerio Tebaldi,ITA,IT
@@ -661,14 +661,14 @@ P,1989,7.8,Individual time trial,ITT,Erik Breukink,NED,NL
 21,1989,24.5,Individual time trial,ITT,Greg LeMond,USA,US
 P,1988,1,Individual time trial,ITT,Guido Bontempi,ITA,IT
 1,1988,92,Plain stage,F,Steve Bauer,CAN,CA
-2,1988,48,Team time trial,TTT,PanasonicñIsostarñColnagoñAgu,,
+2,1988,48,Team time trial,TTT,Panasonic‚ÄìIsostar‚ÄìColnago‚ÄìAgu,,
 3,1988,213,Plain stage,F,Jean-Paul van Poppel,NED,NL
-4,1988,158,Plain stage,F,Ac·cio da Silva,POR,PT
+4,1988,158,Plain stage,F,Ac√°cio da Silva,POR,PT
 5,1988,148,Plain stage,F,Jelle Nijdam,NED,NL
 6,1988,52,Individual time trial,ITT,Sean Yates,GBR,GB
 7,1988,225,Plain stage,F,Valerio Tebaldi,ITA,IT
-8,1988,219,Plain stage,F,Rolf Gˆlz,GER,DE
-9,1988,161,Hilly stage,H,JÈrÙme Simon,FRA,FR
+8,1988,219,Plain stage,F,Rolf G√∂lz,GER,DE
+9,1988,161,Hilly stage,H,J√©r√¥me Simon,FRA,FR
 10,1988,149,Hilly stage,H,Jean-Paul van Poppel,NED,NL
 11,1988,232,Stage with mountain(s),M,Fabio Parra,COL,CO
 12,1988,227,Stage with mountain(s),M,Steven Rooks,NED,NL
@@ -680,16 +680,16 @@ P,1988,1,Individual time trial,ITT,Guido Bontempi,ITA,IT
 18,1988,94,Plain stage,F,Gianni Bugno,ITA,IT
 19,1988,188,Hilly stage,H,Johnny Weltz,DEN,DK
 20,1988,223,Plain stage,F,Thierry Marie,FRA,FR
-21,1988,46,Individual time trial,ITT,Juan MartinÈz,ESP,ES
+21,1988,46,Individual time trial,ITT,Juan Martin√©z,ESP,ES
 22,1988,173,Plain stage,F,Jean-Paul van Poppel,NED,NL
 P,1987,6,Individual time trial,ITT,Jelle Nijdam,NED,NL
 1,1987,105,Plain stage,F,Nico Verhoeven,NED,NL
-2,1987,41,Team time trial,TTT,Carrera JeansñVagabond,,
-3,1987,219,Plain stage,F,Ac·cio da Silva,POR,PT
+2,1987,41,Team time trial,TTT,Carrera Jeans‚ÄìVagabond,,
+3,1987,219,Plain stage,F,Ac√°cio da Silva,POR,PT
 4,1987,79,Plain stage,F,Herman Frison,BEL,BE
 5,1987,112,Plain stage,F,Marc Sergeant,BEL,BE
 6,1987,169,Plain stage,F,Christophe Lavainne,FRA,FR
-7,1987,211,Plain stage,F,Manuel Jorge DomÌnguez,ESP,ES
+7,1987,211,Plain stage,F,Manuel Jorge Dom√≠nguez,ESP,ES
 8,1987,206,Plain stage,F,Jean-Paul van Poppel,NED,NL
 9,1987,260,Plain stage,F,Adrie van der Poel,NED,NL
 10,1987,87,Individual time trial,ITT,Stephen Roche,IRE,IE
@@ -697,20 +697,20 @@ P,1987,6,Individual time trial,ITT,Jelle Nijdam,NED,NL
 12,1987,228,Plain stage,F,Davis Phinney,USA,US
 13,1987,219,Stage with mountain(s),M,Erik Breukink,NED,NL
 14,1987,166,Stage with mountain(s),M,Dag Otto Lauritzen,NOR,NO
-15,1987,164,Plain stage,F,Rolf Gˆlz,GER,DE
-16,1987,216,Hilly stage,H,RÈgis ClËre,FRA,FR
+15,1987,164,Plain stage,F,Rolf G√∂lz,GER,DE
+16,1987,216,Hilly stage,H,R√©gis Cl√®re,FRA,FR
 17,1987,239,Hilly stage,H,Jean-Paul van Poppel,NED,NL
-18,1987,37,Mountain time trial,MTT,Jean-FranÁois Bernard,FRA,FR
+18,1987,37,Mountain time trial,MTT,Jean-Fran√ßois Bernard,FRA,FR
 19,1987,185,Stage with mountain(s),M,Pedro Delgado,ESP,ES
 20,1987,201,Stage with mountain(s),M,Federico Echave,ESP,ES
 21,1987,185,Stage with mountain(s),M,Laurent Fignon,FRA,FR
 22,1987,186,Stage with mountain(s),M,Eduardo Chozas,ESP,ES
-23,1987,225,Plain stage,F,RÈgis ClËre,FRA,FR
-24,1987,38,Individual time trial,ITT,Jean-FranÁois Bernard,FRA,FR
+23,1987,225,Plain stage,F,R√©gis Cl√®re,FRA,FR
+24,1987,38,Individual time trial,ITT,Jean-Fran√ßois Bernard,FRA,FR
 25,1987,192,Plain stage,F,Jeff Pierce,USA,US
 P,1986,4.6,Individual time trial,ITT,Thierry Marie,FRA,FR
 1,1986,85,Plain stage,F,Pol Verschuere,BEL,BE
-2,1986,56,Team time trial,TTT,SystËme U,,
+2,1986,56,Team time trial,TTT,Syst√®me U,,
 3,1986,214,Plain stage,F,Davis Phinney,USA,US
 4,1986,243,Plain stage,F,Pello Ruiz Cabestany,ESP,ES
 5,1986,124.5,Plain stage,F,Johan van der Velde,NED,NL
@@ -722,14 +722,14 @@ P,1986,4.6,Individual time trial,ITT,Thierry Marie,FRA,FR
 11,1986,258.3,Plain stage,F,Rudy Dhaenens,BEL,BE
 12,1986,217.5,Stage with mountain(s),M,Pedro Delgado,ESP,ES
 13,1986,186,Stage with mountain(s),M,Greg LeMond,USA,US
-14,1986,154,Plain stage,F,Niki R¸ttimann,SUI,CH
+14,1986,154,Plain stage,F,Niki R√ºttimann,SUI,CH
 15,1986,225.5,Plain stage,F,Frank Hoste,BEL,BE
-16,1986,246.5,Plain stage,F,Jean-FranÁois Bernard,FRA,FR
+16,1986,246.5,Plain stage,F,Jean-Fran√ßois Bernard,FRA,FR
 17,1986,190,Stage with mountain(s),M,Eduardo Chozas,ESP,ES
 18,1986,162.5,Stage with mountain(s),M,Bernard Hinault,FRA,FR
-19,1986,179.5,Plain stage,F,Juli·n Gorospe,ESP,ES
+19,1986,179.5,Plain stage,F,Juli√°n Gorospe,ESP,ES
 20,1986,58,Individual time trial,ITT,Bernard Hinault,FRA,FR
-21,1986,190,Plain stage,F,Erich M‰chler,SUI,CH
+21,1986,190,Plain stage,F,Erich M√§chler,SUI,CH
 22,1986,194,Plain stage,F,Guido Bontempi,ITA,IT
 23,1986,255,Plain stage,F,Guido Bontempi,ITA,IT
 P,1985,6,Individual time trial,ITT,Bernard Hinault,FRA,FR
@@ -742,16 +742,16 @@ P,1985,6,Individual time trial,ITT,Bernard Hinault,FRA,FR
 7,1985,217,Plain stage,F,Ludwig Wijnants,BEL,BE
 8,1985,75,Individual time trial,ITT,Bernard Hinault,FRA,FR
 9,1985,174,Hilly stage,H,Maarten Ducrot,NED,NL
-10,1985,204,Hilly stage,H,J¯rgen V. Pedersen,DEN,DK
+10,1985,204,Hilly stage,H,J√∏rgen V. Pedersen,DEN,DK
 11,1985,195,Stage with mountain(s),M,Luis Herrera,COL,CO
 12,1985,269,Stage with mountain(s),M,Fabio Parra,COL,CO
 13,1985,32,Individual time trial,ITT,Eric Vanderaerden,BEL,BE
 14,1985,179,Hilly stage,H,Luis Herrera,COL,CO
 15,1985,238,Plain stage,F,Eduardo Chozas,ESP,ES
-16,1985,247,Plain stage,F,FrÈdÈric Vichot,FRA,FR
+16,1985,247,Plain stage,F,Fr√©d√©ric Vichot,FRA,FR
 17,1985,209,Stage with mountain(s),M,Pedro Delgado,ESP,ES
 18a,1985,53,Stage with mountain(s),M,Stephen Roche,IRE,IE
-18b,1985,83,Stage with mountain(s),M,RÈgis Simon,FRA,FR
+18b,1985,83,Stage with mountain(s),M,R√©gis Simon,FRA,FR
 19,1985,203,Plain stage,F,Eric Vanderaerden,BEL,BE
 20,1985,225,Plain stage,F,Johan Lammerts,NED,NL
 21,1985,46,Individual time trial,ITT,Greg LeMond,USA,US
@@ -759,7 +759,7 @@ P,1985,6,Individual time trial,ITT,Bernard Hinault,FRA,FR
 P,1984,5,Individual time trial,ITT,Bernard Hinault,FRA,FR
 1,1984,149,Plain stage,F,Frank Hoste,BEL,BE
 2,1984,249,Plain stage,F,Marc Madiot,FRA,FR
-3,1984,51,Team time trial,TTT,RenaultñElf,,
+3,1984,51,Team time trial,TTT,Renault‚ÄìElf,,
 4,1984,83,Plain stage,F,Ferdi Van Den Haute,BEL,BE
 5,1984,207,Plain stage,F,Paulo Ferreira,POR,PT
 6,1984,202,Plain stage,F,Frank Hoste,BEL,BE
@@ -769,20 +769,20 @@ P,1984,5,Individual time trial,ITT,Bernard Hinault,FRA,FR
 10,1984,198,Plain stage,F,Eric Vanderaerden,BEL,BE
 11,1984,227,Stage with mountain(s),M,Robert Millar,GBR,GB
 12,1984,111,Plain stage,F,Pascal Poisson,FRA,FR
-13,1984,220,Plain stage,F,Pierre-Henri MenthÈour,FRA,FR
+13,1984,220,Plain stage,F,Pierre-Henri Menth√©our,FRA,FR
 14,1984,228,Hilly stage,H,Fons De Wolf,BEL,BE
-15,1984,241,Hilly stage,H,FrÈdÈric Vichot,FRA,FR
+15,1984,241,Hilly stage,H,Fr√©d√©ric Vichot,FRA,FR
 16,1984,22,Individual time trial,ITT,Laurent Fignon,FRA,FR
 17,1984,151,Stage with mountain(s),M,Luis Herrera,COL,CO
 18,1984,185,Stage with mountain(s),M,Laurent Fignon,FRA,FR
-19,1984,186,Stage with mountain(s),M,¡ngel Arroyo,ESP,ES
+19,1984,186,Stage with mountain(s),M,√Ångel Arroyo,ESP,ES
 20,1984,141,Stage with mountain(s),M,Laurent Fignon,FRA,FR
 21,1984,320,Hilly stage,H,Frank Hoste,BEL,BE
 22,1984,51,Individual time trial,ITT,Laurent Fignon,FRA,FR
 23,1984,197,Hilly stage,H,Eric Vanderaerden,BEL,BE
 P,1983,6,Individual time trial,ITT,Eric Vanderaerden,BEL,BE
 1,1983,163,Plain stage,F,Frits Pirard,NED,NL
-2,1983,100,Team time trial,TTT,COOPñMercierñMavic,,
+2,1983,100,Team time trial,TTT,COOP‚ÄìMercier‚ÄìMavic,,
 3,1983,152,Hilly stage,H,Rudy Matthijs,BEL,BE
 4,1983,300,Plain stage,F,Serge Demierre,SUI,CH
 5,1983,257,Plain stage,F,Dominique Gaigne,FRA,FR
@@ -791,11 +791,11 @@ P,1983,6,Individual time trial,ITT,Eric Vanderaerden,BEL,BE
 8,1983,222,Plain stage,F,Bert Oosterbosch,NED,NL
 9,1983,207,Plain stage,F,Philippe Chevallier,FRA,FR
 10,1983,201,Stage with mountain(s),M,Robert Millar,GBR,GB
-11,1983,177,Plain stage,F,RÈgis ClËre,FRA,FR
+11,1983,177,Plain stage,F,R√©gis Cl√®re,FRA,FR
 12,1983,261,Plain stage,F,Kim Andersen,DEN,DK
 13,1983,210,Hilly stage,H,Henk Lubberding,NED,NL
 14,1983,149,Hilly stage,H,Pierre Le Bigaut,FRA,FR
-15,1983,16,Individual time trial,ITT,¡ngel Arroyo,ESP,ES
+15,1983,16,Individual time trial,ITT,√Ångel Arroyo,ESP,ES
 16,1983,144,Hilly stage,H,Michel Laurent,FRA,FR
 17,1983,223,Stage with mountain(s),M,Peter Winnen,NED,NL
 18,1983,247,Stage with mountain(s),M,Jacques Michaud,FRA,FR
@@ -811,7 +811,7 @@ P,1982,7,Individual time trial,ITT,Bernard Hinault,FRA,FR
 6,1982,233,Plain stage,F,Jan Raas,NED,NL
 7,1982,235,Plain stage,F,Pol Verschuere,BEL,BE
 8,1982,201,Plain stage,F,Frank Hoste,BEL,BE
-9a,1982,69,Team time trial,TTT,RenaultñElfñGitane,,
+9a,1982,69,Team time trial,TTT,Renault‚ÄìElf‚ÄìGitane,,
 9b,1982,138,Plain stage,F,Stefan Mutter,SUI,CH
 10,1982,147,Plain stage,F,Pierre-Raymond Villemiane,FRA,FR
 11,1982,57,Individual time trial,ITT,Gerrie Knetemann,NED,NL
@@ -827,15 +827,15 @@ P,1982,7,Individual time trial,ITT,Bernard Hinault,FRA,FR
 21,1982,187,Plain stage,F,Bernard Hinault,FRA,FR
 P,1981,6,Individual time trial,ITT,Bernard Hinault,FRA,FR
 1a,1981,97,Hilly stage,H,Freddy Maertens,BEL,BE
-1b,1981,40,Team time trial,TTT,TIñRaleighñCreda,,
+1b,1981,40,Team time trial,TTT,TI‚ÄìRaleigh‚ÄìCreda,,
 2,1981,254,Plain stage,F,Johan van der Velde,NED,NL
 3,1981,232,Plain stage,F,Freddy Maertens,BEL,BE
-4,1981,77,Team time trial,TTT,TIñRaleighñCreda,,
+4,1981,77,Team time trial,TTT,TI‚ÄìRaleigh‚ÄìCreda,,
 5,1981,117,Stage with mountain(s),M,Lucien Van Impe,BEL,BE
 6,1981,27,Individual time trial,ITT,Bernard Hinault,FRA,FR
 7,1981,227,Plain stage,F,Urs Freuler,SUI,CH
 8,1981,182,Plain stage,F,Ad Wijnands,NED,NL
-9,1981,197,Plain stage,F,RenÈ Martens,BEL,BE
+9,1981,197,Plain stage,F,Ren√© Martens,BEL,BE
 10,1981,264,Plain stage,F,Ad Wijnands,NED,NL
 11,1981,246,Plain stage,F,Daniel Willems,BEL,BE
 12a,1981,107,Plain stage,F,Freddy Maertens,BEL,BE
@@ -852,13 +852,13 @@ P,1981,6,Individual time trial,ITT,Bernard Hinault,FRA,FR
 22,1981,187,Plain stage,F,Freddy Maertens,BEL,BE
 P,1980,8,Individual time trial,ITT,Bernard Hinault,FRA,FR
 1a,1980,133,Plain stage,F,Jan Raas,NED,NL
-1b,1980,46,Team time trial,TTT,TIñRaleighñCreda,,
+1b,1980,46,Team time trial,TTT,TI‚ÄìRaleigh‚ÄìCreda,,
 2,1980,276,Plain stage,F,Rudy Pevenage,BEL,BE
 3,1980,282,Plain stage,F,Henk Lubberding,NED,NL
 4,1980,35,Individual time trial,ITT,Bernard Hinault,FRA,FR
 5,1980,249,Plain stage,F,Bernard Hinault,FRA,FR
 6,1980,216,Plain stage,F,Jean-Louis Gauthier,FRA,FR
-7a,1980,65,Team time trial,TTT,TIñRaleighñCreda,,
+7a,1980,65,Team time trial,TTT,TI‚ÄìRaleigh‚ÄìCreda,,
 7b,1980,92,Plain stage,F,Jan Raas,NED,NL
 8,1980,164,Plain stage,F,Bert Oosterbosch,NED,NL
 9,1980,205,Plain stage,F,Jan Raas,NED,NL
@@ -869,21 +869,21 @@ P,1980,8,Individual time trial,ITT,Bernard Hinault,FRA,FR
 14,1980,189,Plain stage,F,Ludo Peeters,BEL,BE
 15,1980,160,Plain stage,F,Bernard Vallet,FRA,FR
 16,1980,209,Stage with mountain(s),M,Jos De Schoenmaecker,BEL,BE
-17,1980,242,Stage with mountain(s),M,Mariano MartÌnez,FRA,FR
+17,1980,242,Stage with mountain(s),M,Mariano Mart√≠nez,FRA,FR
 18,1980,199,Stage with mountain(s),M,Ludo Loos,BEL,BE
 19,1980,140,Hilly stage,H,Sean Kelly,IRE,IE
 20,1980,34,Individual time trial,ITT,Joop Zoetemelk,NED,NL
 21,1980,208,Plain stage,F,Sean Kelly,IRE,IE
 22,1980,186,Plain stage,F,Pol Verschuere,BEL,BE
 P,1979,5,Individual time trial,ITT,Gerrie Knetemann,NED,NL
-1,1979,225,Stage with mountain(s),M,RenÈ Bittinger,FRA,FR
+1,1979,225,Stage with mountain(s),M,Ren√© Bittinger,FRA,FR
 2,1979,24,Individual time trial,ITT,Bernard Hinault,FRA,FR
 3,1979,180,Stage with mountain(s),M,Bernard Hinault,FRA,FR
-4,1979,87,Team time trial,TTT,TIñRaleighñMcGregor,,
+4,1979,87,Team time trial,TTT,TI‚ÄìRaleigh‚ÄìMcGregor,,
 5,1979,145,Plain stage,F,Jan Raas,NED,NL
 6,1979,239,Plain stage,F,Jos Jacobs,BEL,BE
 7,1979,158,Plain stage,F,Leo van Vliet,NED,NL
-8,1979,90,Team time trial,TTT,TIñRaleighñMcGregor,,
+8,1979,90,Team time trial,TTT,TI‚ÄìRaleigh‚ÄìMcGregor,,
 9,1979,201,Plain stage,F,Ludo Delcroix,BEL,BE
 10,1979,124,Plain stage,F,Jo Maas,NED,NL
 11,1979,33,Individual time trial,ITT,Bernard Hinault,FRA,FR
@@ -905,14 +905,14 @@ P,1978,5,Individual time trial,ITT,Jan Raas,NED,NL
 1b,1978,100,Plain stage,F,Walter Planckaert,BEL,BE
 2,1978,199,Plain stage,F,Jacques Esclassan,FRA,FR
 3,1978,244,Plain stage,F,Klaus-Peter Thaler,GER,DE
-4,1978,153,Team time trial,TTT,TIñRaleighñMcGregor,,
+4,1978,153,Team time trial,TTT,TI‚ÄìRaleigh‚ÄìMcGregor,,
 5,1978,244,Plain stage,F,Freddy Maertens,BEL,BE
 6,1978,162,Plain stage,F,Sean Kelly,IRE,IE
 7,1978,242,Plain stage,F,Freddy Maertens,BEL,BE
 8,1978,59,Individual time trial,ITT,Bernard Hinault,FRA,FR
 9,1978,233,Plain stage,F,Miguel Maria Lasa,ESP,ES
 10,1978,192,Hilly stage,H,Henk Lubberding,NED,NL
-11,1978,161,Stage with mountain(s),M,Mariano MartÌnez,FRA,FR
+11,1978,161,Stage with mountain(s),M,Mariano Mart√≠nez,FRA,FR
 12a,1978,158,Plain stage,F,Cancelled,,
 12b,1978,96,Plain stage,F,Jacques Esclassan,FRA,FR
 13,1978,221,Hilly stage,H,Paul Wellens,BEL,BE
@@ -928,8 +928,8 @@ P,1978,5,Individual time trial,ITT,Jan Raas,NED,NL
 P,1977,5,Individual time trial,ITT,Dietrich Thurau,FRG,DE
 1,1977,237,Plain stage,F,Pierre-Raymond Villemiane,FRA,FR
 2,1977,253,Stage with mountain(s),M,Dietrich Thurau,FRG,DE
-3,1977,248,Stage with mountain(s),M,JosÈ Nazabal,ESP,ES
-4,1977,256,Stage with mountain(s),M,RÈgis DelÈpine,FRA,FR
+3,1977,248,Stage with mountain(s),M,Jos√© Nazabal,ESP,ES
+4,1977,256,Stage with mountain(s),M,R√©gis Del√©pine,FRA,FR
 5a,1977,139,Plain stage,F,Jacques Esclassan,FRA,FR
 5b,1977,30,Individual time trial,ITT,Dietrich Thurau,FRG,DE
 6,1977,225,Plain stage,F,Jan Raas,NED,NL
@@ -949,7 +949,7 @@ P,1977,5,Individual time trial,ITT,Dietrich Thurau,FRG,DE
 17,1977,185,Stage with mountain(s),M,Hennie Kuiper,NED,NL
 18,1977,199,Stage with mountain(s),M,no winner,,
 19,1977,172,Plain stage,F,Gerrie Knetemann,NED,NL
-20,1977,50,Individual time trial,ITT,Bernard ThÈvenet,FRA,FR
+20,1977,50,Individual time trial,ITT,Bernard Th√©venet,FRA,FR
 21,1977,142,Plain stage,F,Gerrie Knetemann,NED,NL
 22a,1977,6,Individual time trial,ITT,Dietrich Thurau,FRG,DE
 22b,1977,91,Plain stage,F,Alain Meslet,FRA,FR
@@ -958,14 +958,14 @@ P,1976,8,Individual time trial,ITT,Freddy Maertens,BEL,BE
 2,1976,237,Flat Stage,F,Giovanni Battaglin,ITA,IT
 3,1976,37,Individual time trial,ITT,Freddy Maertens,BEL,BE
 4,1976,258,Flat Stage,F,Hennie Kuiper,NED,NL
-5a,1976,4,Team time trial,TTT,TIñRaleighñCampagnolo,,
+5a,1976,4,Team time trial,TTT,TI‚ÄìRaleigh‚ÄìCampagnolo,,
 5b,1976,144,Half Stage,Half Stage,Miguel-Maria Lasa,ESP,ES
 6,1976,209,Flat Stage,F,Aldo Parecchini,ITA,IT
 7,1976,206,Flat Stage,F,Freddy Maertens,BEL,BE
 8,1976,220,Flat Stage,F,Jacques Esclassan,FRA,FR
 9,1976,258,Mountain Stage,M,Joop Zoetemelk,NED,NL
 10,1976,166,Mountain Stage,M,Joop Zoetemelk,NED,NL
-11,1976,224,Mountain Stage,M,JosÈ-Luis Viejo,ESP,ES
+11,1976,224,Mountain Stage,M,Jos√©-Luis Viejo,ESP,ES
 12,1976,205,Mountain Stage,M,Raymond Delisle,FRA,FR
 13,1976,188,Mountain Stage,M,Willy Teirlinck,BEL,BE
 14,1976,139,Mountain Stage,M,Lucien Van Impe,BEL,BE
@@ -997,8 +997,8 @@ P,1975,6,Individual time trial,ITT,Francesco Moser,ITA,IT
 12,1975,242,Plain stage,F,Gerrie Knetemann,NED,NL
 13,1975,260,Stage with mountain(s),M,Michel Pollentier,BEL,BE
 14,1975,174,Stage with mountain(s),M,Lucien Van Impe,BEL,BE
-15,1975,217,Stage with mountain(s),M,Bernard ThÈvenet,FRA,FR
-16,1975,107,Stage with mountain(s),M,Bernard ThÈvenet,FRA,FR
+15,1975,217,Stage with mountain(s),M,Bernard Th√©venet,FRA,FR
+16,1975,107,Stage with mountain(s),M,Bernard Th√©venet,FRA,FR
 17,1975,225,Stage with mountain(s),M,Vicente Lopez-Carril,ESP,ES
 18,1975,40,Individual time trial,ITT,Lucien Van Impe,BEL,BE
 19,1975,229,Stage with mountain(s),M,Rik Van Linden,BEL,BE
@@ -1034,31 +1034,31 @@ P,1974,7,Individual time trial,ITT,Eddy Merckx,BEL,BE
 22,1974,146,Plain stage,F,Eddy Merckx,BEL,BE
 P,1973,7.1,Individual time trial,ITT,Joop Zoetemelk,NED,NL
 1a,1973,84,Plain stage,F,Willy Teirlinck,BEL,BE
-1b,1973,137.5,Plain stage,F,JosÈ Catieau,FRA,FR
-2a,1973,12.4,Team time trial,TTT,WatneyñMaes Pils,,
+1b,1973,137.5,Plain stage,F,Jos√© Catieau,FRA,FR
+2a,1973,12.4,Team time trial,TTT,Watney‚ÄìMaes Pils,,
 2b,1973,138,Plain stage,F,Eddy Verstraeten,BEL,BE
 3,1973,226,Plain stage,F,Cyrille Guimard,FRA,FR
 4,1973,214,Plain stage,F,Joop Zoetemelk,NED,NL
 5,1973,188,Stage with mountain(s),M,Walter Godefroot,BEL,BE
 6,1973,244.5,Stage with mountain(s),M,Jean-Pierre Danguillaume,FRA,FR
-7a,1973,86.5,Stage with mountain(s),M,Luis OcaÒa,ESP,ES
-7b,1973,150.5,Stage with mountain(s),M,Bernard ThÈvenet,FRA,FR
-8,1973,237.5,Stage with mountain(s),M,Luis OcaÒa,ESP,ES
-9,1973,234.5,Stage with mountain(s),M,Vicente LÛpez Carril,ESP,ES
+7a,1973,86.5,Stage with mountain(s),M,Luis Oca√±a,ESP,ES
+7b,1973,150.5,Stage with mountain(s),M,Bernard Th√©venet,FRA,FR
+8,1973,237.5,Stage with mountain(s),M,Luis Oca√±a,ESP,ES
+9,1973,234.5,Stage with mountain(s),M,Vicente L√≥pez Carril,ESP,ES
 10,1973,222.5,Stage with mountain(s),M,Michael Wright,GBR,GB
 11,1973,238,Plain stage,F,Barry Hoban,GBR,GB
-12a,1973,28.3,Individual time trial,ITT,Luis OcaÒa,ESP,ES
+12a,1973,28.3,Individual time trial,ITT,Luis Oca√±a,ESP,ES
 12b,1973,76,Stage with mountain(s),M,Lucien Van Impe,BEL,BE
-13,1973,235,Stage with mountain(s),M,Luis OcaÒa,ESP,ES
+13,1973,235,Stage with mountain(s),M,Luis Oca√±a,ESP,ES
 14,1973,227.5,Stage with mountain(s),M,Pedro Torres,ESP,ES
 15,1973,137,Plain stage,F,Wilfried David,BEL,BE
 16a,1973,210,Plain stage,F,Walter Godefroot,BEL,BE
 16b,1973,12.4,Individual time trial,ITT,Joaquim Agostinho,POR,PT
 17,1973,248,Plain stage,F,Claude Tollet,FRA,FR
-18,1973,216.5,Stage with mountain(s),M,Luis OcaÒa,ESP,ES
+18,1973,216.5,Stage with mountain(s),M,Luis Oca√±a,ESP,ES
 19,1973,233.5,Plain stage,F,Barry Hoban,GBR,GB
-20a,1973,16,Individual time trial,ITT,Luis OcaÒa,ESP,ES
-20b,1973,89,Plain stage,F,Bernard ThÈvenet,FRA,FR
+20a,1973,16,Individual time trial,ITT,Luis Oca√±a,ESP,ES
+20b,1973,89,Plain stage,F,Bernard Th√©venet,FRA,FR
 P,1972,7.2,Individual time trial,ITT,Eddy Merckx,BEL,BE
 1,1972,235.5,Plain stage,F,Cyrille Guimard,FRA,FR
 2,1972,206.5,Plain stage,F,Rik Van Linden,BEL,BE
@@ -1068,20 +1068,20 @@ P,1972,7.2,Individual time trial,ITT,Eddy Merckx,BEL,BE
 5a,1972,133.5,Plain stage,F,Walter Godefroot,BEL,BE
 5b,1972,12.7,Individual time trial,ITT,Eddy Merckx,BEL,BE
 6,1972,205,Plain stage,F,Leo Duyndam,NED,NL
-7,1972,220.5,Stage with mountain(s),M,Yves HÈzard,FRA,FR
+7,1972,220.5,Stage with mountain(s),M,Yves H√©zard,FRA,FR
 8,1972,163.5,Stage with mountain(s),M,Eddy Merckx,BEL,BE
 9,1972,179,Hilly stage,H,Jos Huysmans,BEL,BE
 10,1972,210,Plain stage,F,Willy Teirlinck,BEL,BE
-11,1972,207,Stage with mountain(s),M,Bernard ThÈvenet,FRA,FR
+11,1972,207,Stage with mountain(s),M,Bernard Th√©venet,FRA,FR
 12,1972,192,Stage with mountain(s),M,Lucien Van Impe,BEL,BE
 13,1972,201,Stage with mountain(s),M,Eddy Merckx,BEL,BE
 14a,1972,51,Stage with mountain(s),M,Eddy Merckx,BEL,BE
 14b,1972,151,Stage with mountain(s),M,Cyrille Guimard,FRA,FR
 15,1972,28,Stage with mountain(s),M,Cyrille Guimard,FRA,FR
 16,1972,198.5,Hilly stage,H,Willy Teirlinck,BEL,BE
-17,1972,213,Hilly stage,H,Bernard ThÈvenet,FRA,FR
+17,1972,213,Hilly stage,H,Bernard Th√©venet,FRA,FR
 18,1972,257.5,Plain stage,F,Marinus Wagtmans,NED,NL
-19,1972,230,Plain stage,F,Joseph BruyËre,BEL,BE
+19,1972,230,Plain stage,F,Joseph Bruy√®re,BEL,BE
 20a,1972,42,Individual time trial,ITT,Eddy Merckx,BEL,BE
 20b,1972,89,Plain stage,F,Willy Teirlinck,BEL,BE
 P,1971,11,Team time trial,TTT,Molteni,,
@@ -1095,14 +1095,14 @@ P,1971,11,Team time trial,TTT,Molteni,,
 6a,1971,127.5,Plain stage,F,Eric Leman,BEL,BE
 6b,1971,133.5,Plain stage,F,Mauro Simonetti,ITA,IT
 7,1971,257.5,Plain stage,F,Eric Leman,BEL,BE
-8,1971,221,Stage with mountain(s),M,Luis OcaÒa,ESP,ES
+8,1971,221,Stage with mountain(s),M,Luis Oca√±a,ESP,ES
 9,1971,153,Stage with mountain(s),M,Walter Godefroot,BEL,BE
-10,1971,188.5,Stage with mountain(s),M,Bernard ThÈvenet,FRA,FR
-11,1971,134,Stage with mountain(s),M,Luis OcaÒa,ESP,ES
+10,1971,188.5,Stage with mountain(s),M,Bernard Th√©venet,FRA,FR
+11,1971,134,Stage with mountain(s),M,Luis Oca√±a,ESP,ES
 12,1971,251,Plain stage,F,Luciano Armani,ITA,IT
 13,1971,16.3,Individual time trial,ITT,Eddy Merckx,BEL,BE
-14,1971,214.5,Stage with mountain(s),M,JosÈ Manuel Fuente,ESP,ES
-15,1971,19.6,Stage with mountain(s),M,JosÈ Manuel Fuente,ESP,ES
+14,1971,214.5,Stage with mountain(s),M,Jos√© Manuel Fuente,ESP,ES
+15,1971,19.6,Stage with mountain(s),M,Jos√© Manuel Fuente,ESP,ES
 16a,1971,145,Stage with mountain(s),M,Bernard Labourdette,FRA,FR
 16b,1971,57.5,Plain stage,F,Herman Van Springel,BEL,BE
 17,1971,188,Plain stage,F,Eddy Merckx,BEL,BE
@@ -1112,14 +1112,14 @@ P,1971,11,Team time trial,TTT,Molteni,,
 P,1970,7.4,Individual time trial,ITT,Eddy Merckx,BEL,BE
 1,1970,224.5,Plain stage,F,Cyrille Guimard,FRA,FR
 2,1970,200,Plain stage,F,Italo Zilioli,ITA,IT
-3a,1970,10.7,Team time trial,TTT,FaeminoñFaema,,
+3a,1970,10.7,Team time trial,TTT,Faemino‚ÄìFaema,,
 3b,1970,140,Plain stage,F,Marino Basso,ITA,IT
 4,1970,229,Plain stage,F,Walter Godefroot,BEL,BE
 5a,1970,94.5,Plain stage,F,Walter Godefroot,BEL,BE
 5b,1970,223,Plain stage,F,Jozef Spruyt,BEL,BE
 6,1970,135.5,Plain stage,F,Roger De Vlaeminck,BEL,BE
 7a,1970,120,Plain stage,F,Eddy Merckx,BEL,BE
-7b,1970,7.2,Individual time trial,ITT,JosÈ Antonio Gonzalez Linares,ESP,ES
+7b,1970,7.2,Individual time trial,ITT,Jos√© Antonio Gonzalez Linares,ESP,ES
 8,1970,232.5,Plain stage,F,Alain Vasseur,FRA,FR
 9,1970,269.5,Stage with mountain(s),M,Mogens Frey,DEN,DK
 10,1970,241,Stage with mountain(s),M,Eddy Merckx,BEL,BE
@@ -1130,8 +1130,8 @@ P,1970,7.4,Individual time trial,ITT,Eddy Merckx,BEL,BE
 14,1970,170,Stage with mountain(s),M,Eddy Merckx,BEL,BE
 15,1970,140.5,Plain stage,F,Marinus Wagtmans,NED,NL
 16,1970,160,Plain stage,F,Albert Van Vlierberghe,BEL,BE
-17,1970,190,Plain stage,F,Luis OcaÒa,ESP,ES
-18,1970,135.5,Stage with mountain(s),M,Bernard ThÈvenet,FRA,FR
+17,1970,190,Plain stage,F,Luis Oca√±a,ESP,ES
+18,1970,135.5,Stage with mountain(s),M,Bernard Th√©venet,FRA,FR
 19,1970,185.5,Stage with mountain(s),M,Christian Raymond,FRA,FR
 20a,1970,223.5,Plain stage,F,Rolf Wolfshohl,FRG,DE
 20b,1970,8.2,Individual time trial,ITT,Eddy Merckx,BEL,BE
@@ -1170,9 +1170,9 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 3a,1968,22,Team time trial,TTT,Belgium A,,
 3b,1968,112,Plain stage,F,Walter Godefroot,BEL,BE
 4,1968,238,Plain stage,F,Georges Chappe,FRA,FR
-5a,1968,165,Plain stage,F,AndrÈ Desvages,FRA,FR
+5a,1968,165,Plain stage,F,Andr√© Desvages,FRA,FR
 5b,1968,154.5,Plain stage,F,Jean Dumont,FRA,FR
-6,1968,188,Plain stage,F,Aurelio Gonz·lez Puente,ESP,ES
+6,1968,188,Plain stage,F,Aurelio Gonz√°lez Puente,ESP,ES
 7,1968,190,Plain stage,F,Franco Bitossi,ITA,IT
 8,1968,223,Plain stage,F,Daniel van Ryckeghem,BEL,BE
 9,1968,137.5,Plain stage,F,Walter Godefroot,BEL,BE
@@ -1190,7 +1190,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 21,1968,242,Plain stage,F,Eric Leman,BEL,BE
 22a,1968,136,Plain stage,F,Maurice Izier,FRA,FR
 22b,1968,55.2,Individual time trial,ITT,Jan Janssen,NED,NL
-1a,1967,5.775,Individual time trial,ITT,JosÈ-Maria Errandonea,ESP,ES
+1a,1967,5.775,Individual time trial,ITT,Jos√©-Maria Errandonea,ESP,ES
 1b,1967,185.5,Plain stage,F,Walter Godefroot,BEL,BE
 2,1967,180,Plain stage,F,Willy Van Neste,BEL,BE
 3,1967,248,Plain stage,F,Marino Basso,ITA,IT
@@ -1202,7 +1202,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 8,1967,215,Stage with mountain(s),M,Lucien Aimar,FRA,FR
 9,1967,238.5,Stage with mountain(s),M,Guido Reybrouck,BEL,BE
 10,1967,243,Stage with mountain(s),M,Felice Gimondi,ITA,IT
-11,1967,197,Stage with mountain(s),M,JosÈ Samyn,FRA,FR
+11,1967,197,Stage with mountain(s),M,Jos√© Samyn,FRA,FR
 12,1967,207.5,Plain stage,F,Raymond Riotte,FRA,FR
 13,1967,211.5,Stage with mountain(s),M,Jan Janssen,NED,NL
 14,1967,201.5,Plain stage,F,Barry Hoban,GBR,GB
@@ -1213,11 +1213,11 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 19,1967,217,Plain stage,F,Jean Stablinski,FRA,FR
 20,1967,222,Stage with mountain(s),M,Felice Gimondi,ITA,IT
 21,1967,359,Plain stage,F,Paul Lemeteyer,FRA,FR
-22a,1967,104,Plain stage,F,RenÈ Binggeli,SUI,CH
+22a,1967,104,Plain stage,F,Ren√© Binggeli,SUI,CH
 22b,1967,46.6,Individual time trial,ITT,Raymond Poulidor,FRA,FR
 1,1966,209,Plain stage,F,Rudi Altig,FRG,DE
 2,1966,198,Plain stage,F,Guido Reybrouck,BEL,BE
-3a,1966,21,Team time trial,TTT,TelevizierñBatavus,,
+3a,1966,21,Team time trial,TTT,Televizier‚ÄìBatavus,,
 3b,1966,131,Plain stage,F,Gerben Karstens,NED,NL
 4,1966,205,Plain stage,F,Willy Planckaert,BEL,BE
 5,1966,178,Plain stage,F,Franco Bitossi,ITA,IT
@@ -1231,8 +1231,8 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 13,1966,191,Plain stage,F,Georges Vandenberghe,BEL,BE
 14a,1966,144,Plain stage,F,Jo de Roo,NED,NL
 14b,1966,20,Individual time trial,ITT,Raymond Poulidor,FRA,FR
-15,1966,203,Stage with mountain(s),M,LuÌs Otano,ESP,ES
-16,1966,148,Stage with mountain(s),M,Julio JimÈnez,ESP,ES
+15,1966,203,Stage with mountain(s),M,Lu√≠s Otano,ESP,ES
+16,1966,148,Stage with mountain(s),M,Julio Jim√©nez,ESP,ES
 17,1966,160,Stage with mountain(s),M,Franco Bitossi,ITA,IT
 18,1966,188,Stage with mountain(s),M,Edy Schutz,LUX,LU
 19,1966,265,Stage with mountain(s),M,Ferdinand Bracke,BEL,BE
@@ -1241,7 +1241,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 22a,1966,111,Plain stage,F,Edward Sels,BEL,BE
 22b,1966,51,Individual time trial,ITT,Rudi Altig,FRG,DE
 1a,1965,149,Plain stage,F,Rik Van Looy,BEL,BE
-1b,1965,22.5,Team time trial,TTT,Ford FranceñGitane,,
+1b,1965,22.5,Team time trial,TTT,Ford France‚ÄìGitane,,
 2,1965,200.5,Plain stage,F,Bernard Van De Kerkhove,BEL,BE
 3,1965,240,Plain stage,F,Felice Gimondi,ITA,IT
 4,1965,227,Plain stage,F,Edgard Sorgeloos,BEL,BE
@@ -1250,24 +1250,24 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 6,1965,210.5,Plain stage,F,Guido Reybroeck,BEL,BE
 7,1965,219,Plain stage,F,Edward Sels,BEL,BE
 8,1965,197.5,Plain stage,F,Johan de Roo,NED,NL
-9,1965,226.5,Stage with mountain(s),M,Julio JimÈnez,ESP,ES
+9,1965,226.5,Stage with mountain(s),M,Julio Jim√©nez,ESP,ES
 10,1965,222.5,Stage with mountain(s),M,Guido Reybroeck,BEL,BE
-11,1965,240.5,Stage with mountain(s),M,JosÈ Perez-Frances,ESP,ES
+11,1965,240.5,Stage with mountain(s),M,Jos√© Perez-Frances,ESP,ES
 12,1965,219,Plain stage,F,Jan Janssen,NED,NL
 13,1965,164,Plain stage,F,Adriano Durante,ITA,IT
 14,1965,173,Stage with mountain(s),M,Raymond Poulidor,FRA,FR
 15,1965,167.5,Stage with mountain(s),M,Giuseppe Fezzardi,ITA,IT
 16,1965,177,Stage with mountain(s),M,Joaquim Galera,ESP,ES
-17,1965,193.5,Stage with mountain(s),M,Julio JimÈnez,ESP,ES
+17,1965,193.5,Stage with mountain(s),M,Julio Jim√©nez,ESP,ES
 18,1965,26.9,Mountain time trial,MTT,Felice Gimondi,ITA,IT
 19,1965,165,Stage with mountain(s),M,Rik Van Looy,BEL,BE
 20,1965,198.5,Plain stage,F,Michael Wright,GBR,GB
 21,1965,225.5,Plain stage,F,Gerben Karstens,NED,NL
 22,1965,37.8,Individual time trial,ITT,Felice Gimondi,ITA,IT
 1,1964,215,Plain stage,F,Edward Sels,BEL,BE
-2,1964,208,Plain stage,F,AndrÈ Darrigade,FRA,FR
+2,1964,208,Plain stage,F,Andr√© Darrigade,FRA,FR
 3a,1964,197,Plain stage,F,Bernard Vandekerkhove,BEL,BE
-3b,1964,21,Team time trial,TTT,KasñKaskol,,
+3b,1964,21,Team time trial,TTT,Kas‚ÄìKaskol,,
 4,1964,292,Plain stage,F,Rudi Altig,GER,DE
 5,1964,161,Plain stage,F,Willy Derboven,BEL,BE
 6,1964,200,Plain stage,F,Henk Nijdam,NED,NL
@@ -1278,20 +1278,20 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 10b,1964,21,Individual time trial,ITT,Jacques Anquetil,FRA,FR
 11,1964,250,Plain stage,F,Edward Sels,BEL,BE
 12,1964,174,Plain stage,F,Jo de Roo,NED,NL
-13,1964,170,Stage with mountain(s),M,Julio JimÈnez,ESP,ES
+13,1964,170,Stage with mountain(s),M,Julio Jim√©nez,ESP,ES
 14,1964,186,Stage with mountain(s),M,Edward Sels,BEL,BE
 15,1964,203,Stage with mountain(s),M,Raymond Poulidor,FRA,FR
 16,1964,197,Stage with mountain(s),M,Federico Bahamontes,ESP,ES
 17,1964,43,Individual time trial,ITT,Jacques Anquetil,FRA,FR
-18,1964,187,Plain stage,F,AndrÈ Darrigade,FRA,FR
+18,1964,187,Plain stage,F,Andr√© Darrigade,FRA,FR
 19,1964,215,Plain stage,F,Edward Sels,BEL,BE
-20,1964,217,Stage with mountain(s),M,Julio JimÈnez,ESP,ES
+20,1964,217,Stage with mountain(s),M,Julio Jim√©nez,ESP,ES
 21,1964,311,Plain stage,F,Jean Stablinski,FRA,FR
 22a,1964,119,Plain stage,F,Benoni Beheyt,BEL,BE
 22b,1964,27,Individual time trial,ITT,Jacques Anquetil,FRA,FR
 1,1963,152,Plain stage,F,Eddy Pauwels,BEL,BE
 2a,1963,186,Plain stage,F,Rik Van Looy,BEL,BE
-2b,1963,22,Team time trial,TTT,PelforthñSauvageñLejeune,,
+2b,1963,22,Team time trial,TTT,Pelforth‚ÄìSauvage‚ÄìLejeune,,
 3,1963,223,Plain stage,F,Seamus Elliott,IRL,IE
 4,1963,236,Plain stage,F,Frans Melckenbeeck,BEL,BE
 5,1963,285,Plain stage,F,Antonio Bailetti,ITA,IT
@@ -1302,7 +1302,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 9,1963,202,Plain stage,F,Pino Cerami,BEL,BE
 10,1963,148,Stage with mountain(s),M,Jacques Anquetil,FRA,FR
 11,1963,131,Stage with mountain(s),M,Guy Ignolin,FRA,FR
-12,1963,173,Stage with mountain(s),M,AndrÈ Darrigade,FRA,FR
+12,1963,173,Stage with mountain(s),M,Andr√© Darrigade,FRA,FR
 13,1963,234,Plain stage,F,Rik Van Looy,BEL,BE
 14,1963,237,Plain stage,F,Guy Ignolin,FRA,FR
 15,1963,174,Stage with mountain(s),M,Federico Bahamontes,ESP,ES
@@ -1313,8 +1313,8 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 20,1963,234,Plain stage,F,Roger de Breuker,BEL,BE
 21,1963,185,Plain stage,F,Rik Van Looy,BEL,BE
 1,1962,253,Plain stage,F,Rudi Altig,FRG,DE
-2a,1962,147,Plain stage,F,AndrÈ Darrigade,FRA,FR
-2b,1962,23,Team time trial,TTT,FaemañFlandriañClement,,
+2a,1962,147,Plain stage,F,Andr√© Darrigade,FRA,FR
+2b,1962,23,Team time trial,TTT,Faema‚ÄìFlandria‚ÄìClement,,
 3,1962,210,Plain stage,F,Rudi Altig,FRG,DE
 4,1962,196.5,Plain stage,F,Willy Vanden Berghen,BEL,BE
 5,1962,215,Plain stage,F,Emile Daems,BEL,BE
@@ -1336,9 +1336,9 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 20,1962,68,Individual time trial,ITT,Jacques Anquetil,FRA,FR
 21,1962,232,Plain stage,F,Dino Bruni,ITA,IT
 22,1962,271,Plain stage,F,Rino Benedetti,ITA,IT
-1a,1961,136.5,Plain stage,F,AndrÈ Darrigade,FRA,FR
+1a,1961,136.5,Plain stage,F,Andr√© Darrigade,FRA,FR
 1b,1961,28.5,Individual time trial,ITT,Jacques Anquetil,FRA,FR
-2,1961,230.5,Plain stage,F,AndrÈ Darrigade,FRA,FR
+2,1961,230.5,Plain stage,F,Andr√© Darrigade,FRA,FR
 3,1961,197.5,Plain stage,F,Emile Daems,BEL,BE
 4,1961,237.5,Plain stage,F,Anatole Novak,FRA,FR
 5,1961,221,Stage with mountain(s),M,Louis Bergaud,FRA,FR
@@ -1349,26 +1349,26 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 10,1961,250.5,Stage with mountain(s),M,Guy Ignolin,FRA,FR
 11,1961,225,Stage with mountain(s),M,Guido Carlesi,ITA,IT
 12,1961,199,Stage with mountain(s),M,Michel Van Aerde,BEL,BE
-13,1961,177.5,Plain stage,F,AndrÈ Darrigade,FRA,FR
+13,1961,177.5,Plain stage,F,Andr√© Darrigade,FRA,FR
 14,1961,174,Plain stage,F,Eddy Pauwels,BEL,BE
 15,1961,206,Plain stage,F,Guido Carlesi,ITA,IT
 16,1961,208,Stage with mountain(s),M,Imerio Massignan,ITA,IT
 17,1961,197,Stage with mountain(s),M,Eddy Pauwels,BEL,BE
 18,1961,207,Plain stage,F,Martin Van Geneugden,BEL,BE
 19,1961,74.5,Individual time trial,ITT,Jacques Anquetil,FRA,FR
-20,1961,309.5,Plain stage,F,AndrÈ Darrigade,FRA,FR
+20,1961,309.5,Plain stage,F,Andr√© Darrigade,FRA,FR
 21,1961,252.5,Plain stage,F,Robert Cazala,FRA,FR
 1a,1960,108,Plain stage,F,Julien Schepens,BEL,BE
-1b,1960,27.8,Individual time trial,ITT,Roger RiviËre,FRA,FR
-2,1960,206,Plain stage,F,RenÈ Privat,FRA,FR
+1b,1960,27.8,Individual time trial,ITT,Roger Rivi√®re,FRA,FR
+2,1960,206,Plain stage,F,Ren√© Privat,FRA,FR
 3,1960,209,Plain stage,F,Nino Defilippis,ITA,IT
 4,1960,211,Plain stage,F,Jean Graczyk,FRA,FR
-5,1960,189,Plain stage,F,AndrÈ Darrigade,FRA,FR
-6,1960,191,Plain stage,F,Roger RiviËre,FRA,FR
+5,1960,189,Plain stage,F,Andr√© Darrigade,FRA,FR
+6,1960,191,Plain stage,F,Roger Rivi√®re,FRA,FR
 7,1960,244,Plain stage,F,Graziano Battistini,ITA,IT
 8,1960,240,Plain stage,F,Nino Defilippis,ITA,IT
 9,1960,225,Plain stage,F,Martin van Geneugden,BEL,BE
-10,1960,228,Stage with mountain(s),M,Roger RiviËre,FRA,FR
+10,1960,228,Stage with mountain(s),M,Roger Rivi√®re,FRA,FR
 11,1960,161,Stage with mountain(s),M,Kurt Gimmi,SUI,CH
 12,1960,176,Stage with mountain(s),M,Jean Graczyk,FRA,FR
 13,1960,224,Plain stage,F,Louis Proost,FRA,FR
@@ -1380,29 +1380,29 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 19,1960,83,Individual time trial,ITT,Rolf Graf,SUI,CH
 20,1960,229,Plain stage,F,Pierre Beuffeuil,FRA,FR
 21,1960,200,Plain stage,F,Jean Graczyk,FRA,FR
-1,1959,238,Plain stage,F,AndrÈ Darrigade,FRA,FR
+1,1959,238,Plain stage,F,Andr√© Darrigade,FRA,FR
 2,1959,234,Plain stage,F,Vito Favero,ITA,IT
 3,1959,217,Plain stage,F,Robert Cazala,FRA,FR
 4,1959,230,Plain stage,F,Dino Bruni,ITA,IT
 5,1959,286,Plain stage,F,Jean Graczyk,FRA,FR
-6,1959,45,Individual time trial,ITT,Roger RiviËre,FRA,FR
+6,1959,45,Individual time trial,ITT,Roger Rivi√®re,FRA,FR
 7,1959,190,Plain stage,F,Roger Hassenforder,FRA,FR
 8,1959,201,Plain stage,F,Michel Dejouhannet,FRA,FR
 9,1959,207,Plain stage,F,Marcel Queheille,FRA,FR
 10,1959,235,Stage with mountain(s),M,Marcel Janssens,BEL,BE
-11,1959,119,Stage with mountain(s),M,AndrÈ Darrigade,FRA,FR
+11,1959,119,Stage with mountain(s),M,Andr√© Darrigade,FRA,FR
 12,1959,184,Plain stage,F,Rolf Graf,SUI,CH
 13,1959,219,Stage with mountain(s),M,Henry Anglade,FRA,FR
-14,1959,231,Stage with mountain(s),M,AndrÈ Le Dissez,FRA,FR
+14,1959,231,Stage with mountain(s),M,Andr√© Le Dissez,FRA,FR
 15,1959,12,Mountain time trial,MTT,Federico Bahamontes,ESP,ES
 16,1959,210,Plain stage,F,Dino Bruni,ITA,IT
 17,1959,197,Stage with mountain(s),M,Charly Gaul,LUX,LU
 18,1959,243,Stage with mountain(s),M,Ercole Baldini,ITA,IT
 19,1959,251,Stage with mountain(s),M,Rolf Graf,SUI,CH
 20,1959,202,Plain stage,F,Brian Robinson,GBR,GB
-21,1959,69,Individual time trial,ITT,Roger RiviËre,FRA,FR
+21,1959,69,Individual time trial,ITT,Roger Rivi√®re,FRA,FR
 22,1959,331,Plain stage,F,Joseph Groussard,FRA,FR
-1,1958,184,Plain stage,F,AndrÈ Darrigade,FRA,FR
+1,1958,184,Plain stage,F,Andr√© Darrigade,FRA,FR
 2,1958,198,Plain stage,F,Gerrit Voorting,NED,NL
 3,1958,177,Plain stage,F,Gilbert Bauvin,FRA,FR
 4,1958,205,Plain stage,F,Jean Gainche,FRA,FR
@@ -1410,47 +1410,47 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 6,1958,223,Plain stage,F,Martin van Geneugden,BEL,BE
 7,1958,170,Plain stage,F,Brian Robinson,GBR,GB
 8,1958,46,Individual time trial,ITT,Charly Gaul,LUX,LU
-9,1958,206,Plain stage,F,AndrÈ Darrigade,FRA,FR
+9,1958,206,Plain stage,F,Andr√© Darrigade,FRA,FR
 10,1958,255,Plain stage,F,Pierino Baffi,ITA,IT
 11,1958,137,Plain stage,F,Arrigo Padovan,ITA,IT
 12,1958,161,Plain stage,F,Martin van Geneugden,BEL,BE
 13,1958,230,Stage with mountain(s),M,Louis Bergaud,FRA,FR
 14,1958,129,Stage with mountain(s),M,Federico Bahamontes,ESP,ES
-15,1958,176,Stage with mountain(s),M,AndrÈ Darrigade,FRA,FR
+15,1958,176,Stage with mountain(s),M,Andr√© Darrigade,FRA,FR
 16,1958,187,Plain stage,F,Pierino Baffi,ITA,IT
-17,1958,189,Plain stage,F,AndrÈ Darrigade,FRA,FR
+17,1958,189,Plain stage,F,Andr√© Darrigade,FRA,FR
 18,1958,21,Mountain time trial,MTT,Charly Gaul,LUX,LU
 19,1958,178,Stage with mountain(s),M,Gastone Nencini,ITA,IT
 20,1958,165,Stage with mountain(s),M,Federico Bahamontes,ESP,ES
 21,1958,219,Stage with mountain(s),M,Charly Gaul,LUX,LU
-22,1958,237,Stage with mountain(s),M,AndrÈ Darrigade,FRA,FR
+22,1958,237,Stage with mountain(s),M,Andr√© Darrigade,FRA,FR
 23,1958,74,Individual time trial,ITT,Charly Gaul,LUX,LU
 24,1958,320,Plain stage,F,Pierino Baffi,ITA,IT
-1,1957,204,Plain stage,F,AndrÈ Darrigade,FRA,FR
-2,1957,226,Plain stage,F,RenÈ Privat,FRA,FR
+1,1957,204,Plain stage,F,Andr√© Darrigade,FRA,FR
+2,1957,226,Plain stage,F,Ren√© Privat,FRA,FR
 3a,1957,15,Team time trial,TTT,France,FRA,FR
 3b,1957,134,Plain stage,F,Jacques Anquetil,FRA,FR
 4,1957,232,Plain stage,F,Marcel Janssens,BEL,BE
 5,1957,170,Plain stage,F,Gilbert Bauvin,FRA,FR
-6,1957,248,Plain stage,F,AndrÈ Trochut,FRA,FR
+6,1957,248,Plain stage,F,Andr√© Trochut,FRA,FR
 7,1957,223,Stage with mountain(s),M,Roger Hassenforder,FRA,FR
 8,1957,192,Plain stage,F,Pierino Baffi,ITA,IT
 9,1957,188,Plain stage,F,Jacques Anquetil,FRA,FR
 10,1957,247,Stage with mountain(s),M,Gastone Nencini,ITA,IT
-11,1957,286,Stage with mountain(s),M,RenÈ Privat,FRA,FR
+11,1957,286,Stage with mountain(s),M,Ren√© Privat,FRA,FR
 12,1957,239,Stage with mountain(s),M,Jean Stablinski,FRA,FR
 13,1957,160,Plain stage,F,Nino Defilippis,ITA,IT
 14,1957,246,Plain stage,F,Roger Hassenforder,FRA,FR
-15a,1957,197,Plain stage,F,RenÈ Privat,FRA,FR
+15a,1957,197,Plain stage,F,Ren√© Privat,FRA,FR
 15b,1957,9.8,Individual time trial,ITT,Jacques Anquetil,FRA,FR
-16,1957,220,Stage with mountain(s),M,Jean BourlËs,FRA,FR
+16,1957,220,Stage with mountain(s),M,Jean Bourl√®s,FRA,FR
 17,1957,236,Stage with mountain(s),M,Nino Defilippis,ITA,IT
 18,1957,207,Stage with mountain(s),M,Gastone Nencini,ITA,IT
 19,1957,194,Plain stage,F,Pierino Baffi,ITA,IT
 20,1957,66,Individual time trial,ITT,Jacques Anquetil,FRA,FR
-21,1957,317,Plain stage,F,AndrÈ Darrigade,FRA,FR
-22,1957,227,Plain stage,F,AndrÈ Darrigade,FRA,FR
-1,1956,223,Plain stage,F,AndrÈ Darrigade,FRA,FR
+21,1957,317,Plain stage,F,Andr√© Darrigade,FRA,FR
+22,1957,227,Plain stage,F,Andr√© Darrigade,FRA,FR
+1,1956,223,Plain stage,F,Andr√© Darrigade,FRA,FR
 2,1956,217,Plain stage,F,Fred De Bruyne,BEL,BE
 3,1956,225,Plain stage,F,Arigo Padovan,ITA,IT
 4a,1956,15.1,Individual time trial,ITT,Charly Gaul,LUX,LU
@@ -1479,11 +1479,11 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 3,1955,210,Plain stage,F,Louison Bobet,FRA,FR
 4,1955,225,Plain stage,F,Willy Kemp,LUX,LU
 5,1955,229,Plain stage,F,Roger Hassenforder,FRA,FR
-6,1955,195,Plain stage,F,AndrÈ Darrigade,FRA,FR
+6,1955,195,Plain stage,F,Andr√© Darrigade,FRA,FR
 7,1955,267,Plain stage,F,Jos Hinsen,NED,NL
 8,1955,253,Stage with mountain(s),M,Charly Gaul,LUX,LU
-9,1955,275,Stage with mountain(s),M,RaphaÎl GÈminiani,FRA,FR
-10,1955,240,Plain stage,F,Lucien LazaridËs,FRA,FR
+9,1955,275,Stage with mountain(s),M,Rapha√´l G√©miniani,FRA,FR
+10,1955,240,Plain stage,F,Lucien Lazarid√®s,FRA,FR
 11,1955,198,Stage with mountain(s),M,Louison Bobet,FRA,FR
 12,1955,240,Stage with mountain(s),M,Alessandro Fantini,ITA,IT
 13,1955,205,Plain stage,F,Daan de Groot,NED,NL
@@ -1501,7 +1501,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 3,1954,219,Plain stage,F,Marcel Dussault,FRA,FR
 4a,1954,10.4,Team time trial,TTT,Switzerland,,
 4b,1954,131,Plain stage,F,Wim van Est,NED,NL
-5,1954,224,Plain stage,F,Ferdinand K¸bler,SUI,CH
+5,1954,224,Plain stage,F,Ferdinand K√ºbler,SUI,CH
 6,1954,179,Plain stage,F,Dominique Forlini,FRA,FR
 7,1954,211,Plain stage,F,Jacques Vivier,FRA,FR
 8,1954,190,Plain stage,F,Fred De Bruyne,BEL,BE
@@ -1510,29 +1510,29 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 11,1954,241,Stage with mountain(s),M,Stan Ockers,BEL,BE
 12,1954,161,Stage with mountain(s),M,Gilbert Bauvin,FRA,FR
 13,1954,203,Plain stage,F,Fred De Bruyne,BEL,BE
-14,1954,225,Stage with mountain(s),M,Ferdinand K¸bler,SUI,CH
+14,1954,225,Stage with mountain(s),M,Ferdinand K√ºbler,SUI,CH
 15,1954,197,Stage with mountain(s),M,Dominique Forlini,FRA,FR
 16,1954,194,Stage with mountain(s),M,Jean Forestier,FRA,FR
-17,1954,182,Stage with mountain(s),M,Lucien LazaridËs,FRA,FR
+17,1954,182,Stage with mountain(s),M,Lucien Lazarid√®s,FRA,FR
 18,1954,216,Stage with mountain(s),M,Louison Bobet,FRA,FR
 19,1954,221,Stage with mountain(s),M,Jean Dotto,FRA,FR
 20,1954,243,Stage with mountain(s),M,Lucien Teisseire,FRA,FR
-21a,1954,134,Plain stage,F,FranÁois MahÈ,FRA,FR
+21a,1954,134,Plain stage,F,Fran√ßois Mah√©,FRA,FR
 21b,1954,72,Individual time trial,ITT,Louison Bobet,FRA,FR
 22,1954,216,Plain stage,F,Fred De Bruyne,BEL,BE
 23,1954,180,Plain stage,F,Robert Varnajo,FRA,FR
-1,1953,195,Plain stage,F,Fritz Sch‰r,SUI,CH
-2,1953,227,Plain stage,F,Fritz Sch‰r,SUI,CH
+1,1953,195,Plain stage,F,Fritz Sch√§r,SUI,CH
+2,1953,227,Plain stage,F,Fritz Sch√§r,SUI,CH
 3,1953,221,Plain stage,F,Stanislas Bober,FRA,FR
 4,1953,188,Plain stage,F,Gerrit Voorting,NED,NL
-5,1953,200,Plain stage,F,Jean MallÈjac,FRA,FR
+5,1953,200,Plain stage,F,Jean Mall√©jac,FRA,FR
 6,1953,206,Plain stage,F,Martin Van Geneugden,BEL,BE
 7,1953,181,Plain stage,F,Livio Isotti,ITA,IT
 8,1953,345,Plain stage,F,Jan Nolten,NED,NL
 9,1953,197,Plain stage,F,Fiorenzo Magni,ITA,IT
-10,1953,103,Stage with mountain(s),M,Jes˙s LoroÒo,ESP,ES
+10,1953,103,Stage with mountain(s),M,Jes√∫s Loro√±o,ESP,ES
 11,1953,115,Stage with mountain(s),M,Jean Robic,FRA,FR
-12,1953,228,Plain stage,F,AndrÈ Darrigade,FRA,FR
+12,1953,228,Plain stage,F,Andr√© Darrigade,FRA,FR
 13,1953,189,Stage with mountain(s),M,Nello Lauredi,FRA,FR
 14,1953,214,Stage with mountain(s),M,Bernard Quennehen,FRA,FR
 15,1953,173,Plain stage,F,Maurice Quentin,FRA,FR
@@ -1544,22 +1544,22 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 21,1953,210,Plain stage,F,Wout Wagtmans,NED,NL
 22,1953,328,Plain stage,F,Fiorenzo Magni,ITA,IT
 1,1952,246,Plain stage,F,Rik Van Steenbergen,BEL,BE
-2,1952,181,Plain stage,F,AndrÈ Rosseel,BEL,BE
+2,1952,181,Plain stage,F,Andr√© Rosseel,BEL,BE
 3,1952,189,Plain stage,F,Nello Lauredi,FRA,FR
-4,1952,232,Plain stage,F,Pierre MolinÈris,FRA,FR
+4,1952,232,Plain stage,F,Pierre Molin√©ris,FRA,FR
 5,1952,197,Plain stage,F,Jean Diederich,LUX,LU
 6,1952,228,Plain stage,F,Fiorenzo Magni,ITA,IT
 7,1952,60,Individual time trial,ITT,Fausto Coppi,ITA,IT
-8,1952,252,Stage with mountain(s),M,RaphaÎl GÈminiani,FRA,FR
+8,1952,252,Stage with mountain(s),M,Rapha√´l G√©miniani,FRA,FR
 9,1952,238,Stage with mountain(s),M,Walter Diggelmann,SUI,CH
 10,1952,266,Stage with mountain(s),M,Fausto Coppi,ITA,IT
 11,1952,182,Stage with mountain(s),M,Fausto Coppi,ITA,IT
 12,1952,251,Stage with mountain(s),M,Jan Nolten,NED,NL
-13,1952,214,Plain stage,F,Raoul RÈmy,FRA,FR
+13,1952,214,Plain stage,F,Raoul R√©my,FRA,FR
 14,1952,178,Stage with mountain(s),M,Jean Robic,FRA,FR
 15,1952,275,Plain stage,F,Georges Decaux,FRA,FR
-16,1952,200,Plain stage,F,AndrÈ Rosseel,BEL,BE
-17,1952,204,Stage with mountain(s),M,RaphaÎl GÈminiani,FRA,FR
+16,1952,200,Plain stage,F,Andr√© Rosseel,BEL,BE
+17,1952,204,Stage with mountain(s),M,Rapha√´l G√©miniani,FRA,FR
 18,1952,149,Stage with mountain(s),M,Fausto Coppi,ITA,IT
 19,1952,195,Plain stage,F,Hans Dekkers,NED,NL
 20,1952,228,Plain stage,F,Jacques Vivier,FRA,FR
@@ -1569,18 +1569,18 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 1,1951,185,Plain stage,F,Giovanni Rossi,SUI,CH
 2,1951,228,Plain stage,F,Jean Diederich,LUX,LU
 3,1951,219,Plain stage,F,Georges Meunier,FRA,FR
-4,1951,188,Plain stage,F,Roger LÈvÍque,FRA,FR
+4,1951,188,Plain stage,F,Roger L√©v√™que,FRA,FR
 5,1951,215,Plain stage,F,Serafino Biagioni,ITA,IT
-6,1951,182,Plain stage,F,…douard Muller,FRA,FR
+6,1951,182,Plain stage,F,√âdouard Muller,FRA,FR
 7,1951,85,Individual time trial,ITT,Hugo Koblet,SUI,CH
-8,1951,241,Plain stage,F,AndrÈ Rosseel,BEL,BE
-9,1951,236,Stage with mountain(s),M,RaphaÎl GÈminiani,FRA,FR
+8,1951,241,Plain stage,F,Andr√© Rosseel,BEL,BE
+9,1951,236,Stage with mountain(s),M,Rapha√´l G√©miniani,FRA,FR
 10,1951,216,Stage with mountain(s),M,Bernardo Ruiz,ESP,ES
 11,1951,177,Plain stage,F,Hugo Koblet,SUI,CH
 12,1951,185,Plain stage,F,Wim van Est,NED,NL
 13,1951,201,Stage with mountain(s),M,Serafino Biagioni,ITA,IT
 14,1951,142,Stage with mountain(s),M,Hugo Koblet,SUI,CH
-15,1951,213,Stage with mountain(s),M,AndrÈ Rosseel,BEL,BE
+15,1951,213,Stage with mountain(s),M,Andr√© Rosseel,BEL,BE
 16,1951,192,Plain stage,F,Hugo Koblet,SUI,CH
 17,1951,224,Stage with mountain(s),M,Louison Bobet,FRA,FR
 18,1951,173,Plain stage,F,Fiorenzo Magni,ITA,IT
@@ -1595,47 +1595,47 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 3,1950,232.5,Plain stage,F,Alfredo Pasotti,ITA,IT
 4,1950,231,Plain stage,F,Stan Ockers,BEL,BE
 5,1950,316,Plain stage,F,Giovanni Corrieri,ITA,IT
-6,1950,78,Individual time trial,ITT,Ferdinand K¸bler,SUI,CH
+6,1950,78,Individual time trial,ITT,Ferdinand K√ºbler,SUI,CH
 7,1950,248,Plain stage,F,Nello Lauredi,FRA,FR
 8,1950,181,Plain stage,F,Fiorenzo Magni,ITA,IT
 9,1950,206,Plain stage,F,Alfredo Pasotti,ITA,IT
 10,1950,202,Plain stage,F,Marcel Dussault,FRA,FR
 11,1950,230,Stage with mountain(s),M,Gino Bartali,ITA,IT
 12,1950,233,Plain stage,F,Maurice Blomme,BEL,BE
-13,1950,215,Plain stage,F,Marcel MolinËs,FRA,FR
+13,1950,215,Plain stage,F,Marcel Molin√®s,FRA,FR
 14,1950,222,Plain stage,F,Custodio Dos Reis,FRA,FR
 15,1950,205.5,Stage with mountain(s),M,Jean Diederich,LUX,LU
-16,1950,96,Stage with mountain(s),M,Ferdinand K¸bler,SUI,CH
-17,1950,229,Stage with mountain(s),M,RaphaÎl GÈminiani,FRA,FR
+16,1950,96,Stage with mountain(s),M,Ferdinand K√ºbler,SUI,CH
+17,1950,229,Stage with mountain(s),M,Rapha√´l G√©miniani,FRA,FR
 18,1950,165,Stage with mountain(s),M,Louison Bobet,FRA,FR
-19,1950,291,Stage with mountain(s),M,RaphaÎl GÈminiani,FRA,FR
-20,1950,98,Mountain time trial,MTT,Ferdinand K¸bler,SUI,CH
+19,1950,291,Stage with mountain(s),M,Rapha√´l G√©miniani,FRA,FR
+20,1950,98,Mountain time trial,MTT,Ferdinand K√ºbler,SUI,CH
 21,1950,233,Plain stage,F,Gino Sciardis,FRA,FR
-22,1950,314,Plain stage,F,…mile Baffert,FRA,FR
+22,1950,314,Plain stage,F,√âmile Baffert,FRA,FR
 1,1949,182,Plain stage,F,Marcel Dussault,FRA,FR
 2,1949,273,Plain stage,F,Roger Lambrecht,BEL,BE
 3,1949,211,Plain stage,F,Norbert Callens,BEL,BE
 4,1949,185,Plain stage,F,Lucien Teisseire,FRA,FR
-5,1949,293,Plain stage,F,Ferdinand K¸bler,SUI,CH
+5,1949,293,Plain stage,F,Ferdinand K√ºbler,SUI,CH
 6,1949,305,Plain stage,F,Adolphe Deledda,FRA,FR
 7,1949,92,Individual time trial,ITT,Fausto Coppi,ITA,IT
-8,1949,262,Plain stage,F,Guy LapÈbie,FRA,FR
+8,1949,262,Plain stage,F,Guy Lap√©bie,FRA,FR
 9,1949,228,Plain stage,F,Louis Caput,FRA,FR
 10,1949,192,Plain stage,F,Fiorenzo Magni,ITA,IT
 11,1949,193,Stage with mountain(s),M,Jean Robic,FRA,FR
 12,1949,134,Plain stage,F,Rik Van Steenbergen,BEL,BE
-13,1949,289,Plain stage,F,Emile IdÈe,FRA,FR
+13,1949,289,Plain stage,F,Emile Id√©e,FRA,FR
 14,1949,199,Plain stage,F,Jean Goldschmidt,LUX,LU
-15,1949,215,Plain stage,F,DÈsirÈ Keteleer,BEL,BE
+15,1949,215,Plain stage,F,D√©sir√© Keteleer,BEL,BE
 16,1949,275,Stage with mountain(s),M,Gino Bartali,ITA,IT
 17,1949,257,Stage with mountain(s),M,Fausto Coppi,ITA,IT
 18,1949,265,Stage with mountain(s),M,Vincenzo Rossello,ITA,IT
-19,1949,283,Stage with mountain(s),M,RaphaÎl GÈminiani,FRA,FR
+19,1949,283,Stage with mountain(s),M,Rapha√´l G√©miniani,FRA,FR
 20,1949,137,Mountain time trial,MTT,Fausto Coppi,ITA,IT
 21,1949,340,Plain stage,F,Rik Van Steenbergen,BEL,BE
 1,1948,237,Plain stage,F,Gino Bartali,ITA,IT
 2,1948,259,Plain stage,F,Vincenzo Rossello,ITA,IT
-3,1948,251,Plain stage,F,Guy LapÈbie,FRA,FR
+3,1948,251,Plain stage,F,Guy Lap√©bie,FRA,FR
 4,1948,166,Plain stage,F,Jacques Pras,FRA,FR
 5,1948,262,Plain stage,F,Raoul Remy,FRA,FR
 6,1948,244,Plain stage,F,Louison Bobet,FRA,FR
@@ -1654,35 +1654,35 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 19,1948,249,Plain stage,F,Gino Bartali,ITA,IT
 20,1948,228,Plain stage,F,Bernard Gauthier,FRA,FR
 21,1948,286,Plain stage,F,Giovanni Corrieri,ITA,IT
-1,1947,236,Plain stage,F,Ferdinand K¸bler,SUI,CH
-2,1947,182,Plain stage,F,RenÈ Vietto,FRA,FR
+1,1947,236,Plain stage,F,Ferdinand K√ºbler,SUI,CH
+2,1947,182,Plain stage,F,Ren√© Vietto,FRA,FR
 3,1947,314,Plain stage,F,Aldo Ronconi,ITA,IT
 4,1947,223,Plain stage,F,Jean Robic,FRA,FR
-5,1947,248,Plain stage,F,Ferdinand K¸bler,SUI,CH
+5,1947,248,Plain stage,F,Ferdinand K√ºbler,SUI,CH
 6,1947,249,Plain stage,F,Lucien Teisseire,FRA,FR
 7,1947,172,Stage with mountain(s),M,Jean Robic,FRA,FR
 8,1947,185,Stage with mountain(s),M,Fermo Camellini,ITA,IT
-9,1947,217,Stage with mountain(s),M,RenÈ Vietto,FRA,FR
+9,1947,217,Stage with mountain(s),M,Ren√© Vietto,FRA,FR
 10,1947,255,Stage with mountain(s),M,Fermo Camellini,ITA,IT
-11,1947,230,Plain stage,F,…douard Fachleitner,FRA,FR
+11,1947,230,Plain stage,F,√âdouard Fachleitner,FRA,FR
 12,1947,165,Plain stage,F,Henri Massal,FRA,FR
 13,1947,172,Plain stage,F,Lucien Teisseire,FRA,FR
 14,1947,253,Stage with mountain(s),M,Albert Bourlon,FRA,FR
 15,1947,195,Stage with mountain(s),M,Jean Robic,FRA,FR
 16,1947,195,Plain stage,F,Giuseppe Tacca,ITA,IT
-17,1947,272,Plain stage,F,…loi Tassin,FRA,FR
+17,1947,272,Plain stage,F,√âloi Tassin,FRA,FR
 18,1947,236,Plain stage,F,Pietro Tarchini,SUI,CH
 19,1947,139,Individual time trial,ITT,Raymond Impanis,BEL,BE
 20,1947,235,Plain stage,F,Maurice Diot,FRA,FR
 21,1947,257,Plain stage,F,Briek Schotte,BEL,BE
-1,1939,215,Plain stage,F,AmÈdÈe Fournier,FRA,FR
+1,1939,215,Plain stage,F,Am√©d√©e Fournier,FRA,FR
 2a,1939,64,Individual time trial,ITT,Romain Maes,BEL,BE
-2b,1939,119,Plain stage,F,…loi Tassin,FRA,FR
+2b,1939,119,Plain stage,F,√âloi Tassin,FRA,FR
 3,1939,244,Plain stage,F,Pierre Cloarec,FRA,FR
 4,1939,174,Plain stage,F,Raymond Louviot,FRA,FR
-5,1939,207,Plain stage,F,AmÈdÈe Fournier,FRA,FR
+5,1939,207,Plain stage,F,Am√©d√©e Fournier,FRA,FR
 6a,1939,144,Plain stage,F,Lucien Storme,BEL,BE
-6b,1939,107,Plain stage,F,Edmond PagËs,FRA,FR
+6b,1939,107,Plain stage,F,Edmond Pag√®s,FRA,FR
 7,1939,198,Plain stage,F,Raymond Passat,FRA,FR
 8a,1939,210,Plain stage,F,Marcel Kint,BEL,BE
 8b,1939,69,Individual time trial,ITT,Karl Litschi,SUI,CH
@@ -1691,62 +1691,62 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 10b,1939,27,Individual time trial,ITT,Maurice Archambaud,FRA,FR
 10c,1939,70,Plain stage,F,Maurice Archambaud,FRA,FR
 11,1939,212,Plain stage,F,Fabien Galateau,FRA,FR
-12a,1939,157,Plain stage,F,FranÁois Neuens,LUX,LU
+12a,1939,157,Plain stage,F,Fran√ßois Neuens,LUX,LU
 12b,1939,122,Plain stage,F,Maurice Archambaud,FRA,FR
 13,1939,101,Stage with mountain(s),M,Pierre Gallien,FRA,FR
 14,1939,175,Plain stage,F,Pierre Cloarec,FRA,FR
-15,1939,219,Stage with mountain(s),M,SylvËre Maes,BEL,BE
+15,1939,219,Stage with mountain(s),M,Sylv√®re Maes,BEL,BE
 16a,1939,126,Stage with mountain(s),M,Pierre Jaminet,FRA,FR
-16b,1939,64,Mountain time trial,MTT,SylvËre Maes,BEL,BE
+16b,1939,64,Mountain time trial,MTT,Sylv√®re Maes,BEL,BE
 16c,1939,104,Plain stage,F,Antoon van Schendel,NED,NL
-17a,1939,226,Stage with mountain(s),M,FranÁois Neuens,LUX,LU
+17a,1939,226,Stage with mountain(s),M,Fran√ßois Neuens,LUX,LU
 17b,1939,59,Individual time trial,ITT,Maurice Archambaud,FRA,FR
-18a,1939,151,Plain stage,F,RenÈ Le GrevËs,FRA,FR
+18a,1939,151,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
 18b,1939,201,Plain stage,F,Marcel Kint,BEL,BE
 1,1938,215,Plain stage,F,Willi Oberbeck,GER,DE
 2,1938,237,Plain stage,F,Jean Majerus,LUX,LU
 3,1938,238,Plain stage,F,Gerrit Schulte,NED,NL
-4a,1938,62,Plain stage,F,…loi Meulenberg,BEL,BE
-4b,1938,83,Plain stage,F,…loi Meulenberg,BEL,BE
-4c,1938,83,Plain stage,F,FÈlicien Vervaecke,BEL,BE
-5,1938,198,Plain stage,F,…loi Meulenberg,BEL,BE
+4a,1938,62,Plain stage,F,√âloi Meulenberg,BEL,BE
+4b,1938,83,Plain stage,F,√âloi Meulenberg,BEL,BE
+4c,1938,83,Plain stage,F,F√©licien Vervaecke,BEL,BE
+5,1938,198,Plain stage,F,√âloi Meulenberg,BEL,BE
 6a,1938,53,Plain stage,F,Jules Rossi,ITA,IT
 6b,1938,171,Plain stage,F,Glauco Servadei,ITA,IT
 7,1938,115,Plain stage,F,Theo Middelkamp,NED,NL
-8,1938,193,Stage with mountain(s),M,FÈlicien Vervaecke,BEL,BE
-9,1938,260,Stage with mountain(s),M,Jean FrÈchaut,FRA,FR
+8,1938,193,Stage with mountain(s),M,F√©licien Vervaecke,BEL,BE
+9,1938,260,Stage with mountain(s),M,Jean Fr√©chaut,FRA,FR
 10a,1938,63,Plain stage,F,Antoon van Schendel,NED,NL
-10b,1938,27,Individual time trial,ITT,FÈlicien Vervaecke,BEL,BE
+10b,1938,27,Individual time trial,ITT,F√©licien Vervaecke,BEL,BE
 10c,1938,73,Plain stage,F,Antonin Magne,FRA,FR
 11,1938,223,Plain stage,F,Gino Bartali,ITA,IT
-12,1938,199,Plain stage,F,Jean FrÈchaut,FRA,FR
+12,1938,199,Plain stage,F,Jean Fr√©chaut,FRA,FR
 13,1938,284,Stage with mountain(s),M,Dante Gianello,FRA,FR
 14,1938,219,Stage with mountain(s),M,Gino Bartali,ITA,IT
 15,1938,311,Stage with mountain(s),M,Marcel Kint,BEL,BE
 16,1938,284,Stage with mountain(s),M,Marcel Kint,BEL,BE
-17a,1938,89,Plain stage,F,…mile Masson Jr.,BEL,BE
-17b,1938,143,Plain stage,F,Jean FrÈchaut,FRA,FR
+17a,1938,89,Plain stage,F,√âmile Masson Jr.,BEL,BE
+17b,1938,143,Plain stage,F,Jean Fr√©chaut,FRA,FR
 18,1938,186,Plain stage,F,Marcel Kint,BEL,BE
 19,1938,196,Plain stage,F,Fabien Galateau,FRA,FR
 20a,1938,48,Plain stage,F,Glauco Servadei,ITA,IT
-20b,1938,42,Individual time trial,ITT,FÈlicien Vervaecke,BEL,BE
-20c,1938,107,Plain stage,F,FranÁois Neuville,BEL,BE
+20b,1938,42,Individual time trial,ITT,F√©licien Vervaecke,BEL,BE
+20c,1938,107,Plain stage,F,Fran√ßois Neuville,BEL,BE
 21,1938,279,Plain stage,F,Antonin Magne,FRA,FR
 2,1937,192,Plain stage,F,Maurice Archambaud,FRA,FR
 3,1937,161,Plain stage,F,Walter Generati,ITA,IT
 4,1937,220,Stage with mountain(s),M,Erich Bautz,GER,DE
 5a,1937,175,Plain stage,F,Henri Puppo,FRA,FR
-5b,1937,34,Team time trial,TTT,SylvËre Maes,BEL,BE
+5b,1937,34,Team time trial,TTT,Sylv√®re Maes,BEL,BE
 5c,1937,93,Plain stage,F,Leo Amberg,SUI,CH
 6,1937,180,Stage with mountain(s),M,Gustaaf Deloor,BEL,BE
 7,1937,228,Stage with mountain(s),M,Gino Bartali,ITA,IT
 8,1937,194,Stage with mountain(s),M,Otto Weckerling,GER,DE
-9,1937,220,Stage with mountain(s),M,Roger LapÈbie,FRA,FR
-10,1937,251,Stage with mountain(s),M,FÈlicien Vervaecke,BEL,BE
+9,1937,220,Stage with mountain(s),M,Roger Lap√©bie,FRA,FR
+10,1937,251,Stage with mountain(s),M,F√©licien Vervaecke,BEL,BE
 11a,1937,169,Plain stage,F,Eloi Meulenberg,BEL,BE
 11b,1937,65,Team time trial,TTT,Gustaaf Danneels,BEL,BE
 12a,1937,112,Plain stage,F,Alphonse Antoine,FRA,FR
-12b,1937,51,Plain stage,F,RenÈ Pedroli,SUI,CH
+12b,1937,51,Plain stage,F,Ren√© Pedroli,SUI,CH
 13a,1937,103,Plain stage,F,Francesco Camusso,ITA,IT
 13b,1937,63,Plain stage,F,Eloi Meulenberg,BEL,BE
 14a,1937,99,Plain stage,F,Eloi Meulenberg,BEL,BE
@@ -1756,7 +1756,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 16,1937,235,Plain stage,F,Paul Chocque,FRA,FR
 17a,1937,123,Plain stage,F,Erich Bautz,GER,DE
 17b,1937,37,Plain stage,F,Adolph Braeckeveldt,BEL,BE
-18a,1937,82,Team time trial,TTT,Roger LapÈbie,FRA,FR
+18a,1937,82,Team time trial,TTT,Roger Lap√©bie,FRA,FR
 18b,1937,172,Plain stage,F,Paul Chocque,FRA,FR
 19a,1937,114,Plain stage,F,Raymond Passat,FRA,FR
 19b,1937,59,Individual time trial,ITT,Leo Amberg,SUI,CH
@@ -1765,84 +1765,84 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 2,1936,192,Plain stage,F,Robert Wierinckx,BEL,BE
 3,1936,161,Plain stage,F,Mathias Clemens,LUX,LU
 4,1936,220,Stage with mountain(s),M,Maurice Archambaud,FRA,FR
-5,1936,298,Plain stage,F,RenÈ Le GrËves,FRA,FR
-6,1936,212,Stage with mountain(s),M,…loi Meulenberg,BEL,BE
+5,1936,298,Plain stage,F,Ren√© Le Gr√®ves,FRA,FR
+6,1936,212,Stage with mountain(s),M,√âloi Meulenberg,BEL,BE
 7,1936,230,Stage with mountain(s),M,Theo Middelkamp,NED,NL
 8,1936,194,Stage with mountain(s),M,Jean-Marie Goasmat,FRA,FR
-9,1936,220,Stage with mountain(s),M,LÈon Level,FRA,FR
+9,1936,220,Stage with mountain(s),M,L√©on Level,FRA,FR
 10,1936,156,Plain stage,F,Paul Maye,FRA,FR
 11,1936,126,Stage with mountain(s),M,Federico Ezquerra,ESP,ES
-12,1936,195,Plain stage,F,RenÈ Le GrevËs,FRA,FR
-13a,1936,112,Plain stage,F,RenÈ Le GrevËs,FRA,FR
-13b,1936,52,Individual time trial,ITT,SylvËre Maes,BEL,BE
-14a,1936,103,Plain stage,F,RenÈ Le GrevËs,FRA,FR
-14b,1936,63,Individual time trial,ITT,SylvËre Maes,BEL,BE
+12,1936,195,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
+13a,1936,112,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
+13b,1936,52,Individual time trial,ITT,Sylv√®re Maes,BEL,BE
+14a,1936,103,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
+14b,1936,63,Individual time trial,ITT,Sylv√®re Maes,BEL,BE
 15,1936,325,Stage with mountain(s),M,Sauveur Ducazeaux,FRA,FR
-16,1936,194,Stage with mountain(s),M,SylvËre Maes,BEL,BE
-17,1936,229,Plain stage,F,RenÈ Le GrevËs,FRA,FR
-18a,1936,117,Plain stage,F,…loi Meulenberg,BEL,BE
-18b,1936,75,Individual time trial,ITT,SylvËre Maes,BEL,BE
+16,1936,194,Stage with mountain(s),M,Sylv√®re Maes,BEL,BE
+17,1936,229,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
+18a,1936,117,Plain stage,F,√âloi Meulenberg,BEL,BE
+18b,1936,75,Individual time trial,ITT,Sylv√®re Maes,BEL,BE
 19a,1936,81,Plain stage,F,Marcel Kint,BEL,BE
-19b,1936,65,Individual time trial,ITT,FÈlicien Vervaecke,BEL,BE
+19b,1936,65,Individual time trial,ITT,F√©licien Vervaecke,BEL,BE
 19c,1936,67,Plain stage,F,Paul Maye,FRA,FR
-20a,1936,204,Plain stage,F,RenÈ Le GrevËs,FRA,FR
+20a,1936,204,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
 20b,1936,55,Individual time trial,ITT,Antonin Magne,FRA,FR
-21,1936,234,Plain stage,F,ArsËne Mersch,LUX,LU
+21,1936,234,Plain stage,F,Ars√®ne Mersch,LUX,LU
 1,1935,262,Plain stage,F,Romain Maes,BEL,BE
-2,1935,192,Plain stage,F,Charles PÈlissier,FRA,FR
+2,1935,192,Plain stage,F,Charles P√©lissier,FRA,FR
 3,1935,161,Plain stage,F,Rafaele di Paco,ITA,IT
 4,1935,220,Stage with mountain(s),M,Jean Aerts,BEL,BE
 5a,1935,262,Plain stage,F,Maurice Archambaud,FRA,FR
 5b,1935,58,Individual time trial,ITT,Rafaele di Paco,ITA,IT
-6,1935,207,Stage with mountain(s),M,RenÈ Vietto,FRA,FR
+6,1935,207,Stage with mountain(s),M,Ren√© Vietto,FRA,FR
 7,1935,229,Stage with mountain(s),M,Francesco Camusso,ITA,IT
 8,1935,102,Stage with mountain(s),M,Jean Aerts,BEL,BE
-9,1935,227,Stage with mountain(s),M,RenÈ Vietto,FRA,FR
+9,1935,227,Stage with mountain(s),M,Ren√© Vietto,FRA,FR
 10,1935,156,Plain stage,F,Jean Aerts,BEL,BE
 11,1935,126,Stage with mountain(s),M,Romain Maes,BEL,BE
-12,1935,195,Plain stage,F,Charles PÈlissier,FRA,FR
+12,1935,195,Plain stage,F,Charles P√©lissier,FRA,FR
 13a,1935,112,Plain stage,F,Vasco Bergamaschi,ITA,IT
 13b,1935,56,Individual time trial,ITT,Georges Speicher,FRA,FR
-14a,1935,103,Plain stage,F,RenÈ Le GrevËs,FRA,FR
+14a,1935,103,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
 14b,1935,63,Individual time trial,ITT,Maurice Archambaud,FRA,FR
-15,1935,325,Stage with mountain(s),M,SylvËre Maes,BEL,BE
+15,1935,325,Stage with mountain(s),M,Sylv√®re Maes,BEL,BE
 16,1935,194,Stage with mountain(s),M,Ambrogio Morelli,ITA,IT
 17,1935,224,Plain stage,F,Julien Moineau,FRA,FR
-18a,1935,158,Plain stage,F,RenÈ Le GrevËs,FRA,FR
-18b,1935,33,Individual time trial,ITT,AndrÈ Leducq,FRA,FR
-19a,1935,81,Plain stage,F,RenÈ Le GrevËs,FRA,FR
+18a,1935,158,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
+18b,1935,33,Individual time trial,ITT,Andr√© Leducq,FRA,FR
+19a,1935,81,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
 19b,1935,95,Individual time trial,ITT,Jean Aerts,BEL,BE
-20a,1935,220,Plain stage,F,RenÈ Le GrevËs,FRA,FR
+20a,1935,220,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
 20b,1935,55,Individual time trial,ITT,Ambrogio Morelli,ITA,IT
 21,1935,221,Plain stage,F,Romain Maes,BEL,BE
 1,1934,262,Plain stage,F,Georges Speicher,FRA,FR
-2,1934,192,Plain stage,F,RenÈ Le GrevËs,FRA,FR
-3,1934,161,Plain stage,F,Roger LapÈbie,FRA,FR
-4,1934,220,Stage with mountain(s),M,Roger LapÈbie,FRA,FR
+2,1934,192,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
+3,1934,161,Plain stage,F,Roger Lap√©bie,FRA,FR
+4,1934,220,Stage with mountain(s),M,Roger Lap√©bie,FRA,FR
 5,1934,293,Plain stage,F,Georges Speicher,FRA,FR
-7,1934,229,Stage with mountain(s),M,RenÈ Vietto,FRA,FR
+7,1934,229,Stage with mountain(s),M,Ren√© Vietto,FRA,FR
 8,1934,102,Stage with mountain(s),M,Giuseppe Martano,ITA,IT
-9,1934,227,Stage with mountain(s),M,RenÈ Vietto,FRA,FR
-10,1934,156,Plain stage,F,RenÈ Le GrevËs,FRA,FR
-11,1934,126,Stage with mountain(s),M,RenÈ Vietto,FRA,FR
-12,1934,195,Plain stage,F,Roger LapÈbie,FRA,FR
+9,1934,227,Stage with mountain(s),M,Ren√© Vietto,FRA,FR
+10,1934,156,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
+11,1934,126,Stage with mountain(s),M,Ren√© Vietto,FRA,FR
+12,1934,195,Plain stage,F,Roger Lap√©bie,FRA,FR
 13,1934,172,Plain stage,F,Georges Speicher,FRA,FR
-14,1934,177,Plain stage,F,Roger LapÈbie,FRA,FR
-15,1934,158,Plain stage,F,Roger LapÈbie,FRA,FR
+14,1934,177,Plain stage,F,Roger Lap√©bie,FRA,FR
+15,1934,158,Plain stage,F,Roger Lap√©bie,FRA,FR
 16,1934,165,Stage with mountain(s),M,Adriano Vignoli,ITA,IT
 17,1934,91,Stage with mountain(s),M,Antonin Magne,FRA,FR
-18,1934,172,Stage with mountain(s),M,RenÈ Vietto,FRA,FR
+18,1934,172,Stage with mountain(s),M,Ren√© Vietto,FRA,FR
 19,1934,215,Plain stage,F,Ettore Meini,ITA,IT
 20,1934,183,Plain stage,F,Georges Speicher,FRA,FR
-21a,1934,81,Plain stage,F,RenÈ Le GrevËs,FRA,FR
+21a,1934,81,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
 21b,1934,90,Individual time trial,ITT,Antonin Magne,FRA,FR
 22,1934,275,Plain stage,F,Raymond Louviot,FRA,FR
-23,1934,221,Plain stage,F,SylvËre Maes,BEL,BE
+23,1934,221,Plain stage,F,Sylv√®re Maes,BEL,BE
 1,1933,262,Plain stage,F,Maurice Archambaud,FRA,FR
 2,1933,192,Plain stage,F,Learco Guerra,ITA,IT
 3,1933,166,Plain stage,F,Alfons Schepers,BEL,BE
 4,1933,220,Stage with mountain(s),M,Jean Aerts,BEL,BE
-5,1933,293,Stage with mountain(s),M,LÈon Louyet,BEL,BE
+5,1933,293,Stage with mountain(s),M,L√©on Louyet,BEL,BE
 6,1933,207,Stage with mountain(s),M,Learco Guerra,ITA,IT
 7,1933,229,Stage with mountain(s),M,Learco Guerra,ITA,IT
 8,1933,102,Stage with mountain(s),M,Georges Speicher,FRA,FR
@@ -1850,20 +1850,20 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 10,1933,156,Plain stage,F,Fernand Cornez,FRA,FR
 11,1933,128,Stage with mountain(s),M,Maurice Archambaud,FRA,FR
 12,1933,208,Plain stage,F,Georges Speicher,FRA,FR
-13,1933,168,Plain stage,F,AndrÈ Leducq,FRA,FR
-14,1933,166,Plain stage,F,AndrÈ Leducq,FRA,FR
+13,1933,168,Plain stage,F,Andr√© Leducq,FRA,FR
+14,1933,166,Plain stage,F,Andr√© Leducq,FRA,FR
 15,1933,158,Stage with mountain(s),M,Jean Aerts,BEL,BE
-16,1933,165,Stage with mountain(s),M,LÈon Louyet,BEL,BE
+16,1933,165,Stage with mountain(s),M,L√©on Louyet,BEL,BE
 17,1933,91,Stage with mountain(s),M,Jean Aerts,BEL,BE
 18,1933,185,Stage with mountain(s),M,Learco Guerra,ITA,IT
 19,1933,233,Plain stage,F,Jean Aerts,BEL,BE
 20,1933,183,Plain stage,F,Jean Aerts,BEL,BE
 21,1933,266,Plain stage,F,Jean Aerts,BEL,BE
-22,1933,169,Plain stage,F,RenÈ Le GrevËs,FRA,FR
+22,1933,169,Plain stage,F,Ren√© Le Grev√®s,FRA,FR
 23,1933,222,Plain stage,F,Learco Guerra,ITA,IT
 1,1932,208,Plain stage,F,Jean Aerts,BEL,BE
-2,1932,300,Plain stage,F,Kurt Stˆpel,GER,DE
-3,1932,387,Plain stage,F,AndrÈ Leducq,FRA,FR
+2,1932,300,Plain stage,F,Kurt St√∂pel,GER,DE
+3,1932,387,Plain stage,F,Andr√© Leducq,FRA,FR
 4,1932,206,Plain stage,F,Georges Ronsse,BEL,BE
 5,1932,229,Stage with mountain(s),M,Antonio Pesenti,ITA,IT
 6,1932,322,Stage with mountain(s),M,Frans Bonduel,BEL,BE
@@ -1871,64 +1871,64 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 8,1932,206,Plain stage,F,Michele Orecchia,ITA,IT
 9,1932,191,Plain stage,F,Rafaele di Paco,ITA,IT
 10,1932,132,Stage with mountain(s),M,Francesco Camusso,ITA,IT
-11,1932,233,Stage with mountain(s),M,AndrÈ Leducq,FRA,FR
-12,1932,102,Stage with mountain(s),M,Roger LapÈbie,FRA,FR
-13,1932,230,Stage with mountain(s),M,AndrÈ Leducq,FRA,FR
+11,1932,233,Stage with mountain(s),M,Andr√© Leducq,FRA,FR
+12,1932,102,Stage with mountain(s),M,Roger Lap√©bie,FRA,FR
+13,1932,230,Stage with mountain(s),M,Andr√© Leducq,FRA,FR
 14,1932,204,Stage with mountain(s),M,Rafaele di Paco,ITA,IT
-15,1932,291,Stage with mountain(s),M,AndrÈ Leducq,FRA,FR
-16,1932,145,Plain stage,F,GÈrard Loncke,BEL,BE
+15,1932,291,Stage with mountain(s),M,Andr√© Leducq,FRA,FR
+16,1932,145,Plain stage,F,G√©rard Loncke,BEL,BE
 17,1932,165,Plain stage,F,Rafaele di Paco,ITA,IT
 18,1932,159,Plain stage,F,Rafaele di Paco,ITA,IT
 19,1932,271,Plain stage,F,Gaston Rebry,BEL,BE
-20,1932,212,Plain stage,F,AndrÈ Leducq,FRA,FR
-21,1932,159,Plain stage,F,AndrÈ Leducq,FRA,FR
+20,1932,212,Plain stage,F,Andr√© Leducq,FRA,FR
+21,1932,159,Plain stage,F,Andr√© Leducq,FRA,FR
 1,1931,208,Plain stage,F,Alfred Haemerlinck,BEL,BE
 2,1931,212,Plain stage,F,Max Bulla,AUT,AT
 3,1931,206,Plain stage,F,Fabio Battesini,ITA,IT
-4,1931,211,Plain stage,F,AndrÈ Godinat,FRA,FR
-5,1931,202,Plain stage,F,Charles PÈlissier,FRA,FR
+4,1931,211,Plain stage,F,Andr√© Godinat,FRA,FR
+5,1931,202,Plain stage,F,Charles P√©lissier,FRA,FR
 6,1931,338,Plain stage,F,Alfred Haemerlinck,BEL,BE
-7,1931,180,Plain stage,F,GÈrard Loncke,BEL,BE
-8,1931,106,Plain stage,F,Charles PÈlissier,FRA,FR
+7,1931,180,Plain stage,F,G√©rard Loncke,BEL,BE
+8,1931,106,Plain stage,F,Charles P√©lissier,FRA,FR
 9,1931,231,Stage with mountain(s),M,Antonin Magne,FRA,FR
 10,1931,322,Stage with mountain(s),M,Rafaele di Paco,ITA,IT
 11,1931,164,Plain stage,F,Rafaele di Paco,ITA,IT
 12,1931,207,Plain stage,F,Max Bulla,AUT,AT
-13,1931,181,Plain stage,F,Charles PÈlissier,FRA,FR
+13,1931,181,Plain stage,F,Charles P√©lissier,FRA,FR
 14,1931,132,Stage with mountain(s),M,Eugenio Gestri,ITA,IT
 15,1931,233,Stage with mountain(s),M,Jef Demuysere,BEL,BE
-16,1931,102,Stage with mountain(s),M,Charles PÈlissier,FRA,FR
+16,1931,102,Stage with mountain(s),M,Charles P√©lissier,FRA,FR
 17,1931,230,Stage with mountain(s),M,Max Bulla,AUT,AT
 18,1931,204,Stage with mountain(s),M,Jef Demuysere,BEL,BE
 19,1931,282,Stage with mountain(s),M,Rafaele di Paco,ITA,IT
-20,1931,209,Stage with mountain(s),M,AndrÈ Leducq,FRA,FR
+20,1931,209,Stage with mountain(s),M,Andr√© Leducq,FRA,FR
 21,1931,192,Plain stage,F,Rafaele di Paco,ITA,IT
 22,1931,159,Plain stage,F,Raffaele di Paco,ITA,IT
 23,1931,271,Plain stage,F,Gaston Rebry,BEL,BE
-24,1931,313,Plain stage,F,Charles PÈlissier,FRA,FR
-1,1930,206,Plain stage,F,Charles PÈlissier,FRA,FR
+24,1931,313,Plain stage,F,Charles P√©lissier,FRA,FR
+1,1930,206,Plain stage,F,Charles P√©lissier,FRA,FR
 2,1930,203,Plain stage,F,Learco Guerra,ITA,IT
-3,1930,206,Plain stage,F,Charles PÈlissier,FRA,FR
+3,1930,206,Plain stage,F,Charles P√©lissier,FRA,FR
 4,1930,210,Plain stage,F,Omer Taverne,BEL,BE
-5,1930,202,Plain stage,F,AndrÈ Leducq,FRA,FR
+5,1930,202,Plain stage,F,Andr√© Leducq,FRA,FR
 6,1930,285,Plain stage,F,Jean Aerts,BEL,BE
 7,1930,222,Plain stage,F,Jules Merviel,FRA,FR
 8,1930,146,Plain stage,F,Alfredo Binda,ITA,IT
 9,1930,231,Stage with mountain(s),M,Alfredo Binda,ITA,IT
-10,1930,322,Stage with mountain(s),M,Charles PÈlissier,FRA,FR
-11,1930,164,Plain stage,F,Charles PÈlissier,FRA,FR
+10,1930,322,Stage with mountain(s),M,Charles P√©lissier,FRA,FR
+11,1930,164,Plain stage,F,Charles P√©lissier,FRA,FR
 12,1930,209,Plain stage,F,Antonin Magne,FRA,FR
 13,1930,181,Plain stage,F,Learco Guerra,ITA,IT
 14,1930,132,Stage with mountain(s),M,Louis Peglion,FRA,FR
 15,1930,333,Stage with mountain(s),M,Learco Guerra,ITA,IT
-16,1930,331,Stage with mountain(s),M,AndrÈ Leducq,FRA,FR
+16,1930,331,Stage with mountain(s),M,Andr√© Leducq,FRA,FR
 17,1930,282,Stage with mountain(s),M,Frans Bonduel,BEL,BE
-18,1930,223,Plain stage,F,Charles PÈlissier,FRA,FR
-19,1930,159,Plain stage,F,Charles PÈlissier,FRA,FR
-20,1930,271,Plain stage,F,Charles PÈlissier,FRA,FR
-21,1930,300,Plain stage,F,Charles PÈlissier,FRA,FR
-1,1929,206,Plain stage,F,AimÈ Dossche,BEL,BE
-2,1929,140,Plain stage,F,AndrÈ Leducq,FRA,FR
+18,1930,223,Plain stage,F,Charles P√©lissier,FRA,FR
+19,1930,159,Plain stage,F,Charles P√©lissier,FRA,FR
+20,1930,271,Plain stage,F,Charles P√©lissier,FRA,FR
+21,1930,300,Plain stage,F,Charles P√©lissier,FRA,FR
+1,1929,206,Plain stage,F,Aim√© Dossche,BEL,BE
+2,1929,140,Plain stage,F,Andr√© Leducq,FRA,FR
 3,1929,199,Plain stage,F,Omer Taverne,BEL,BE
 4,1929,206,Plain stage,F,Louis Delannoy,BEL,BE
 5,1929,208,Plain stage,F,Gustaaf van Slembrouck,BEL,BE
@@ -1937,68 +1937,68 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 8,1929,182,Plain stage,F,Julien Moineau,FRA,FR
 9,1929,363,Stage with mountain(s),M,Salvador Cardona,ESP,ES
 10,1929,323,Stage with mountain(s),M,Jef Demuysere,BEL,BE
-11,1929,366,Plain stage,F,AndrÈ Leducq,FRA,FR
+11,1929,366,Plain stage,F,Andr√© Leducq,FRA,FR
 12,1929,191,Team time trial,TTT,Marcel Bidot,FRA,FR
-13,1929,133,Stage with mountain(s),M,BenoÓt FaurÈ,FRA,FR
+13,1929,133,Stage with mountain(s),M,Beno√Æt Faur√©,FRA,FR
 14,1929,333,Stage with mountain(s),M,Gaston Rebry,BEL,BE
 15,1929,329,Stage with mountain(s),M,Julien Vervaecke,BEL,BE
-16,1929,283,Stage with mountain(s),M,Charles PÈlissier,FRA,FR
-17,1929,145,Plain stage,F,AndrÈ Leducq,FRA,FR
-18,1929,165,Plain stage,F,AndrÈ Leducq,FRA,FR
+16,1929,283,Stage with mountain(s),M,Charles P√©lissier,FRA,FR
+17,1929,145,Plain stage,F,Andr√© Leducq,FRA,FR
+18,1929,165,Plain stage,F,Andr√© Leducq,FRA,FR
 19,1929,159,Team time trial,TTT,Bernard van Rysselberghe,BEL,BE
 20,1929,270,Team time trial,TTT,Maurice Dewaele,BEL,BE
-21,1929,234,Plain stage,F,AndrÈ Leducq,FRA,FR
+21,1929,234,Plain stage,F,Andr√© Leducq,FRA,FR
 22,1929,332,Plain stage,F,Nicolas Frantz,LUX,LU
 1,1928,207,Team time trial,TTT,Nicolas Frantz,LUX,LU
-2,1928,140,Team time trial,TTT,AndrÈ Leducq,FRA,FR
+2,1928,140,Team time trial,TTT,Andr√© Leducq,FRA,FR
 3,1928,199,Team time trial,TTT,Gaston Rebry,BEL,BE
-4,1928,206,Team time trial,TTT,PÈ Verhaegen,BEL,BE
+4,1928,206,Team time trial,TTT,P√© Verhaegen,BEL,BE
 5,1928,208,Team time trial,TTT,Marcel Bidot,FRA,FR
 6,1928,204,Team time trial,TTT,Nicolas Frantz,LUX,LU
 7,1928,285,Team time trial,TTT,Victor Fontan,FRA,FR
 8,1928,225,Team time trial,TTT,Maurice Dewaele,BEL,BE
 9,1928,387,Stage with mountain(s),M,Victor Fontan,FRA,FR
-10,1928,323,Stage with mountain(s),M,AndrÈ Leducq,FRA,FR
-11,1928,363,Plain stage,F,AndrÈ Leducq,FRA,FR
+10,1928,323,Stage with mountain(s),M,Andr√© Leducq,FRA,FR
+11,1928,363,Plain stage,F,Andr√© Leducq,FRA,FR
 12,1928,330,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
 13,1928,333,Stage with mountain(s),M,Antonin Magne,FRA,FR
 14,1928,329,Stage with mountain(s),M,Julien Moineau,FRA,FR
 15,1928,213,Team time trial,TTT,Pierre Magne,FRA,FR
-16,1928,119,Team time trial,TTT,AndrÈ Leducq,FRA,FR
+16,1928,119,Team time trial,TTT,Andr√© Leducq,FRA,FR
 17,1928,145,Team time trial,TTT,Joseph Mauclair,FRA,FR
 18,1928,165,Team time trial,TTT,Nicolas Frantz,LUX,LU
 19,1928,159,Team time trial,TTT,Marcel Huot,FRA,FR
 20,1928,271,Team time trial,TTT,Maurice Dewaele,BEL,BE
 21,1928,234,Team time trial,TTT,Antonin Magne,FRA,FR
 22,1928,331,Plain stage,F,Nicolas Frantz,LUX,LU
-1,1927,180,Team time trial,TTT,Francis PÈlissier,FRA,FR
+1,1927,180,Team time trial,TTT,Francis P√©lissier,FRA,FR
 2,1927,103,Team time trial,TTT,Maurice Dewaele,BEL,BE
 3,1927,225,Team time trial,TTT,Hector Martin,BEL,BE
 4,1927,140,Team time trial,TTT,Camille van de Casteele,BEL,BE
 5,1927,199,Team time trial,TTT,Ferdinand Le Drogo,FRA,FR
-6,1927,206,Team time trial,TTT,AndrÈ Leducq,FRA,FR
+6,1927,206,Team time trial,TTT,Andr√© Leducq,FRA,FR
 7,1927,207,Team time trial,TTT,Gustaaf van Slembrouck,BEL,BE
 8,1927,204,Team time trial,TTT,Raymond Decorte,BEL,BE
 9,1927,285,Team time trial,TTT,Adelin Benoit,BEL,BE
-10,1927,189,Plain stage,F,PÈ Verhaegen,BEL,BE
+10,1927,189,Plain stage,F,P√© Verhaegen,BEL,BE
 11,1927,326,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
 12,1927,323,Stage with mountain(s),M,Gustaaf van Slembrouck,BEL,BE
 13,1927,360,Plain stage,F,Maurice Dewaele,BEL,BE
 14,1927,120,Team time trial,TTT,Antonin Magne,FRA,FR
 15,1927,220,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
 16,1927,275,Stage with mountain(s),M,Julien Vervaecke,BEL,BE
-17,1927,283,Stage with mountain(s),M,PÈ Verhaegen,BEL,BE
+17,1927,283,Stage with mountain(s),M,P√© Verhaegen,BEL,BE
 18,1927,213,Team time trial,TTT,Adelin Benoit,BEL,BE
 19,1927,119,Team time trial,TTT,Maurice Geldhof,BEL,BE
 20,1927,145,Team time trial,TTT,Raymond Decorte,BEL,BE
 21,1927,165,Team time trial,TTT,Nicolas Frantz,LUX,LU
 22,1927,159,Team time trial,TTT,Hector Martin,BEL,BE
-23,1927,270,Team time trial,TTT,AndrÈ Leducq,FRA,FR
-24,1927,344,Plain stage,F,AndrÈ Leducq,FRA,FR
+23,1927,270,Team time trial,TTT,Andr√© Leducq,FRA,FR
+24,1927,344,Plain stage,F,Andr√© Leducq,FRA,FR
 1,2026,373,Plain stage,F,Jules Buysse,BEL,BE
-2,1926,334,Plain stage,F,AimÈ Dossche,BEL,BE
+2,1926,334,Plain stage,F,Aim√© Dossche,BEL,BE
 3,1926,433,Plain stage,F,Gustaaf van Slembrouck,BEL,BE
-4,1926,361,Plain stage,F,FÈlix Sellier,BEL,BE
+4,1926,361,Plain stage,F,F√©lix Sellier,BEL,BE
 5,1926,357,Plain stage,F,Adelin Benoit,BEL,BE
 6,1926,405,Plain stage,F,Joseph van Dam,BEL,BE
 7,1926,412,Plain stage,F,Nicolas Frantz,LUX,LU
@@ -2011,7 +2011,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 14,1926,275,Stage with mountain(s),M,Bartolomeo Aimo,ITA,IT
 15,1926,303,Stage with mountain(s),M,Joseph van Dam,BEL,BE
 16,1926,321,Plain stage,F,Camille van de Casteele,BEL,BE
-17,1926,341,Plain stage,F,AimÈ Dossche,BEL,BE
+17,1926,341,Plain stage,F,Aim√© Dossche,BEL,BE
 1,1925,340,Plain stage,F,Ottavio Bottecchia,ITA,IT
 2,1925,371,Plain stage,F,Romain Bellenger,FRA,FR
 3,1925,405,Plain stage,F,Louis Mottiat,BEL,BE
@@ -2019,7 +2019,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 5,1925,204,Plain stage,F,Nicolas Frantz,LUX,LU
 6,1925,293,Plain stage,F,Ottavio Bottecchia,ITA,IT
 7,1925,189,Plain stage,F,Ottavio Bottecchia,ITA,IT
-8,1925,326,Stage with mountain(s),M,Adelin BenoÓt,BEL,BE
+8,1925,326,Stage with mountain(s),M,Adelin Beno√Æt,BEL,BE
 9,1925,323,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
 10,1925,215,Plain stage,F,Theophile Beeckman,BEL,BE
 11,1925,215,Plain stage,F,Lucien Buysse,BEL,BE
@@ -2032,7 +2032,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 18,1925,343,Plain stage,F,Ottavio Bottecchia,ITA,IT
 1,1924,381,Plain stage,F,Ottavio Bottecchia,ITA,IT
 2,1924,371,Plain stage,F,Romain Bellenger,FRA,FR
-3,1924,405,Plain stage,F,ThÈophile Beeckman,FRA,FR
+3,1924,405,Plain stage,F,Th√©ophile Beeckman,FRA,FR
 5,1924,482,Plain stage,F,Omer Huyse,BEL,BE
 6,1924,326,Stage with mountain(s),M,Ottavio Bottecchia,ITA,IT
 7,1924,323,Stage with mountain(s),M,Ottavio Bottecchia,ITA,IT
@@ -2041,24 +2041,24 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 10,1924,275,Stage with mountain(s),M,Giovanni Brunero,ITA,IT
 11,1924,307,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
 12,1924,360,Stage with mountain(s),M,Nicolas Frantz,LUX,LU
-13,1924,300,Plain stage,F,ArsËne Alancourt,FRA,FR
+13,1924,300,Plain stage,F,Ars√®ne Alancourt,FRA,FR
 14,1924,433,Plain stage,F,Romain Bellenger,FRA,FR
 15,1924,343,Plain stage,F,Ottavio Bottecchia,ITA,IT
 1,1923,381,Plain stage,F,Robert Jacquinot,FRA,FR
 2,1923,371,Plain stage,F,Ottavio Bottecchia,ITA,IT
-3,1923,405,Plain stage,F,Henri PÈlissier,FRA,FR
+3,1923,405,Plain stage,F,Henri P√©lissier,FRA,FR
 4,1923,412,Plain stage,F,Albert Dejonghe,BEL,BE
 5,1923,482,Plain stage,F,Robert Jacquinot,FRA,FR
 6,1923,326,Stage with mountain(s),M,Jean Alavoine,FRA,FR
 7,1923,323,Stage with mountain(s),M,Jean Alavoine,FRA,FR
 8,1923,427,Plain stage,F,Lucien Buysse,BEL,BE
 9,1923,281,Stage with mountain(s),M,Jean Alavoine,FRA,FR
-10,1923,275,Stage with mountain(s),M,Henri PÈlissier,FRA,FR
-11,1923,260,Stage with mountain(s),M,Henri PÈlissier,FRA,FR
+10,1923,275,Stage with mountain(s),M,Henri P√©lissier,FRA,FR
+11,1923,260,Stage with mountain(s),M,Henri P√©lissier,FRA,FR
 12,1923,377,Plain stage,F,Joseph Muller,FRA,FR
 13,1923,300,Plain stage,F,Romain Bellenger,FRA,FR
-14,1923,433,Plain stage,F,FÈlix Goethals,FRA,FR
-15,1923,343,Plain stage,F,FÈlix Goethals,FRA,FR
+14,1923,433,Plain stage,F,F√©lix Goethals,FRA,FR
+15,1923,343,Plain stage,F,F√©lix Goethals,FRA,FR
 1,1922,388,Plain stage,F,Robert Jacquinot,FRA,FR
 2,1922,364,Plain stage,F,Romain Bellenger,FRA,FR
 3,1922,405,Plain stage,F,Robert Jacquinot,FRA,FR
@@ -2072,7 +2072,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 11,1922,260,Stage with mountain(s),M,Emile Masson},BEL,BE
 12,1922,371,Plain stage,F,Emile Masson,BEL,BE
 13,1922,300,Plain stage,F,Federico Gay,ITA,IT
-14,1922,433,Plain stage,F,FÈlix Sellier,BEL,BE
+14,1922,433,Plain stage,F,F√©lix Sellier,BEL,BE
 15,1922,340,Plain stage,F,Philippe Thys,BEL,BE
 1,1921,388,Plain stage,F,Louis Mottiat,BEL,BE
 2,1921,364,Plain stage,F,Romain Bellenger,FRA,FR
@@ -2084,37 +2084,37 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 8,1921,411,Plain stage,F,Luigi Lucotti,ITA,IT
 9,1921,272,Stage with mountain(s),M,Firmin Lambot,BEL,BE
 10,1921,333,Stage with mountain(s),M,Leon Scieur,BEL,BE
-11,1921,325,Stage with mountain(s),M,FÈlix Goethals,FRA,FR
-12,1921,371,Plain stage,F,HonorÈ BarthÈlemy,FRA,FR
-13,1921,300,Plain stage,F,FÈlix Sellier,BEL,BE
-14,1921,433,Plain stage,F,FÈlix Goethals,FRA,FR
-15,1921,340,Plain stage,F,FÈlix Goethals,FRA,FR
+11,1921,325,Stage with mountain(s),M,F√©lix Goethals,FRA,FR
+12,1921,371,Plain stage,F,Honor√© Barth√©lemy,FRA,FR
+13,1921,300,Plain stage,F,F√©lix Sellier,BEL,BE
+14,1921,433,Plain stage,F,F√©lix Goethals,FRA,FR
+15,1921,340,Plain stage,F,F√©lix Goethals,FRA,FR
 1,1920,388,Plain stage,F,Louis Mottiat,BEL,BE
 2,1920,364,Plain stage,F,Philippe Thys,BEL,BE
-3,1920,405,Plain stage,F,Henri PÈlissier,FRA,FR
-4,1920,412,Plain stage,F,Henri PÈlissier,FRA,FR
+3,1920,405,Plain stage,F,Henri P√©lissier,FRA,FR
+4,1920,412,Plain stage,F,Henri P√©lissier,FRA,FR
 5,1920,482,Plain stage,F,Firmin Lambot,BEL,BE
 6,1920,326,Stage with mountain,M,Firmin Lambot,BEL,BE
 7,1920,323,Stage with mountain,M,Jean Rossius,BEL,BE
 8,1920,325,Plain stage,F,Louis Heusghem,BEL,BE
 9,1920,356,Stage with mountain,M,Philippe Thys,BEL,BE
 10,1920,333,Stage with mountain,M,Hector Heusghem,BEL,BE
-11,1920,362,Stage with mountain,M,LÈon Scieur,BEL,BE
+11,1920,362,Stage with mountain,M,L√©on Scieur,BEL,BE
 12,1920,354,Plain stage,F,Philippe Thys,BEL,BE
 13,1920,300,Plain stage,F,Philippe Thys,BEL,BE
-14,1920,433,Plain stage,F,FÈlix Goethals,FRA,FR
+14,1920,433,Plain stage,F,F√©lix Goethals,FRA,FR
 15,1920,340,Plain stage,F,Jean Rossius,BEL,BE
 1,1919,388,Plain stage,F,Jean Rossius,BEL,BE
-2,1919,364,Plain stage,F,Henri PÈlissier,FRA,FR
-3,1919,405,Plain stage,F,Francis PÈlissier,FRA,FR
+2,1919,364,Plain stage,F,Henri P√©lissier,FRA,FR
+3,1919,405,Plain stage,F,Francis P√©lissier,FRA,FR
 4,1919,412,Plain stage,F,Jean Alavoine,FRA,FR
 5,1919,482,Plain stage,F,Jean Alavoine,FRA,FR
 6,1919,326,Stage with mountain,M,Honore Barthelemy,FRA,FR
 7,1919,323,Stage with mountain,M,Jean Alavoine,FRA,FR
 8,1919,370,Plain stage,F,Jean Alavoine,FRA,FR
-9,1919,338,Stage with mountain,M,HonorÈ BarthÈlemy,FRA,FR
-10,1919,333,Stage with mountain,M,HonorÈ BarthÈlemy,FRA,FR
-11,1919,325,Stage with mountain,M,HonorÈ BarthÈlemy,FRA,FR
+9,1919,338,Stage with mountain,M,Honor√© Barth√©lemy,FRA,FR
+10,1919,333,Stage with mountain,M,Honor√© Barth√©lemy,FRA,FR
+11,1919,325,Stage with mountain,M,Honor√© Barth√©lemy,FRA,FR
 12,1919,371,Stage with mountain,M,Luigi Lucotti,ITA,IT
 13,1919,315,Plain stage,F,Luigi Lucotti,ITA,IT
 14,1919,468,Plain stage,F,Firmin Lambot,BEL,BE
@@ -2128,12 +2128,12 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 7,1914,323,Stage with mountain(s),M,Jean Alavoine,FRA,FR
 8,1914,370,Plain stage,F,Octave Lapize,FRA,FR
 9,1914,338,Stage with mountain(s),M,Jean Rossius,BEL,BE
-10,1914,323,Stage with mountain(s),M,Henri PÈlissier,FRA,FR
+10,1914,323,Stage with mountain(s),M,Henri P√©lissier,FRA,FR
 11,1914,325,Stage with mountain(s),M,Gustave Garrigou,FRA,FR
-12,1914,325,Stage with mountain(s),M,Henri PÈlissier,FRA,FR
-13,1914,325,Stage with mountain(s),M,FranÁois Faber,LUX,LU
-14,1914,390,Plain stage,F,FranÁois Faber,LUX,LU
-15,1914,340,Plain stage,F,Henri PÈlissier,FRA,FR
+12,1914,325,Stage with mountain(s),M,Henri P√©lissier,FRA,FR
+13,1914,325,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
+14,1914,390,Plain stage,F,Fran√ßois Faber,LUX,LU
+15,1914,340,Plain stage,F,Henri P√©lissier,FRA,FR
 1,1913,388,Plain stage,F,Giovanni Micheletto,ITA,IT
 2,1913,364,Plain stage,F,Jules Masselis,BEL,BE
 3,1913,405,Plain stage,F,Henri Pelissier,FRA,FR
@@ -2146,14 +2146,14 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 10,1913,333,Stage with mountain(s),M,Francois Faber,LUX,LU
 11,1913,325,Stage with mountain(s),M,Marcel Buysse,BEL,BE
 12,1913,335,Stage with mountain(s),M,Marcel Buysse,BEL,BE
-13,1913,325,Stage with mountain(s),M,FranÁois Faber,LUX,LU
+13,1913,325,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
 14,1913,393,Plain stage,F,Marcel Buysse,BEL,BE
 15,1913,340,Plain stage,F,Marcel Buysse,BEL,BE
 1,1912,351,Plain stage,F,Charles Crupelandt,FRA,FR
 2,1912,388,Plain stage,F,Odile Defraye,BEL,BE
-3,1912,331,Stage with mountain(s),M,EugËne Christophe,FRA,FR
-4,1912,344,Stage with mountain(s),M,EugËne Christophe,FRA,FR
-5,1912,366,Stage with mountain(s),M,EugËne Christophe,FRA,FR
+3,1912,331,Stage with mountain(s),M,Eug√®ne Christophe,FRA,FR
+4,1912,344,Stage with mountain(s),M,Eug√®ne Christophe,FRA,FR
+5,1912,366,Stage with mountain(s),M,Eug√®ne Christophe,FRA,FR
 6,1912,323,Stage with mountain(s),M,Octave Lapize,FRA,FR
 7,1912,334,Stage with mountain(s),M,Odile Defraye,BEL,BE
 8,1912,335,Plain stage,F,Vicenzo Borgarello,ITA,IT
@@ -2166,10 +2166,10 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 15,1912,317,Plain stage,F,Jean Alavoine,FRA,FR
 1,1911,351,Plain stage,F,Gustave Garrigou,FRA,FR
 2,1911,388,Plain stage,F,Jules Masselis,BEL,BE
-3,1911,331,Stage with mountain(s),M,FranÁois Faber,LUX,LU
+3,1911,331,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
 4,1911,344,Stage with mountain(s),M,Charles Crupelandt,FRA,FR
-5,1911,366,Stage with mountain(s),M,…mile Georget,FRA,FR
-6,1911,348,Stage with mountain(s),M,FranÁois Faber,LUX,LU
+5,1911,366,Stage with mountain(s),M,√âmile Georget,FRA,FR
+6,1911,348,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
 7,1911,334,Stage with mountain(s),M,Charles Crupelandt,FRA,FR
 8,1911,335,Plain stage,F,Paul Duboc,FRA,FR
 9,1911,289,Stage with mountain(s),M,Paul Duboc,FRA,FR
@@ -2180,12 +2180,12 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 14,1911,361,Plain stage,F,Paul Duboc,FRA,FR
 15,1911,317,Plain stage,F,Marcel Godivier,FRA,FR
 1,1910,269,Plain stage,F,Charles Crupelandt,FRA,FR
-2,1910,398,Plain stage,F,FranÁois Faber,LUX,LU
+2,1910,398,Plain stage,F,Fran√ßois Faber,LUX,LU
 3,1910,259,Stage with mountain(s),M,Emile Georget,FRA,FR
-4,1910,309,Stage with mountain(s),M,FranÁois Faber,LUX,LU
+4,1910,309,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
 5,1910,311,Stage with mountain(s),M,Octave Lapize,FRA,FR
 6,1910,345,Stage with mountain(s),M,Julien Maitron,FRA,FR
-7,1910,345,Plain stage,F,FranÁois Faber,LUX,LU
+7,1910,345,Plain stage,F,Fran√ßois Faber,LUX,LU
 8,1910,216,Plain stage,F,Georges Paulmier,FRA,FR
 9,1910,289,Stage with mountain(s),M,Octave Lapize,FRA,FR
 10,1910,326,Stage with mountain(s),M,Octave Lapize,FRA,FR
@@ -2195,31 +2195,31 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 14,1910,424,Plain stage,F,Octave Lapize,FRA,FR
 15,1910,262,Plain stage,F,Ernesto Azzini,ITA,IT
 1,1909,272,Plain stage,F,Cyrille van Hauwaert,BEL,BE
-2,1909,398,Plain stage,F,FranÁois Faber,LUX,LU
-3,1909,259,Stage with mountain(s),M,FranÁois Faber,LUX,LU
-4,1909,309,Stage with mountain(s),M,FranÁois Faber,LUX,LU
-5,1909,311,Stage with mountain(s),M,FranÁois Faber,LUX,LU
-6,1909,346,Stage with mountain(s),M,FranÁois Faber,LUX,LU
+2,1909,398,Plain stage,F,Fran√ßois Faber,LUX,LU
+3,1909,259,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
+4,1909,309,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
+5,1909,311,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
+6,1909,346,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
 7,1909,345,Plain stage,F,Ernest Paul,FRA,FR
 8,1909,303,Plain stage,F,Jean Alavoine,FRA,FR
-9,1909,299,Plain stage,F,Constant MÈnager,FRA,FR
-10,1909,269,Plain stage,F,FranÁois Faber,LUX,LU
+9,1909,299,Plain stage,F,Constant M√©nager,FRA,FR
+10,1909,269,Plain stage,F,Fran√ßois Faber,LUX,LU
 11,1909,391,Plain stage,F,Louis Trousselier,FRA,FR
 12,1909,321,Plain stage,F,Gustave Garrigou,FRA,FR
 13,1909,424,Plain stage,F,Paul Duboc,FRA,FR
 14,1909,250,Plain stage,F,Jean Alavoine,FRA,FR
 1,1908,272,Plain stage,F,Georges Passerieu,FRA,FR
 2,1908,398,Plain stage,F,Lucien Petit-Breton,FRA,FR
-3,1908,259,Stage with mountain(s),M,FranÁois Faber,LUX,LU
-4,1908,309,Stage with mountain(s),M,FranÁois Faber,LUX,LU
+3,1908,259,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
+4,1908,309,Stage with mountain(s),M,Fran√ßois Faber,LUX,LU
 5,1908,311,Stage with mountain(s),M,Georges Passerieu,FRA,FR
 6,1908,345,Stage with mountain(s),M,Jean-Baptiste Dortignacq,FRA,FR
 7,1908,354,Plain stage,F,Lucien Petit-Breton,FRA,FR
-8,1908,303,Plain stage,F,FranÁois Faber,LUX,LU
+8,1908,303,Plain stage,F,Fran√ßois Faber,LUX,LU
 9,1908,299,Plain stage,F,Lucien Petit-Breton,FRA,FR
 10,1908,269,Plain stage,F,Georges Paulmier,FRA,FR
 11,1908,391,Plain stage,F,Lucien Petit-Breton,FRA,FR
-12,1908,321,Plain stage,F,FranÁois Faber,LUX,LU
+12,1908,321,Plain stage,F,Fran√ßois Faber,LUX,LU
 13,1908,415,Plain stage,F,Georges Passerieu,FRA,FR
 14,1908,251,Plain stage,F,Lucien Petit-Breton,FRA,FR
 1,1907,272,Plain stage,F,Louis Trousselier,FRA,FR
@@ -2236,10 +2236,10 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 13,1907,415,Plain stage,F,Emile Georget,FRA,FR
 14,1907,251,Plain stage,F,Georges Passerieu,FRA,FR
 1,1906,275,Plain stage,F,Emile Georget,FRA,FR
-2,1906,400,Plain stage,F,RenÈ Pottier,FRA,FR
-3,1906,416,Stage with mountain(s),M,RenÈ Pottier,FRA,FR
-4,1906,311,Plain stage,F,RenÈ Pottier,FRA,FR
-5,1906,345,Stage with mountain(s),M,RenÈ Pottier,FRA,FR
+2,1906,400,Plain stage,F,Ren√© Pottier,FRA,FR
+3,1906,416,Stage with mountain(s),M,Ren√© Pottier,FRA,FR
+4,1906,311,Plain stage,F,Ren√© Pottier,FRA,FR
+5,1906,345,Stage with mountain(s),M,Ren√© Pottier,FRA,FR
 6,1906,292,Plain stage,F,Georges Passerieu,FRA,FR
 7,1906,480,Plain stage,F,Louis Trousselier,FRA,FR
 8,1906,300,Plain stage,F,Jean-Baptiste Dortignacq,FRA,FR
@@ -2247,7 +2247,7 @@ P,1969,10,Individual time trial,ITT,Rudi Altig,GER,DE
 10,1906,391,Plain stage,F,Louis Trousselier,FRA,FR
 11,1906,321,Plain stage,F,Louis Trousselier,FRA,FR
 12,1906,415,Plain stage,F,Georges Passerieu,FRA,FR
-13,1906,259,Plain stage,F,RenÈ Pottier,FRA,FR
+13,1906,259,Plain stage,F,Ren√© Pottier,FRA,FR
 1,1905,340,Plain stage,F,Louis Trousselier,FRA,FR
 2,1905,299,Stage with mountain(s),M,Hippolyte Aucouturier,FRA,FR
 3,1905,327,Plain stage,F,Louis Trousselier,FRA,FR

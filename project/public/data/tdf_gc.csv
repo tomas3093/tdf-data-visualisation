@@ -1,11 +1,11 @@
-year,total_distance,gc_winner,country,country_iso,country_name,winner_avg_speed
+ï»¿year,total_distance,gc_winner,country,country_iso,country_name,winner_avg_speed
 1903,2428,Maurice Garin,FRA,FR,France,25.68
 1904,2428,Henri Cornet,FRA,FR,France,25.27
 1905,2994,Louis Trousselier,FRA,FR,France,27.11
-1906,4637,René Pottier,FRA,FR,France,24.46
+1906,4637,RenÃ© Pottier,FRA,FR,France,24.46
 1907,4488,Lucien Petit-Breton,FRA,FR,France,28.47
 1908,4497,Lucien Petit-Breton,FRA,FR,France,28.74
-1909,4498,François Faber,LUX,LU,Luxembourg,28.66
+1909,4498,FranÃ§ois Faber,LUX,LU,Luxembourg,28.66
 1910,4734,Octave Lapize,FRA,FR,France,29.1
 1911,5343,Gustave Garrigou,FRA,FR,France,27.322
 1912,5289,Odile Defraye,BEL,BE,Belgium,27.76
@@ -13,29 +13,29 @@ year,total_distance,gc_winner,country,country_iso,country_name,winner_avg_speed
 1914,5380,Philippe Thys,BEL,BE,Belgium,26.84
 1919,5560,Firmin Lambot,BEL,BE,Belgium,24.06
 1920,5503,Philippe Thys,BEL,BE,Belgium,24.07
-1921,5485,Léon Scieur,BEL,BE,Belgium,24.72
+1921,5485,LÃ©on Scieur,BEL,BE,Belgium,24.72
 1922,5375,Firmin Lambot,BEL,BE,Belgium,24.2
-1923,5386,Henri Pélissier,FRA,FR,France,24.23
+1923,5386,Henri PÃ©lissier,FRA,FR,France,24.23
 1924,5425,Ottavio Bottecchia,ITA,IT,Italy,24.25
 1925,5440,Ottavio Bottecchia,ITA,IT,Italy,24.82
 1926,5745,Lucien Buysse,BEL,BE,Belgium,24.28
 1927,5398,Nicolas Frantz,LUX,LU,Luxembourg,27.22
 1928,5476,Nicolas Frantz,LUX,LU,Luxembourg,28.4
 1929,5286,Maurice De Waele,BEL,BE,Belgium,28.32
-1930,4822,André Leducq,FRA,FR,France,28
+1930,4822,AndrÃ© Leducq,FRA,FR,France,28
 1931,5091,Antonin Magne,FRA,FR,France,28.74
-1932,4479,André Leducq,FRA,FR,France,29.05
+1932,4479,AndrÃ© Leducq,FRA,FR,France,29.05
 1933,4395,Georges Speicher,FRA,FR,France,29.82
 1934,4470,Antonin Magne,FRA,FR,France,30.36
 1935,4338,Romain Maes,BEL,BE,Belgium,30.65
-1936,4442,Sylvère Maes,BEL,BE,Belgium,31.11
-1937,4415,Roger Lapébie,FRA,FR,France,31.77
+1936,4442,SylvÃ¨re Maes,BEL,BE,Belgium,31.11
+1937,4415,Roger LapÃ©bie,FRA,FR,France,31.77
 1938,4694,Gino Bartali,ITA,IT,Italy,31.57
-1939,4224,Sylvère Maes,BEL,BE,Belgium,31.99
+1939,4224,SylvÃ¨re Maes,BEL,BE,Belgium,31.99
 1947,4642,Jean Robic,FRA,FR,France,31.41
 1948,4922,Gino Bartali,ITA,IT,Italy,33.44
 1949,4808,Fausto Coppi,ITA,IT,Italy,32.12
-1950,4773,Ferdinand Kübler,SUI,CH, Switzerland,32.78
+1950,4773,Ferdinand KÃ¼bler,SUI,CH, Switzerland,32.78
 1951,4690,Hugo Koblet,SUI,CH, Switzerland,32.95
 1952,4898,Fausto Coppi,ITA,IT,Italy,32.23
 1953,4476,Louison Bobet,FRA,FR,France,34.59
@@ -58,11 +58,11 @@ year,total_distance,gc_winner,country,country_iso,country_name,winner_avg_speed
 1970,4254,Eddy Merckx,BEL,BE,Belgium,35.59
 1971,3608,Eddy Merckx,BEL,BE,Belgium,38.08
 1972,3846,Eddy Merckx,BEL,BE,Belgium,35.51
-1973,4090,Luis Ocaña,ESP,ES,Spain,33.41
+1973,4090,Luis OcaÃ±a,ESP,ES,Spain,33.41
 1974,4098,Eddy Merckx,BEL,BE,Belgium,35.24
-1975,4000,Bernard Thévenet,FRA,FR,France,34.91
+1975,4000,Bernard ThÃ©venet,FRA,FR,France,34.91
 1976,4017,Lucien Van Impe,BEL,BE,Belgium,34.52
-1977,4096,Bernard Thévenet,FRA,FR,France,35.42
+1977,4096,Bernard ThÃ©venet,FRA,FR,France,35.42
 1978,3908,Bernard Hinault,FRA,FR,France,36.08
 1979,3765,Bernard Hinault,FRA,FR,France,36.51
 1980,3842,Joop Zoetemelk,NED,NL,Netherlands,35.14
@@ -91,7 +91,7 @@ year,total_distance,gc_winner,country,country_iso,country_name,winner_avg_speed
 2003,3427,Lance Armstrong,USA,US,United States,40.94
 2004,3391,Lance Armstrong,USA,US,United States,40.55
 2005,3593,Lance Armstrong,USA,US,United States,41.65
-2006,3657,Óscar Pereiro,ESP,ES,Spain,40.78
+2006,3657,Ã“scar Pereiro,ESP,ES,Spain,40.78
 2007,3570,Alberto Contador,ESP,ES,Spain,38.98
 2008,3559,Carlos Sastre,ESP,ES,Spain,40.5
 2009,3459,Alberto Contador,ESP,ES,Spain,40.31
