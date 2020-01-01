@@ -1,0 +1,17 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+div {
+border: red 1px solid;
+}
+
+#barChartDiv {
+  width: 100%;
+  height: 600px;
+}
+
+#pieChartDiv {
+  width: 100%;
+  height: 500px;
+}

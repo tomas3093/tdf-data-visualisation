@@ -1,5 +1,9 @@
 export const MAX_VAL_STR = "_maxValue";
 
+// Default filter criterion
+export const MIN_DATA_YEAR_DEFAULT = 1900;
+export const MAX_DATA_YEAR_DEFAULT = 2019;
+
 // Codes for distinction between type of visualisation (GC / Stages) 
 export const DATA_GC_CODE = 1;
 export const DATA_STAGES_CODE = 2;

@@ -244,6 +244,7 @@ import {
         
         let table = $("#sidePanelContent");
         table.empty();  // remove previous content
+        table.append('<tr><th>Rank</th><th>Country / Rider</th><th>Victories</th></tr>');   // Table head
 
         let i = 1;
         summary_data.forEach(function(value, key, map) {

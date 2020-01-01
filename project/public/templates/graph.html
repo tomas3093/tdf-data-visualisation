@@ -3,18 +3,91 @@
   <head>
     <meta charset="utf-8">
     <title>Tour de France interactive visualisation</title>
+
+    <!-- D3.js -->
     <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script> 
+    <script type="text/javascript" src="https://d3js.org/d3-selection-multi.v1.min.js"></script> 
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Amchart maps -->
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+
+    <!-- Styles -->
     <link href="./public/styles/graph.css" rel="stylesheet">
-    <script type="text/javascript" src="public/js/graph.js"></script>
+
   </head>
   <body>
 
-    <p>This is graph.html</p>
+    <main id="mainGrid">
+      <!-- Top panel -->
+      <div class="row justify-content-between">
+        <div class="col-9">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input type="radio" name="options" id="option_1" autocomplete="off" checked> GC
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_2" autocomplete="off"> Stages
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_3" autocomplete="off"> Mountain
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_4" autocomplete="off"> Hilly
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_5" autocomplete="off"> Flat
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_6" autocomplete="off"> ITT
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option_7" autocomplete="off"> Mountain TT
+            </label>
+          </div>
+        </div>
 
-	<div id="map_div"></div>
-	<div id="text_div"></div>
-	<div id="barchart_div"></div>
-	<div id="heatmap_div"></div>
+        <div class="col">
+          <a class="btn btn-primary" href="/map" role="button">Map</a>
+        </div>
+      </div>
+
+      <!-- Graph chart and side panel-->
+      <div class="row">
+        <div class="col">
+          <div id="barChartDiv"></div>
+        </div>
+
+        <div class="col">
+          <div id="pieChartDiv"></div>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <label id="yearMinSliderLabel" for="yearMinSlider"></label>
+        <input id="yearMinSlider" type="range" min="1904" max="2019">
+
+        <label id="yearMaxSliderLabel" for="yearMaxSlider"></label>
+        <input id="yearMaxSlider" type="range" min="1904" max="2019">
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">This is footer &copy;2019</span>
+      </div>
+    </footer>
+      
+
+    <script type="module" src="public/js/graph.js"></script>
 
   </body>

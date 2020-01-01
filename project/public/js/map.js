@@ -1,4 +1,3 @@
-import { DATA_DEFAULT_CODE, ALL_CODES } from './modules/constants.mjs';
 import { DataManager } from './modules/dataManager.mjs';
 import { MapManager } from './modules/mapManager.mjs';
 import { DataFilterCriterion } from './modules/models.mjs';
