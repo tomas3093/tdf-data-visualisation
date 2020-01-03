@@ -276,8 +276,14 @@ export class GraphManager {
         let _this = this;
 
         $('#yearMinSlider').on("change", function () {
-            let val = minSlider.value < _this.criterion.yearEnd ? minSlider.value : _this.criterion.yearEnd;
-            
+
+            let val = minSlider.value;
+            if (val > _this.criterion.yearEnd) {
+                maxLbl.innerHTML = val;
+                maxSlider.value = val;
+                _this.criterion.yearEnd = val;
+            }
+
             // Change label, criterion and show new data
             minLbl.innerHTML = val;
             _this.criterion.yearBegin = val; 
@@ -285,7 +291,12 @@ export class GraphManager {
             _this.showData();
         });
         $('#yearMaxSlider').on("change", function () {
-            let val = maxSlider.value > _this.criterion.yearBegin ? maxSlider.value : _this.criterion.yearBegin;
+            let val = maxSlider.value;
+            if (val < _this.criterion.yearBegin) {
+                minLbl.innerHTML = val;
+                minSlider.value = val;
+                _this.criterion.yearBegin = val;
+            }
             
             // Change label, criterion and show new data
             maxLbl.innerHTML = val;
