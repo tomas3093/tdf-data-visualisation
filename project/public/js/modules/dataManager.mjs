@@ -16,6 +16,9 @@ import {
 import { CountryMapPolygon } from './models.mjs';
 import { DataItemGcWinner } from './models.mjs';
 import { DataItemStageWinner } from './models.mjs';
+import { PieChartDataObject } from './models.mjs';
+import { BarCharDataObjectCyclist } from './models.mjs';
+import { BarCharDataObjectCountry } from './models.mjs';
 
 
 /**
@@ -298,6 +301,106 @@ export class DataManager {
         
         // Keep only top 10
         res = new Map(a.slice(0, SIDE_PANEL_MAX_ITEMS));
+
+        return res;
+    }
+
+
+    /**
+     * 
+     * @param criterion 
+     * @returns array with following structure: [[.. data for bar chart ..], [.. data for pie chart ..]]
+     */
+    getGraphData(criterion) {
+
+        // Which dataset will be used 
+        let dataset = criterion.dataCode == DATA_GC_CODE ? this.data_gc : this.data_stages;
+
+        let map = new Map();
+        let res = [[], []];
+
+        // Decision, whether we will count each country victories or victories of specific country
+        if (criterion.country_iso == undefined) {
+            // Victories of all countries
+
+            // Create map of all countries with counts
+            for (let index = 0; index < dataset.length; index++) {
+                const row = dataset[index];
+
+                if (criterion.validate(row)) {
+                    let iso = row.country_iso;
+                    
+                    // Skip records with unknown country
+                    if (isoCodeToName(iso) == UNKNOWN_NATION_MARK) {
+                        continue;
+                    }
+
+                    let obj = map.get(iso);
+                    if (obj == undefined) {
+                        map.set(iso, 1);
+                    } else {
+                        map.set(iso, map.get(iso) + 1);
+                    }
+                }
+            }
+
+            // Sort items 
+            let tmp = [];
+            for(let x of map) 
+                tmp.push(x);
+
+            tmp.sort(function(x, y) {
+                return x[1] - y[1];
+            });  
+
+            // Create data objects for graphs 
+            for (let index = 0; index < tmp.length; index++) {
+                const element = tmp[index];
+
+                res[0].push(new BarCharDataObjectCountry(element[0], element[1]));
+                res[1].push(new PieChartDataObject(isoCodeToName(element[0]), element[1]));
+            }
+
+        } else {
+            // Winners of specific country
+
+            // Create map of all riders from specified country
+            for (let index = 0; index < dataset.length; index++) {
+                const row = dataset[index];
+                
+                if (criterion.validate(row)) {
+                    let iso = row.country_iso;
+                    
+                    // Skip records with unknown country
+                    if (isoCodeToName(iso) == UNKNOWN_NATION_MARK) {
+                        continue;
+                    }
+                    
+                    if (map.get(row.winner_name) == undefined) {
+                        map.set(row.winner_name, 1);
+                    } else {
+                        map.set(row.winner_name, map.get(row.winner_name) + 1);
+                    }   
+                }
+            }
+
+            // Sort items 
+            let tmp = [];
+            for(let x of map) 
+                tmp.push(x);
+
+            tmp.sort(function(x, y) {
+                return x[1] - y[1];
+            });  
+
+            // Create data objects for graphs 
+            for (let index = 0; index < tmp.length; index++) {
+                const element = tmp[index];
+
+                res[0].push(new BarCharDataObjectCyclist(element[0], element[1]));
+                res[1].push(new PieChartDataObject(element[0], element[1]));
+            }
+        } 
 
         return res;
     }

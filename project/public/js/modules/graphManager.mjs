@@ -1,6 +1,9 @@
 import { 
     DATA_DEFAULT_CODE,
-    ALL_CODES
+    ALL_CODES,
+    nameToIsoCode,
+    MIN_DATA_YEAR_DEFAULT,
+    MAX_DATA_YEAR_DEFAULT
 } from './constants.mjs';
 
 /**
@@ -50,7 +53,7 @@ export class GraphManager {
         this.barChart.paddingRight = 40;
 
         let categoryAxis = this.barChart.yAxes.push(new am4charts.CategoryAxis());
-        categoryAxis.dataFields.category = "country";
+        categoryAxis.dataFields.category = "country_name";
         categoryAxis.renderer.grid.template.strokeOpacity = 0;
         categoryAxis.renderer.minGridDistance = 10;
         categoryAxis.renderer.labels.template.dx = -40;
@@ -68,7 +71,7 @@ export class GraphManager {
 
         let series = this.barChart.series.push(new am4charts.ColumnSeries);
         series.dataFields.valueX = "value";
-        series.dataFields.categoryY = "country";
+        series.dataFields.categoryY = "country_name";
         series.tooltipText = "{valueX.value}";
         series.tooltip.pointerOrientation = "vertical";
         series.tooltip.dy = - 30;
@@ -139,6 +142,24 @@ export class GraphManager {
             }
         });
 
+        // Column click event
+        series.columns.template.cursorOverStyle = am4core.MouseCursorStyle.pointer;
+        let _this = this;
+        series.columns.template.events.on("hit", function(ev) {
+            console.log(ev.target.dataItem.dataContext);
+            
+            let selectedCountryIso = nameToIsoCode(ev.target.dataItem.dataContext.country_name);
+            if (_this.criterion.country_iso == selectedCountryIso) {
+                _this.criterion.country_iso = undefined;     // Deselect country
+            } else {
+                _this.criterion.country_iso = selectedCountryIso;
+            }
+            
+            _this.showData();
+        });
+
+        
+
 
         /** PIE CHART
          * source: https://www.amcharts.com/demos/animated-time-line-pie-chart/
@@ -156,91 +177,30 @@ export class GraphManager {
         let pieSeries = this.pieChart.series.push(new am4charts.PieSeries());
         pieSeries.dataFields.value = "size";
         pieSeries.dataFields.category = "sector";
-        
-        // Animate chart data
-        /*var currentYear = 1995;
-        function getCurrentData() {
-            label.text = currentYear;
-            var data = chartData[currentYear];
-            currentYear++;
-            if (currentYear > 2014)
-            currentYear = 1995;
-            return data;
-        }
-        
-        function loop() {
-            //chart2.allLabels[0].text = currentYear;
-            var data = getCurrentData();
-            for(var i = 0; i < data.length; i++) {
-            chart2.data[i].size = data[i].size;
-            }
-            chart2.invalidateRawData();
-            chart2.setTimeout( loop, 4000 );
-        }
-        
-        loop();*/
 
         this.showData();
         this.createControlPanels();
     }
 
+
     /** 
-     * 
+     * Shows data in graphs according to current criterion value
     */
     showData() {
 
+        // Get current data
+        let d = this.dataManager.getGraphData(this.criterion);
+
+        console.log(d);
         console.log(this.criterion);
 
-        let exampleData = [{
-            "country": "Slovakia",
-            "value": 456,
-            "href": "./../assets/sk.svg"
-        }, {
-            "country": "Czechia",
-            "value": 674,
-            "href": "./../assets/cz.svg"
-        }, {
-            "country": "Argentina",
-            "value": 65,
-            "href": "./../assets/ar.svg"
-        }, {
-            "country": "Colombia",
-            "value": 650,
-            "href": "./../assets/co.svg"
-        }, {
-            "country": "France",
-            "value": 11,
-            "href": "./../assets/fr.svg"
-        }, {
-            "country": "Australia",
-            "value": 13,
-            "href": "./../assets/au.svg"
-        }, {
-            "country": "Austria",
-            "value": 85,
-            "href": "./../assets/at.svg"
-        }, {
-            "country": "Greece",
-            "value": 250,
-            "href": "./../assets/gr.svg"
-        }];
-
-        // Sort data (descending)
-        exampleData.sort((a,b) => (a.value > b.value) ? 1 : ((a.value < b.value) ? -1 : 0)); 
-        this.barChart.data = exampleData;
-
-
-        // Add data
-        this.pieChart.data = [
-            { "sector": "Agriculture", "size": 6.6 },
-            { "sector": "Mining and Quarrying", "size": 0.6 },
-            { "sector": "Manufacturing", "size": 23.2 },
-            { "sector": "Electricity and Water", "size": 2.2 },
-            { "sector": "Construction", "size": 4.5 },
-            { "sector": "Trade (Wholesale, Retail, Motor)", "size": 14.6 },
-            { "sector": "Transport and Communication", "size": 9.3 },
-            { "sector": "Finance, real estate and business services", "size": 22.5 }
-        ];
+        // If country was selected, update only pieChart
+        if (this.criterion.country_iso != undefined) {
+            this.pieChart.data = d[1];
+        } else {
+            this.barChart.data = d[0];
+            this.pieChart.data = d[1];
+        }
     }
 
 
@@ -265,11 +225,15 @@ export class GraphManager {
                 });
         }
 
-        // onChange functions for sliders
+        // onChange functions for year sliders
         let minLbl = $('#yearMinSliderLabel')[0];
         let maxLbl = $('#yearMaxSliderLabel')[0];
         let minSlider = $('#yearMinSlider')[0];
         let maxSlider = $('#yearMaxSlider')[0];
+
+        // Set default values of year sliders
+        minSlider.value = MIN_DATA_YEAR_DEFAULT;
+        maxSlider.value = MAX_DATA_YEAR_DEFAULT;
 
         minLbl.innerHTML = minSlider.value;
         maxLbl.innerHTML = maxSlider.value;
@@ -287,6 +251,7 @@ export class GraphManager {
             // Change label, criterion and show new data
             minLbl.innerHTML = val;
             _this.criterion.yearBegin = val; 
+            _this.criterion.country_iso = undefined;
 
             _this.showData();
         });
@@ -301,6 +266,7 @@ export class GraphManager {
             // Change label, criterion and show new data
             maxLbl.innerHTML = val;
             _this.criterion.yearEnd = val; 
+            _this.criterion.country_iso = undefined;
 
             _this.showData();
         });

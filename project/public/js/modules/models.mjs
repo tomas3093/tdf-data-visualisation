@@ -2,7 +2,8 @@ import {
     DATA_GC_CODE, 
     DATA_STAGES_CODE, 
     DATA_DEFAULT_CODE, 
-    dataCodeToMark 
+    dataCodeToMark,
+    isoCodeToName
 } from "./constants.mjs";
 
 /**
@@ -64,6 +65,37 @@ export class DataItemCyclist {
         this.country_iso = country_iso;
         this.country_name = country_name;
         this.value = wins;                  // Number of wins
+    }
+}
+
+
+
+export class BarCharDataObjectCountry {
+
+    constructor(country_iso, value) {
+        this.country_name = isoCodeToName(country_iso);
+        this,country_iso = country_iso;
+        this.value = value;
+        this.href = `./../assets/${country_iso}.svg`;
+    }
+}
+
+
+export class BarCharDataObjectCyclist {
+
+    constructor(cyclist_name, value) {
+        this.cyclist_name = cyclist_name;
+        this.value = value;
+        this.href = "";
+    }
+}
+
+
+export class PieChartDataObject {
+
+    constructor(sector, size) {
+        this.sector = sector;
+        this.size = size;
     }
 }
 
