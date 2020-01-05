@@ -1,7 +1,10 @@
 export const MAX_VAL_STR = "_maxValue";
 
+// SVG element of map dimensions
+export const MAP_CHART_HEIGHT = 700;
+
 // Default filter criterion
-export const MIN_DATA_YEAR_DEFAULT = 1904;
+export const MIN_DATA_YEAR_DEFAULT = 1903;
 export const MAX_DATA_YEAR_DEFAULT = 2019;
 
 // Codes for distinction between type of visualisation (GC / Stages) 

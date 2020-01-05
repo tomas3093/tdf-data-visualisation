@@ -15,7 +15,8 @@ import {
     MAX_VAL_STR,
     DATA_GC_CODE,
     DATA_DEFAULT_CODE,
-    ALL_CODES
+    ALL_CODES,
+    MAP_CHART_HEIGHT
 } from './constants.mjs';
 
 /**
@@ -70,6 +71,7 @@ import {
         am4core.useTheme(am4themes_animated);
 
         this.chart = am4core.create(chartElementId, am4maps.MapChart);
+        this.chart.svgContainer.htmlElement.style.height = MAP_CHART_HEIGHT + "px";
         this.polygonSeries = this.chart.series.push(new am4maps.MapPolygonSeries());
         this.polygonTemplate = this.polygonSeries.mapPolygons.template;
 
@@ -132,7 +134,7 @@ import {
                 _this.lastSelected.isActive = false;
             }
 
-            ev.target.series.chart.zoomToMapObject(ev.target);
+            //ev.target.series.chart.zoomToMapObject(ev.target);    // Zoom to selected country on map
             if (_this.lastSelected !== ev.target) {
 
                 // User selected new area
@@ -242,14 +244,34 @@ import {
     updateSidePanel() {
         let summary_data = this.dataManager.getSummaryData(this.criterion);
         
-        let table = $("#sidePanelContent");
-        table.empty();  // remove previous content
-        table.append('<tr><th>Rank</th><th>Country / Rider</th><th>Victories</th></tr>');   // Table head
+        let thead = $("#sidePanelTbl").find("thead");
+        let tbody = $("#sidePanelTbl").find("tbody");
+        
+        // remove previous content
+        thead.empty();  
+        tbody.empty();
 
-        let i = 1;
-        summary_data.forEach(function(value, key, map) {
-            table.append(`<tr><td>${i}.</td><td>${key}</td><td>${value}</td></tr>`);
-            i++;
-        });
+        // decide whether some country is specified in the criterion
+        if (this.criterion.country_iso == undefined) {
+            // table head
+            thead.append('<tr> <th>#</th> <th>Country</th> <th>Victories</th> </tr>');
+
+            // table body
+            let i = 1;
+            summary_data.forEach(function(value, key, map) {
+                tbody.append(`<tr> <td>${i}.</td> <td>${key}</td> <td>${value}</td> </tr>`);
+                i++;
+            });
+        } else {
+            // table head
+            thead.append('<tr> <th>#</th> <th>Rider</th> <th>Victories</th> </tr>');
+
+            // table body
+            let i = 1;
+            summary_data.forEach(function(value, key, map) {
+                tbody.append(`<tr> <td>${i}.</td> <td>${key}</td> <td>${value}</td> </tr>`);
+                i++;
+            });
+        }
     }
  }

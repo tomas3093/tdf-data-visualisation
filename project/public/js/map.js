@@ -23,8 +23,6 @@ function init(data) {
 
     // Initialize amchart map
     mapManager = new MapManager("chartPanel", data, dataManager, new DataFilterCriterion());
-    $("#chartPanel").removeClass("col").addClass("col-9");
-
     
     /** TOP PANEL */
     mapManager.createTopPanel();
