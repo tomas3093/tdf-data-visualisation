@@ -31,10 +31,11 @@ export const ALL_CODES = [
 
 // ----------------------------------------------
 
+// Max number of items in lists
 export const SIDE_PANEL_SIZE = 10;
-
 export const SIDE_PANEL_MAX_ITEMS = 10;
 
+export const GRAPHS_MAX_ITEMS = 15;
 
 // ----------------------------------------------
 // Converters
@@ -590,4 +591,18 @@ export function nameToIsoCode(country_name) {
     } else {
         return decoder.get(country_name);
     }
+}
+
+
+// Returns text string of currently selected year range
+export function getYearRangeLabel(yearBegin, yearEnd) {
+    if (yearBegin < yearEnd) {
+        return `${yearBegin} - ${yearEnd}`;
+    }
+
+    if (yearBegin > yearEnd) {
+        return `${yearEnd} - ${yearBegin}`;
+    } 
+
+    return `${yearBegin}`;
 }

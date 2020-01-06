@@ -2,8 +2,8 @@ import {
     DATA_DEFAULT_CODE,
     ALL_CODES,
     nameToIsoCode,
-    MIN_DATA_YEAR_DEFAULT,
-    MAX_DATA_YEAR_DEFAULT
+    getYearRangeLabel,
+    isoCodeToName
 } from './constants.mjs';
 
 /**
@@ -31,6 +31,9 @@ export class GraphManager {
 
     /** Pie chart instance */ 
     pieChart;
+
+    /** Currently selected year indicator in the body of pie chart */
+    pieChartLabel;
 
     constructor(barChartElementId, pieChartElementId, data, dataManager, defaultCrit) {
         // Prepared data
@@ -93,6 +96,8 @@ export class GraphManager {
         cursor.behavior = "none";
 
         let bullet = columnTemplate.createChild(am4charts.CircleBullet);
+        bullet.width = 35;
+        bullet.height = 20;
         bullet.circle.radius = 30;
         bullet.valign = "middle";
         bullet.align = "left";
@@ -105,12 +110,12 @@ export class GraphManager {
         let outlineCircle = bullet.createChild(am4core.Circle);
         outlineCircle.adapter.add("radius", function (radius, target) {
             let circleBullet = target.parent;
-            return circleBullet.circle.pixelRadius + 10;
+            return circleBullet.circle.pixelRadius + 2;
         })
 
         let image = bullet.createChild(am4core.Image);
-        image.width = 60;
-        image.height = 60;
+        image.width = 50;
+        image.height = 50;
         image.horizontalCenter = "middle";
         image.verticalCenter = "middle";
         image.propertyFields.href = "href";
@@ -146,7 +151,7 @@ export class GraphManager {
         series.columns.template.cursorOverStyle = am4core.MouseCursorStyle.pointer;
         let _this = this;
         series.columns.template.events.on("hit", function(ev) {
-            console.log(ev.target.dataItem.dataContext);
+            //console.log(ev.target.dataItem.dataContext);
             
             let selectedCountryIso = nameToIsoCode(ev.target.dataItem.dataContext.country_name);
             if (_this.criterion.country_iso == selectedCountryIso) {
@@ -155,6 +160,7 @@ export class GraphManager {
                 _this.criterion.country_iso = selectedCountryIso;
             }
             
+            _this.updateCriterionLabels();
             _this.showData();
         });
 
@@ -167,16 +173,19 @@ export class GraphManager {
         this.pieChart = am4core.create(pieChartElementId, am4charts.PieChart);
         // Add label
         this.pieChart.innerRadius = 100;
-        let label = this.pieChart.seriesContainer.createChild(am4core.Label);
-        label.text = "1995 - 2018";
-        label.horizontalCenter = "middle";
-        label.verticalCenter = "middle";
-        label.fontSize = 25;
+        this.pieChartLabel = this.pieChart.seriesContainer.createChild(am4core.Label);
+        this.pieChartLabel.text = getYearRangeLabel(this.criterion.yearBegin, this.criterion.yearEnd);
+        this.pieChartLabel.horizontalCenter = "middle";
+        this.pieChartLabel.verticalCenter = "middle";
+        this.pieChartLabel.fontSize = 25;
         
         // Add and configure Series
         let pieSeries = this.pieChart.series.push(new am4charts.PieSeries());
         pieSeries.dataFields.value = "size";
         pieSeries.dataFields.category = "sector";
+
+        // Set up labels of selected year
+        this.updateCriterionLabels();
 
         this.showData();
         this.createControlPanels();
@@ -190,9 +199,6 @@ export class GraphManager {
 
         // Get current data
         let d = this.dataManager.getGraphData(this.criterion);
-
-        console.log(d);
-        console.log(this.criterion);
 
         // If country was selected, update only pieChart
         if (this.criterion.country_iso != undefined) {
@@ -226,53 +232,61 @@ export class GraphManager {
         }
 
         // onChange functions for year sliders
-        let minLbl = $('#yearMinSliderLabel')[0];
-        let maxLbl = $('#yearMaxSliderLabel')[0];
         let minSlider = $('#yearMinSlider')[0];
         let maxSlider = $('#yearMaxSlider')[0];
 
         // Set default values of year sliders
-        minSlider.value = MIN_DATA_YEAR_DEFAULT;
-        maxSlider.value = MAX_DATA_YEAR_DEFAULT;
+        minSlider.value = this.criterion.yearBegin;
+        maxSlider.value = this.criterion.yearEnd;
 
-        minLbl.innerHTML = minSlider.value;
-        maxLbl.innerHTML = maxSlider.value;
         let _this = this;
-
         $('#yearMinSlider').on("change", function () {
 
             let val = minSlider.value;
             if (val > _this.criterion.yearEnd) {
-                maxLbl.innerHTML = val;
                 maxSlider.value = val;
                 _this.criterion.yearEnd = val;
             }
 
             // Change label, criterion and show new data
-            minLbl.innerHTML = val;
-            _this.criterion.yearBegin = val; 
+            _this.criterion.yearBegin = val;
             _this.criterion.country_iso = undefined;
+            _this.updateCriterionLabels();
 
             _this.showData();
         });
         $('#yearMaxSlider').on("change", function () {
             let val = maxSlider.value;
             if (val < _this.criterion.yearBegin) {
-                minLbl.innerHTML = val;
                 minSlider.value = val;
                 _this.criterion.yearBegin = val;
             }
             
             // Change label, criterion and show new data
-            maxLbl.innerHTML = val;
             _this.criterion.yearEnd = val; 
             _this.criterion.country_iso = undefined;
+            _this.updateCriterionLabels();
 
             _this.showData();
         });
+    }
 
-        // Trigger "change" events on sliders for set up of initial value to filter criterion 
-        $('#yearMinSlider').trigger("change");
-        $('#yearMaxSlider').trigger("change");
+
+    /** Updates all labels of currently selected year and country to correct values */
+    updateCriterionLabels() {
+        let yearRangeLabel = $('#yearRangeLbl')[0];
+        let selectedCountryLabel = $('#selectedCountryLbl')[0];
+
+        let text = getYearRangeLabel(this.criterion.yearBegin, this.criterion.yearEnd);
+        let countryName;
+        if (this.criterion.country_iso != undefined) {
+            countryName = isoCodeToName(this.criterion.country_iso);
+        } else {
+            countryName = "All";
+        }
+
+        yearRangeLabel.innerHTML = text;
+        this.pieChartLabel.text = text;
+        selectedCountryLabel.innerHTML = countryName;
     }
 }

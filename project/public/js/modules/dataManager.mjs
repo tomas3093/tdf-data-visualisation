@@ -19,6 +19,7 @@ import { DataItemStageWinner } from './models.mjs';
 import { PieChartDataObject } from './models.mjs';
 import { BarCharDataObjectCyclist } from './models.mjs';
 import { BarCharDataObjectCountry } from './models.mjs';
+import { GRAPHS_MAX_ITEMS } from './constants.mjs';
 
 
 /**
@@ -353,6 +354,9 @@ export class DataManager {
                 return x[1] - y[1];
             });  
 
+            // Keep only top 15 items
+            tmp = tmp.slice(-GRAPHS_MAX_ITEMS);
+
             // Create data objects for graphs 
             for (let index = 0; index < tmp.length; index++) {
                 const element = tmp[index];
@@ -392,6 +396,9 @@ export class DataManager {
             tmp.sort(function(x, y) {
                 return x[1] - y[1];
             });  
+
+            // Keep only top 15 items
+            tmp = tmp.slice(-GRAPHS_MAX_ITEMS);
 
             // Create data objects for graphs 
             for (let index = 0; index < tmp.length; index++) {

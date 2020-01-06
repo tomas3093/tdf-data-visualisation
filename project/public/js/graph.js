@@ -229,6 +229,4 @@ function init(data) {
             MAX_DATA_YEAR_DEFAULT
         )
     );
-    
-    //$("#chartPanel").removeClass("col").addClass("col-9");
 }
