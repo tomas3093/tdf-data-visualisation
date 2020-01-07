@@ -1,5 +1,5 @@
 # Tour de France statistics
-## Interactive data visualisation
+## Interactive data visualization
 
 ## How to run it
 * Install node.js and npm
